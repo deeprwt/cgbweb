@@ -24,7 +24,7 @@ const WebDevlopmentSection = ({cls}:{cls?:string}) => {
             <div className="col-xxl-6 col-lg-6 ms-auto d-flex flex-column order-lg-last wow fadeInRight">
               <div className="title-one">
                 <div className="upper-title">About us</div>
-                <h2>Guideline for your financial grow.</h2>
+                <h2>Why Front End Development Is Our Core Expertise</h2>
               </div>
               <p className="text-lg mt-45 lg-mt-30 mb-35 lg-mb-30">
                 Your success is our mission. As business advisors, we offer
