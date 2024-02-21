@@ -1,0 +1,556 @@
+// Card One
+.card-style-one  {
+    .icon {
+        background: #fff;
+        width: 62px;
+        height: 62px;
+    }
+    .text {
+        width: calc(100% - 62px);
+    }
+    &:hover .icon {
+        background: $color-one;
+    }
+}
+// Card Two
+.card-style-two {
+    position: relative;
+    padding: 50px 40px 48px;
+    background: #fff;
+    border: 1px solid #EBF3EE;
+    border-radius: 20px;
+    .icon {
+        height: 50px;
+    }
+    .icon2 {
+        height: 42px;
+    }
+    .arrow-btn {
+        opacity: 0.3;
+        width: 34px;
+    }
+    &:hover {
+        background: $color-one;
+        border-color: $color-one;
+        .arrow-btn {
+            opacity: 1;
+        }
+    }
+}
+// Card Three
+.card-style-three {
+    .icon {
+        height: 38px;
+    }
+}
+// Card Four
+.card-style-four {
+    .media:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        background: rgba($color: $color-two, $alpha: 0.7);
+        opacity: 0;
+        @include transition(0.3s);
+    }
+    .media:after {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        transform: rotate(45deg);
+        right: -25px;
+        bottom: -25px;
+        background: #fff;
+    }
+    .round-btn {
+        position: absolute;
+        font-size: 25px;
+        width: 55px;
+        height: 55px;
+        background: #fff;
+        color: $heading;
+        opacity: 0;
+        &:hover {
+            background: $color-one;
+        }
+    }
+    &:hover {
+        .media::before,.round-btn {
+            opacity: 1;
+        }
+    }
+}
+// Card Five
+.card-style-five {
+    .icon {
+        height: 42px;
+    }
+    .main-count {
+        font-size: 68px;
+        color: #FFDB1E;
+        border-top: 1px dashed rgba($color: #fff, $alpha: 0.25);
+        margin-top: 42px;
+        padding-top: 25px;
+    }
+    p {
+        color: rgba($color: #fff, $alpha: 0.7);
+        margin: 0;
+        line-height: 1.6em;
+    }
+}
+// Card Six
+.card-style-six {
+    position: relative;
+    padding: 50px 40px 48px;
+    background: #fff;
+    border-radius: 30px;
+    &:hover, &.active {
+        background: $light-bg-two;
+        .arrow-btn {
+            opacity: 1;
+        }
+    }
+    .icon {
+        width: 70px;
+        height: 70px;
+        background: $color-two;
+    }
+    .arrow-btn {
+        opacity: 0.3;
+        width: 34px;
+    }
+}
+// Card Seven
+.card-style-seven {
+    position: relative;
+    padding: 40px 30px 45px;
+    background: #fff;
+    border-radius: 30px;
+    
+    .icon {
+        width: 70px;
+        height: 70px;
+        background: #FFE86B;
+    }
+    p {
+        font-size: 18px;
+        line-height: 1.666em;
+    }
+    .arrow-btn {
+        opacity: 0.3;
+        width: 34px;
+    }
+    &:hover, &.active {
+        box-shadow: 0px 35px 70px rgba(0, 0, 0, 0.04);
+        .arrow-btn {
+            opacity: 1;
+        }
+        .icon {
+            background: $color-one;
+        }
+    }
+}
+// Card Eight
+.card-style-eight {
+    padding: 40px 35px 30px;
+    background: #fff;
+    position: relative;
+    &:hover {
+        box-shadow: 0px 10px 20px rgba(8,32,26,.04);
+    }
+    .icon {
+        height: 55px;
+        img {
+            max-height: 100%;
+        }
+    }
+}
+// Card Nine
+.card-style-nine {
+    background: #F6F6F6;
+    padding: 50px 55px 0;
+    .icon {
+        width: 60px;
+        height: 60px;
+        background: #FFE86B;
+    }
+    h3 {
+        font-size: 32px;
+    }
+}
+// Card Ten
+.card-style-ten {
+    padding-bottom: 60px;
+    h4 {
+        color: $color-five;
+    }
+    .main-count {
+        font-size: 80px;
+        color: $color-five;
+        z-index: 1;
+        margin-bottom: -16px;
+        &:before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 13px;
+            background: #C5FF4A;
+            left: 0;
+            bottom: 19%;
+            z-index: -1;
+        }
+    }
+}
+// Card Twelve
+.card-style-eleven {
+    position: relative;
+    padding: 45px 40px 48px;
+    background: #fff;
+    border-radius: 20px;
+    h4 {
+        font-family: $sub-font;
+        color: $color-five;
+    }
+    .icon {
+        height: 58px;
+    }
+    .arrow-btn {
+        opacity: 0.3;
+        width: 34px;
+    }
+    &:hover {
+        background: #f3f3f3;
+        .arrow-btn {
+            opacity: 1;
+        }
+    }
+}
+// Card Twelve
+.card-style-twelve {
+    h4 {
+        color: $color-five;
+    }
+    .icon {
+        width: 55px;
+        height: 55px;
+        border: 1px solid #E0E0E0;
+    }
+    .arrow-btn {
+        opacity: 0.3;
+        width: 34px;
+    }
+    &:hover {
+        .icon {
+            background: #E0E0E0;
+        }
+    }
+}
+// Card Thirteen
+.card-style-thirteen {
+    background: #fff;
+    border-radius: 200px;
+    border: 1px solid #fff;
+    padding: 110px 45px 120px;
+    position: relative;
+    z-index: 1;
+    &:before {
+        content: '';
+        position: absolute;
+        width: 48px;
+        height: 2px;
+        background: #000;
+        bottom: 11%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .icon {
+        height: 75px;
+        img {
+            max-height: 100%;
+        }
+    }
+    p {
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: rgba($color: #000000, $alpha: 0.4);
+    }
+    h3 {
+        font-size: 30px;
+        line-height: 1.266em;
+        color: #000;
+    }
+    &:hover {
+        background: $color-six;
+        border-color: #000;
+    }
+}
+// Card Fourteen
+.card-style-fourteen {
+    .media:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        background: rgba($color: $color-six, $alpha: 0.3);
+        opacity: 0;
+        @include transition(0.3s);
+    }
+    .round-btn {
+        position: absolute;
+        font-size: 25px;
+        width: 55px;
+        height: 55px;
+        background: $color-three;
+        color: #fff;
+        opacity: 0;
+        &:hover {
+            background: $color-one;
+            color: $heading;
+        }
+    }
+    &:hover {
+        .media::before,.round-btn {
+            opacity: 1;
+        }
+    }
+    p {
+        color: #B6B6B6;
+    }
+}
+// Card Fifteen
+.card-style-fifteen {
+    background: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.02);
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 30px;
+    .media:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        background: rgba($color: $color-two, $alpha: 0.3);
+        opacity: 0;
+        @include transition(0.3s);
+    }
+    .round-btn {
+        position: absolute;
+        font-size: 25px;
+        width: 55px;
+        height: 55px;
+        background: $color-three;
+        color: #fff;
+        opacity: 0;
+        &:hover {
+            background: $color-one;
+            color: $heading;
+        }
+    }
+    &:hover {
+        .media::before,.round-btn {
+            opacity: 1;
+        }
+    }
+    h4 {
+        font-size: 22px;
+    }
+    p {
+        color: #B6B6B6;
+    }
+}
+// Card Sixteen
+.card-style-sixteen {
+    position: relative;
+    .icon {
+        width: 60px;
+        height: 60px;
+        background: #FFE86B;
+    }
+    .text {
+        width: calc(100% - 60px);
+        padding-left: 30px;
+    }
+    &:hover, &.active {
+        .icon {
+            background: $color-one;
+        }
+    }
+    &.arrow:before,
+    &.arrow:after {
+        content: url(../images/shape/shape_30.svg);
+        position: absolute;
+        top:11px;
+        left: -99px;
+    }
+    &.arrow:after {
+        left: auto;
+        right:-99px;
+    }
+}
+// Card Seventeen
+.card-style-seventeen {
+    padding: 30px 30px 40px;
+    border-radius: 15px;
+    border: 1px solid #E6E6E6;
+    .icon {
+        width: 70px;
+        height: 70px;
+        padding: 15px;
+        background: #F6F6F6;
+    }
+    .text {
+        width: calc(100% - 70px);
+        padding-left: 25px;
+        .btn-three {
+            color: $color-eight;
+            i {
+                font-size: 0.8em;
+            }
+        }
+    }
+    &:hover {
+        background: $color-one;
+        border-color: $color-one;
+        .icon {
+            background: #fff;
+        }
+    }
+}
+// Card Eighteen
+.card-style-eighteen {
+    padding: 5px 35px 0;
+    border-radius: 20px;
+    background: #1F5E59;
+    z-index: 1;
+    &:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        bottom: 0;
+        background: url(../images/assets/bg_08.svg) no-repeat right bottom;
+        background-size: cover;
+        z-index: -1;
+    }
+    .icon {
+        width: 70px;
+        height: 70px;
+        padding: 15px;
+        background: $color-one;
+    }
+    blockquote {
+        font-size: 36px;
+        color: #fff;
+        line-height: 1.555em;
+        letter-spacing: -0.5px;
+        margin: 30px 0 35px;
+    }
+    h6 {
+        font-size: 20px;
+        color: #fff;
+        margin: 0;
+        span {
+            font-weight: normal;
+            color: rgba($color: #fff, $alpha: 0.4);
+        }
+    }
+}
+// Card Nineteen
+.card-style-nineteen {
+    padding: 30px 50px 50px;
+    border-radius: 20px;
+    background: #fff;
+    h2 {
+        font-size: 48px;
+    }
+    .counter-block-one .main-count {
+        font-size: 58px;
+        color: $color-eight;
+    }
+}
+// Pricing Card
+.pricing-card-one {
+    background: #fff;
+    border-radius: 20px;
+    padding: 45px 70px 50px;
+    h2 {
+        font-size: 36px;
+    }
+    p {
+        line-height: 1.5em;
+        color: #878787;
+        padding: 17px 0 20px;
+        span {
+            color: #000;
+        }
+    }
+    .price-banner {
+        padding: 8px 10px;
+        border-radius: 15px;
+        background: #F4F4F4;
+        margin-bottom: 30px;
+        .price {
+            font-size: 52px;
+            font-weight: 500;
+            color: $heading;
+            line-height: initial;
+            sup {
+                font-size: 0.461em;
+                top: -18px;
+                left: 6px;
+            }
+        }
+        strong {
+            color: $heading;
+            display: block;
+            margin-bottom: -9px;
+        }
+        span {
+            font-size: 16px;
+            color: rgba($color: #000000, $alpha: 0.4);
+        }
+    }
+    ul li {
+        color: #000;
+        margin-top: 10px;
+    }
+    .action-btn {
+        max-width: 335px;
+        margin: auto auto 0;
+        border: 1px solid #DCDCDC;
+        border-radius: 30px;
+        padding: 10px 25px;
+        font-size: 18px;
+        color: #8B8B8B;
+        a {
+            font-weight: 500;
+            color: $heading;
+            i {
+                display: inline-block;
+                width: 20px;
+                line-height: 15px;
+                background: $color-three;
+                color: #fff;
+                font-size: 10px;
+                border-radius: 50px;
+                font-weight: 900;
+                vertical-align: 3px;
+                margin-left: 4px;
+            }
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+@media (max-width: 568px) { 
+  .hero-banner-two .shape_02 {
+    top: 42%;
+  }
+}
+
+.slick-slide {
+  & > div {
+    margin: 0 15px;
+  }
+}
+.partner-slider-one{
+  & .slick-slide{
+    margin: 0;
+  }
+}
+
+.portfolio-two .slider-wrapper .slick-slider {
+  .slick-slide {
+    & > div {
+      margin: 0 0px;
+    }
+  }
+  .slick-track{
+    display: flex;
+  }
+}
+
+.feedback-section-six{
+  & .feedback-slider-five{
+    overflow: hidden;
+  }
+}
+
+.pagination-one {
+  & ul{
+    & li.disabled{
+      display: none;
+    }
+  }
+}
+
+.hero-banner-one{
+  & .hero-slider-one{
+    & .slick-slide {
+      & > div {
+        height: 100%;
+      }
+    }
+  }
+}

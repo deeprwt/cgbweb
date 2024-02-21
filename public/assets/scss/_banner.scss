@@ -1,0 +1,684 @@
+// Hero Banner One
+.hero-banner-one {
+    // height: 90vh;
+    background: $color-two;
+    z-index: 9;
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+    .hero-slider-one {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top:0;
+        z-index: -1;
+        .hero-img {
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .slick-list,.slick-track,.item {height: 100%;}
+    }
+
+    .hero-heading {
+        font-weight: 700;
+        color: $text-white;
+        // background: url(../images/shape/shape_01.svg) no-repeat left top;
+        background-size: cover;
+        // padding: 11px 31px 25px 25px;
+    }
+    .more-btn {
+        position: absolute;
+        font-size: 40px;
+        color: #fff;
+        width: 105px;
+        height: 105px;
+        border: 2px solid #fff;
+        top:20%;
+        left: 4%;
+        z-index: 1;
+        &:hover {
+            background: $color-one;
+            border-color: $color-one;
+            color: $heading;
+        }
+    }
+}
+// Hero Banner Two
+.hero-banner-two {
+    z-index: 1;
+    .hero-heading {
+        font-size: 100px;
+        line-height: 1em;
+        span {
+            z-index: 1;
+            img {
+                position: absolute;
+                width: 100%;
+                bottom: -18%;
+                left: 0;
+                z-index: -1;
+            }
+        }
+    }
+    form {
+        max-width: 588px;
+        height: 70px;
+        box-shadow: 0px 10px 20px rgba(8, 32, 26, 0.04);
+        border-radius: 50px;
+        input {
+            font-size: 18px;
+            width: 100%;
+            height: 100%;
+            border-radius: 50px;
+            background: #fff;
+            border: none;
+            padding: 0 150px 0 35px;
+        }
+        button {
+            position: absolute;
+            right: 0;
+            top:0;
+            bottom: 0;
+            border-radius: 50px;
+
+        }
+    }
+    .shape_01 {
+        top:22%;
+        left: 7%;
+        width: 3.1%;
+        min-width: 30px;
+        animation: rotated 50s infinite linear;
+    }
+    .shape_02 {
+        top:40%;
+        right: 7%;
+        width: 1.8%;
+        min-width: 22px;
+        animation: rotated 48s infinite linear;
+    }
+    .shape_03 {
+        top:36%;
+        left: 0;
+        width: 15.57%;
+    }
+    .shape_04 {
+        top:49%;
+        right: 0;
+        width: 15%;
+    }
+}
+// Hero Banner Three
+.hero-banner-three {
+    z-index: 1;
+    .hero-heading {
+        font-size: 100px;
+        letter-spacing: 1px;
+        line-height: 1.3em;
+        color: $text-dark;
+    }
+    .right-widget {
+        .main-count {
+            font-size: 58px;
+            margin: -17px 0 -4px;
+        }
+    }
+    .img-wrapper {
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        width: 33.53%;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .round-bg {
+            position: absolute;
+            z-index: -2;
+            top:0;
+            left: 50%;
+            transform: translate(-50% , -7%);
+        }
+    }
+}
+// Hero Banner Four
+.hero-banner-four {
+    background: url(../images/assets/bg_01.svg) no-repeat center bottom;
+    background-size: cover;
+    z-index: 1;
+    .hero-heading {
+        font-family: $sub-font;
+        font-size: 130px;
+        font-weight: 600;
+        line-height: 0.884em;
+        span {
+            color: $color-four;
+            display: block;
+        }
+    }
+    .media-wrapper {
+        position: absolute;
+        right: 3%;
+        bottom: -6%;
+        width: 42.56%;
+        z-index: -1;
+    }
+    .shape_01 {
+        bottom: -5%;
+        right: 41%;
+    }
+    .shape_02 {
+        bottom: 0;
+        left: 14%;
+        width: 30%;
+    }
+}
+// Hero Banner Five
+.hero-banner-five {
+    background: #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    .bg-wrapper {
+        background: #fff;
+        border-radius: 30px;
+        z-index: 1;
+    }
+    .hero-heading {
+        font-size: 85px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        line-height: 1.176em;
+        color: #000;
+    }
+    .rating {
+        h3 {
+            font-size: 42px;
+            margin-bottom: 0px;
+        }
+        p {
+            font-size: 18px;
+            color: rgba($color: #000000, $alpha: 0.4);
+        }
+    }
+    .media-wrapper {
+        position: absolute;
+        background: url(../images/assets/bg_05.svg) no-repeat left top;
+        background-size: cover;
+        border-radius: 0 30px 30px 0;
+        top:0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+        width: 39.43%;
+        .shape_01 {
+            right: 0;
+            bottom: 14%;
+            width: 41.1%;
+            z-index: 1;
+        }
+        .shape_02 {
+            top:34%;
+            left: 0;
+            transform: translateX(-50%);
+            width: 19.34%;
+        }
+    }
+}
+// Hero Banner Six
+.hero-banner-six {
+    .hero-heading {
+        font-size: 100px;
+        line-height: 1.05em;
+        color: $color-seven;
+    }
+    .media-wrapper {
+        background: url(../images/media/img_48.jpg) no-repeat center;
+        background-size: cover;
+        border-radius: 20px;
+        max-width: 536px;
+        width: 100%;
+        height: 100%;
+        .screen_01 {
+            right: 4%;
+            top: 4%;
+            width: 41.1%;
+            border-radius: 10px;
+            box-shadow: 10px 30px 50px rgba(0, 0, 0, 0.06);
+            z-index: 1;
+        }
+        .screen_02 {
+            bottom: 9%;
+            left: -28%;
+            border-radius: 10px;
+            width: 48.51%;
+            box-shadow: -10px 30px 50px rgba(0, 0, 0, 0.07);
+            z-index: 1;
+            animation: jumpTwo 10s infinite linear;
+        }
+        .bg-shape {
+            max-width: 130%;
+            left: 47%;
+            bottom: -12%;
+            transform: translateX(-50%);
+        }
+    }
+    .shape_01 {
+        bottom: 9%;
+        left: 40%;
+        width: 6.53%;
+    }
+}
+// Fancy Banner One
+.fancy-banner-one {
+    z-index: 1;
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+    &:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top:0;
+        bottom: 0;
+        left: 50%;
+        background: $color-one;
+        z-index: -1;
+    }
+    h2 {
+        font-size: 68px;
+        font-weight: normal;
+        margin: 0;
+        span {
+            font-weight: 700;
+            font-style: italic;
+            text-decoration: underline;
+        }
+    }
+    h3 {
+        font-size: 48px;
+        margin-bottom: -5px;
+    }
+    p {
+        color: rgba($color: $heading, $alpha: 0.6);
+    }
+}
+// Fancy Banner Three
+.fancy-banner-three {
+    background: url(../images/media/img_17.jpg) no-repeat center;
+    background-size: cover;
+    padding: 80px 0;
+    z-index: 1;
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top:0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #174034;
+        mix-blend-mode: darken;
+
+    }
+    .title-one h2 {
+        font-size: 58px;
+    }
+    .quote-btn {
+        width: 200px;
+        height: 200px;
+        padding: 16px;
+        background: #FFE86B;
+        &:hover {
+            transform: rotate(15deg);
+        }
+        &.color-two {
+            background: $color-one;
+        }
+    }
+}
+// Fancy Banner Four
+.fancy-banner-four {
+    background: #DCEFF0;
+    z-index: 1;
+    &:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        right: 0;
+        z-index: -1;
+        background: url(../images/shape/shape_10.svg) no-repeat left bottom;
+        background-size: cover;
+    }
+    ul li {
+        font-size: 28px;
+        color: #000;
+        position: relative;
+        padding-left: 42px;
+        margin-bottom: 13px;
+        &:after {
+            content: '\F633';
+            position: absolute;
+            font-family: $bootstrapFont;
+            font-size: 0.95em;
+            top:3px;
+            left: 0;
+            color: #000;
+        }
+    }
+    .platform-button-group a {
+        width: 190px;
+        height: 58px;
+        padding: 0 5px 0 25px;
+        margin: 10px 20px 0 0;
+        background: #1B1B1B;
+        color: #fff;
+        text-align: left;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: -5px 10px 30px rgba(0, 0, 0, 0.05);
+        }
+        .icon {margin-right: 14px;}
+        span {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.6);
+            display: block;
+            line-height: initial;
+            margin-bottom: -3px;
+        }
+        strong {
+            font-weight: 500;
+            display: block;
+        }
+        &.ios-button {
+            background: #fff;
+            border-color: #DADADA;
+            span {color: #999999;}
+            strong {color: #000;}
+        }
+      }
+}
+// Fancy Banner Five
+.fancy-banner-five {
+    background: url(../images/media/img_31.jpg) no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    &.no-bg {
+        background: none;
+        &:before {
+            display: none;
+        }
+        .bg-wrapper {
+            background: url(../images/media/img_33.jpg) no-repeat center;
+            background-size: cover;
+            .video-icon {
+                width: 185px;
+                height: 185px;
+                background: $color-six;
+            }
+        }
+    }
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top:0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #113D2F;
+        mix-blend-mode: hard-light;
+
+
+    }
+    h2 {
+        font-size: 100px;
+        line-height: 1.1em;
+    }
+    .video-icon {
+        width: 200px;
+        height: 200px;
+        padding: 22px;
+        background: #FFE86B;
+        &:hover {
+            transform: rotate(15deg);
+        }
+    }
+}
+// Fancy Banner Six
+.fancy-banner-six {
+    background: url(../images/media/img_34.jpg) no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    h2 {
+        font-size: 85px;
+        line-height: 1.117em;
+    }
+    .video-icon {
+        width: 200px;
+        height: 200px;
+        padding: 22px;
+        background: #FFE86B;
+        &:hover {
+            transform: rotate(15deg);
+        }
+    }
+}
+// Newsletter Banner
+.newsletter-banner {
+    .main-wrapper {
+        padding: 50px 0 45px;
+        &.top-border {
+            border-top: 1px solid #E2E2E2;
+        }
+        &.bottom-border {
+            border-bottom: 1px solid #E2E2E2;
+        }
+    }
+    h2 {
+        font-size: 50px;
+    }
+    form {
+        max-width: 510px;
+        input {
+            width: calc(100% - 75px);
+            font-size: 18px;
+            padding: 0 30px;
+            height: 60px;
+            background: #F6F6F6;
+            border: none;
+            border-radius: 35px;
+        }
+        button {
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            font-size: 28px;
+            color: #fff;
+            background: #101010;
+            &:hover, &:focus {
+                background: $color-two;
+            }
+            &.color-two {
+                background: $color-two;
+                &:hover, &:focus {
+                    background: #000;
+                }
+            }
+        }
+        p {
+            font-size: 18px;
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    &.white-vr {
+        .main-wrapper {
+            padding-top: 100px;
+        }
+        .bottom-border {
+            border-bottom: 1px dashed #37665c;
+        }
+        form button {
+            background: $color-four;
+            color: $heading;
+        }
+        form p {
+            color: rgba($color: #fff, $alpha: 0.6);
+            a {
+                color: $color-four;
+            }
+        }
+    }
+}
+// Inner Banner One
+.inner-banner-one {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    z-index: 1;
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 35%;
+        top:0;
+        left: 0;
+        z-index: -1;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.53) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        z-index: -1;
+        background: linear-gradient(121.31deg, rgba(0, 0, 0, 0) 0.55%, rgba(0, 0, 0, 0.88) 98.35%);
+    }
+    .hero-heading {
+        font-weight: 700;
+        font-size: 85px;
+        line-height: 1.023em;
+        z-index: 1;
+        padding: 10px 10px 23px 22px;
+        img {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            max-height: 100%;
+        }
+    }
+    .pager {
+        border-bottom: 1px solid #fff;
+        padding-bottom: 3px;
+        li {
+            color: rgba($color: #fff, $alpha: 0.5);
+            margin-right: 5px;
+            &:last-child {margin: 0; color: #fff;}
+            a {
+                @include transition(0.2s);
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .tag {
+        display: inline-block;
+        line-height: 25px;
+        border: 1px solid #fff;
+        border-radius: 30px;
+        padding: 0 10px;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+// Inner Banner Two
+.inner-banner-two {
+    z-index: 1;
+    .pager {
+        border-bottom: 1px solid #0A4020;
+        padding-bottom: 2px;
+        li {
+            color: #000;
+            &:nth-child(even) {
+                padding: 0 5px;
+            }
+            a {
+                color: rgba($color: #000, $alpha: 0.5);
+                @include transition(0.2s);
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+    }
+    .hero-heading {
+        font-weight: 700;
+        font-size: 85px;
+        line-height: 1.023em;
+        margin: 22px 0 40px;
+    }
+    .tag {
+        display: inline-block;
+        line-height: 25px;
+        border: 1px solid $heading;
+        border-radius: 30px;
+        padding: 0 10px;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: $heading;
+        text-transform: uppercase;
+    }
+    .shape_01 {
+        left: 0%;
+        bottom: 10%;
+        width: 18.23%;
+        animation: jumpTwo 6s infinite linear;
+    }
+    .shape_02 {
+        right: 2%;
+        bottom: 14%;
+        width: 14.52%;
+        animation: jumpThree 6s infinite linear;
+    }
+    .shape_03 {
+        left: 24%;
+        top: 33%;
+        width: 2.2%;
+        animation: rotated 50s infinite linear;
+    }
+    .shape_04 {
+        right: 21%;
+        bottom: 30%;
+        width: 1.65%;
+        animation: rotated 50s infinite linear;
+    }
+}
+
+// custom code cgb
+// .vh-90{
+//     height: 100vh !important;
+//   }

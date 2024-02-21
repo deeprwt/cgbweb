@@ -1,0 +1,40 @@
+@import "mixins";
+@import "variables";
+@import "base";
+@import "prefix";
+@import "header";
+@import "banner";
+@import "layout";
+@import "element";
+@import "card";
+@import "service.scss";
+@import "project.scss";
+@import "feedback";
+@import "blog";
+@import "contact.scss";
+@import "footer";
+@import "animation";
+@import "shop";
+@import "vendor";
+@import "custom";
+@import "responsive";
+
+
+// custom code for cgb india 
+
+.squar{
+    border-radius: 4px;
+    background: linear-gradient(227.33deg, #3b4d75 5.45%, rgba(47, 54, 70, 0.36) 95.34%);
+}
+
+.bo-rd{
+    border-radius: 30px;
+}
+
+.shadowimg{
+    box-shadow: 3px 3px 3px 0px #9e9e9e;
+}
+
+.shap-animate{
+    animation: jumpThree 6s infinite linear;
+}

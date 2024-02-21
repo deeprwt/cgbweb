@@ -1,0 +1,83 @@
+// Contact
+.map-banner {
+    height: 600px;
+}
+.address-block-one {
+    .icon {
+        width: 80px;
+        height: 80px;
+        background: $color-two;
+    }
+    .title {
+        font-family: $main-font;
+        font-size: 24px;
+        padding: 20px 0 5px;
+    }
+    p {
+        line-height: 1.6em;
+        color: #878787;
+        .call {
+            color: $color-two;
+            &:hover {text-decoration: underline;}
+        }
+        .webaddress {
+            color: $color-two; 
+            text-decoration: underline;
+        }
+    }
+    
+}
+.contact-us-section {
+    .bg-wrapper {
+        border-radius: 40px;
+        padding: 55px 55px 60px;
+    }
+}
+// Contact Form
+.form-style-one {
+    .input-group-meta  {
+        position: relative;
+        label {
+            font-size: 16px;
+            color: rgba($color: #000000, $alpha: 0.5);
+            margin-bottom: 5px;
+        }
+        input, textarea {
+            width: 100%;
+            max-width: 100%;
+            border: none;
+            border-radius: 8px;
+            background: #fff;
+            font-size: 18px;
+        }
+        input {
+            height: 60px;
+            padding: 0 20px;
+        }
+        textarea {
+            height: 165px;
+            padding: 15px 20px;
+        }
+    }
+    .btn-four {
+        font-weight: 500;
+        line-height: 60px;
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border-radius: 8px;
+    }
+}
+#contact-form {
+    .help-block {
+        position: absolute;
+        left: 0;
+        bottom: -18px;
+        font-size: 13px;
+        line-height: 20px;
+        color: #ff4d44;
+        ul {
+            margin: 0;
+        }
+    }
+}
