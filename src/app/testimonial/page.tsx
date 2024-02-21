@@ -31,7 +31,7 @@ const TestimonialPage = () => {
             subtitle="Check what’s our client say about us and explore their thought’s."
             page="Testimonials"
             bg_img={testi_bg}
-            shape={shape}
+            // shape={shape}
             style_2={true}
             cls="me-xl-4"
           />

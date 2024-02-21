@@ -59,7 +59,7 @@ const slider_setting = {
       {
         breakpoint: 576,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         },
       },
     ],
@@ -74,13 +74,13 @@ const PartnerLogo = () => {
   return (
     <>
 
-        <div className="partner-logo-one pt-80 lg-pt-40 pb-80 lg-pb-40">
-            <div className="container pt-80 lg-pt-40 px-4 pb-80 lg-pb-40 bo-rd light-bg ">
-            <div className="row align-items-center">
-              <div className="col-xl-3 col-lg-6 wow fadeInLeft">
+        <div className="partner-logo-one pt-80 lg-pt-40 pb-80 lg-pb-40 service-details">
+            <div className="container pt-40 lg-pt-40 px-4 pb-40 lg-pb-40 bo-rd light-bg ">
+            <div className="row align-items-center details-meta">
+              <div className="col-5 col-sm-4 col-lg-3 wow fadeInLeft">
                 <div className="title-one">
-                  <div className="upper-title">100+ Trusted</div>
-                  <h2>Partners</h2>
+                  <div className="upper-title">Trusted Global Brands</div>
+                  <h3>Partners</h3>
                 </div>
                 {/* <p className="text-lg mt-45 lg-mt-30 mb-35 lg-mb-20">
                 Experience the extraordinary with CGB Solutions. We innovate relentlessly, 
@@ -97,7 +97,7 @@ const PartnerLogo = () => {
                   </Link> */}
                 </div>
               </div>
-              <div className="col-xl-9 col-lg-6 wow fadeInRight">
+              <div className="col-7 col-sm-8 col-lg-9 wow fadeInRight">
                 <Slider {...slider_setting} className="partner-slider-one">
                     {slider_logos.map((logo, i) => (
                         <div key={i} className="item">

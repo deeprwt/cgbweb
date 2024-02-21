@@ -12,7 +12,7 @@ import screen from '@/assets/images/assets/screen_11.png';
 const FaqSolutions = ({cls}:{cls?:string}) => {
   return (
     <>
-      <div className={`faq-section-one ${cls?cls:'mt-150 mb-120 lg-mt-120 md-mt-80'}`}>
+      <div className={`faq-section-one service-details ${cls?cls:'mt-150 mb-120 lg-mt-120 md-mt-80'}`}>
         <div className="container">
           <div className="row">
             <div className="col-lg-5 wow fadeInLeft">
@@ -23,13 +23,13 @@ const FaqSolutions = ({cls}:{cls?:string}) => {
             />
             </div>
 
-            <div className="col-lg-7">
+            <div className="col-lg-7 details-meta">
                 <div className="title-one mb-40 lg-mb-20">
-                    <h2>Businesses Answers</h2>
+                    <h3>Why use low code and no code for businesses?</h3>
                 </div>
-                <p className="text-lg mb-40 lg-mb-20">
-                Why use low code and no code for businesses?
-                </p>
+                {/* <p className="text-lg mb-40 lg-mb-20">
+                 
+                </p> */}
               <div
                 className="accordion accordion-style-one mt-15 md-mt-50"
                 id="accordionOne"

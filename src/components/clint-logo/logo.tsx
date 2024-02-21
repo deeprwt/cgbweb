@@ -2,8 +2,8 @@
 import React from "react";
 import Image, { StaticImageData } from "next/image";
 import Slider from "react-slick";
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
 
 import img1 from "@/assets/images/logo/clints/Bank_of_Baroda.png"
 import img2 from "@/assets/images/logo/clints/Bank_of_India.png"
@@ -44,7 +44,7 @@ const slider_setting = {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,
-    cssEase: 'linear',
+    // cssEase: 'linear',
     pauseOnHover: false,
     arrows: false,
     vertical: false, // Change to true if you want vertical scrolling
@@ -86,7 +86,7 @@ const slider_setting2 = {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,
-    cssEase: 'linear',
+    // cssEase: 'linear',
     pauseOnHover: false,
     arrows: false,
     vertical: false, // Change to true if you want vertical scrolling
@@ -120,11 +120,11 @@ const slider_logos2:StaticImageData[] = [img11, img12, img13, img14, img15, img1
 const ClintLogo = () => {
   return (
     <>
-        <div className="partner-logo-one pt-80 lg-pt-40 pb-80 lg-pb-40">
+        <div className="partner-logo-one pt-80 lg-pt-40 pb-80 lg-pb-40 service-details">
             <div className="container">
-                    <div className="title-one text-center mb-60">
+                    <div className="title-one text-center mb-60 details-meta">
                         {/* <div className="upper-title"></div> */}
-                        <h2>Our Clients</h2>
+                        <h3>Our Clients</h3>
                     </div>
                 <Slider {...slider_setting} className="partner-slider-one">
                 {slider_logos.map((logo, i) => (

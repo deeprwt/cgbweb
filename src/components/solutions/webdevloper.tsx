@@ -11,37 +11,39 @@ import icon from "@/assets/images/icon/icon_27.svg";
 import shape_1 from "@/assets/images/shape/shape_11.svg";
 import shape_2 from "@/assets/images/shape/shape_12.svg";
 
-import screen from '@/assets/images/assets/screen_11.png';
+import screen from "@/assets/images/assets/screen_11.png";
 import FaqItem from "@/components/faq/faq-item";
 
-const WebDevlopmentSection = ({cls}:{cls?:string}) => {
+const WebDevlopmentSection = ({ cls }: { cls?: string }) => {
   const service_items = service_data.filter((s) => s.page === "web-1");
   return (
     <>
-      <div className="text-feature-one service-details light-bg pt-120 lg-pt-80 pb-150 lg-pb-80">
+      <div className="text-feature-one service-details pt-80 lg-pt-80 pb-80 lg-pb-80">
         <div className="container">
-          <div className="row">
-            <div className="col-xxl-6 col-lg-6 ms-auto d-flex flex-column order-lg-last wow fadeInRight">
+          <div className="row details-meta">
+            <div className="col-xxl-7 col-lg-7 py-4  ms-auto d-flex flex-column order-lg-last wow fadeInRight">
               <div className="title-one">
-                <div className="upper-title">About us</div>
-                <h2>Guideline for your financial grow.</h2>
+                {/* <div className="upper-title">About us</div> */}
+                <h3>Why Web Development Is Our Core Expertise</h3>
               </div>
-              <p className="text-lg mt-45 lg-mt-30 mb-35 lg-mb-30">
-                Your success is our mission. As business advisors, we offer
-                expert guidance, unlocking your potential for growth and
-                profitability
+              <p className="text-lg my-4">
+                Web development is a discipline that demands adaptiveness,
+                learning capabilities, and an analytical approach. As a leading
+                web development company, we understand this sentiment and are
+                committed toward curating visually striking and user-centric
+                front end designs for your business.
               </p>
               <div>
-                <Link href="/about-us" className="btn-four mt-15">
-                  More About us
+                <Link href="/contact" className="btn-four mt-15">
+                  Contact us 
                 </Link>
               </div>
             </div>
-            <div className="col-xxl-6 col-lg-5 d-flex order-lg-first wow fadeInLeft">
+            <div className="col-xxl-5 col-lg-5 py-4 d-flex order-lg-first wow fadeInLeft">
               <Image
                 src={img_1}
                 alt="screen"
-                className="lazy-img screen_01 w-full"
+                className="lazy-img w-full h-auto"
               />
             </div>
           </div>
@@ -85,7 +87,9 @@ const WebDevlopmentSection = ({cls}:{cls?:string}) => {
                           className="lazy-img"
                         />
                       </div>
-                      <h4 className="fw-bold mt-30 mb-20 text-center">{item.title}</h4>
+                      <h4 className="fw-bold mt-30 mb-20 text-center">
+                        {item.title}
+                      </h4>
                       <p className="text-center">{item.desc}</p>
                       {/* <Link href="/service-details" className="stretched-link"></Link> */}
                     </div>
@@ -101,32 +105,33 @@ const WebDevlopmentSection = ({cls}:{cls?:string}) => {
       {/* card end */}
 
       {/* accordian structure reasone to choose start  */}
-      <div className={`faq-section-one ${cls?cls:'mt-150 mb-120 lg-mt-120 md-mt-80'}`}>
+      <div
+        className={`faq-section-one ${
+          cls ? cls : "mt-150 mb-120 lg-mt-120 md-mt-80"
+        }`}
+      >
         <div className="container">
           <div className="row">
             <div className="col-lg-5 wow fadeInLeft">
-            <Image
-              src={screen}
-              alt="screen"
-              className="lazy-img h-auto"
-            />
+              <Image src={screen} alt="screen" className="lazy-img h-auto" />
             </div>
 
             <div className="col-lg-7">
-                <div className="title-one mb-40 lg-mb-20">
-                    <h2>Reasons to Choose Us </h2>
-                </div>
-                <p className="text-lg mb-40 lg-mb-20">
-                    as Your Web Development Agency
-                </p>
+              <div className="title-one mb-40 lg-mb-20">
+                <h2>Reasons to Choose Us </h2>
+              </div>
+              <p className="text-lg mb-40 lg-mb-20">
+                as Your Web Development Agency
+              </p>
               <div
                 className="accordion accordion-style-one mt-15 md-mt-50"
                 id="accordionOne"
               >
-                {faq_data.filter(faq => faq.page === 'web-1')
-                .map((faq, i) => (
-                  <FaqItem key={i} {...faq} parent="accordionOne" />
-                ))}
+                {faq_data
+                  .filter((faq) => faq.page === "web-1")
+                  .map((faq, i) => (
+                    <FaqItem key={i} {...faq} parent="accordionOne" />
+                  ))}
               </div>
             </div>
           </div>

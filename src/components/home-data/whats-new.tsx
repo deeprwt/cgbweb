@@ -13,13 +13,13 @@ const backImg = {
 const WhatsNew = () => {
   return (
     <>
-        <div className="full" style={backImg}>
+        <div className="full service-details" style={backImg}>
             <div className="container">
                 <div className="counter-wrapper pt-80 pb-80">
-                <div className="row">
+                <div className="row details-meta">
                     <div className="title-one">
                         {/* <div className="upper-title"></div> */}
-                        <h2>What&apos;s New</h2>
+                        <h3>What&apos;s New</h3>
                     </div>
                     <div className="col-md-3 mb-35 mt-35  wow fadeInUp" data-wow-delay="0.0s">
                         <Image src={Whatsnew} alt="what's new" className="w-100 h-100 shadowimg" />

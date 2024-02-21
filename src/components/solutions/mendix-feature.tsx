@@ -35,12 +35,12 @@ function CardItem({
 
 const MendixFeature = () => {
   return (
-    <div className="text-feature-seven mt-170 lg-mt-80">
+    <div className="text-feature-seven mt-170 lg-mt-80 service-details">
       <div className="container">
-        <div className="border-bottom mt-40 pb-50 sm-pb-30">
+        <div className="border-bottom mt-40 pb-50 sm-pb-30 details-meta">
           <div className="row">
-                <div className="title-one mb-40 lg-mb-10 wow fadeInUp">
-                    <h2>Features of Mendix</h2>
+                <div className="title-one lg-mb-10 wow fadeInUp">
+                    <h3>Features of Mendix</h3>
                 </div>
                 <p className="text-xl text-dark mb-30 lg-mb-10">
                     Exploring the Powerful Capabilities and Benefits of Mendix: A Low-Code Development Platform

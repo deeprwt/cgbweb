@@ -35,9 +35,9 @@ const TextFeatureAbout = ({ style_2 = false }: { style_2?: boolean }) => {
   return (
     <>
       {!style_2 && (
-        <div className="text-feature-one mt-150 lg-mt-100">
+        <div className="text-feature-one mt-150 lg-mt-100 service-details">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center details-meta">
                 <div className="col-xl-5 col-lg-6 order-2 order-lg-1 wow fadeInRight">
                     <div className="ms-auto pe-xxl-5 pe-4 ps-xxl-5 ps-4 pb-35 md-mt-60 d-flex align-items-end">
                         <Image src={about} alt="cgb aboutus" className="shap-animate" style={{height:"auto"}} ></Image>
@@ -51,7 +51,7 @@ const TextFeatureAbout = ({ style_2 = false }: { style_2?: boolean }) => {
                 <div className="col-xl-7 col-lg-6 order-1 order-lg-2 wow fadeInLeft">
                     <div className="title-one">
                         <div className="upper-title">About us</div>
-                        <h2>What makes the client choose us</h2>
+                        <h3>What makes the client choose us</h3>
                     </div>
                         <p className="text-lg mt-45 lg-mt-30 mb-35 lg-mb-20">
                             At the heart of CGB Solutions ethos lies an unwavering commitment to innovation — a commitment that transcends the ordinary and propels us into the realm of groundbreaking service delivery. <br />
@@ -64,8 +64,8 @@ const TextFeatureAbout = ({ style_2 = false }: { style_2?: boolean }) => {
                         Innovation, within our framework, transcends being a mere catchphrase; rather, it stands as a guiding principle that intricately represents every aspect of our operations. We strive to be more than service providers, aspiring to be trusted partners in our clients' journeys. This involves understanding their unique challenges and tailoring innovative solutions that effectively address their needs. 
                         </p>
                     <div className="d-inline-flex flex-wrap align-items-center">
-                    <Link href="/about-us" className="btn-four mt-15 me-4">
-                        More About us
+                    <Link href="/contact" className="btn-four mt-15 me-4">
+                        Contact us
                     </Link>
                     {/* <Link href="/contact" className="btn-three icon-link mt-15">
                         <span>Request a Callback</span>

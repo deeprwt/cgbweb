@@ -2,7 +2,7 @@ import React from "react";
 
 // type
 type IPropType = {
-  id:string;
+  id:number;
   title:string;
   desc:string;
   isShow?:boolean;
