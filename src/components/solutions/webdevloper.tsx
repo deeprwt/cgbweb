@@ -13,6 +13,7 @@ import shape_2 from "@/assets/images/shape/shape_12.svg";
 
 import screen from "@/assets/images/assets/screen_11.png";
 import FaqItem from "@/components/faq/faq-item";
+import WebTechLogo from "../clint-logo/web-tech-logo";
 
 const WebDevlopmentSection = ({ cls }: { cls?: string }) => {
   const service_items = service_data.filter((s) => s.page === "web-1");
@@ -35,7 +36,7 @@ const WebDevlopmentSection = ({ cls }: { cls?: string }) => {
               </p>
               <div>
                 <Link href="/contact" className="btn-four mt-15">
-                  Contact us 
+                  Contact us
                 </Link>
               </div>
             </div>
@@ -138,6 +139,46 @@ const WebDevlopmentSection = ({ cls }: { cls?: string }) => {
         </div>
       </div>
       {/* accordian end */}
+      
+      {/* technolgy logo slider start  */}
+      <WebTechLogo />
+      {/* technolgy logo slider end  */}
+
+            {/* accordian structure reasone to choose start  */}
+      <div
+        className={`faq-section-one ${
+          cls ? cls : "mt-150 mb-120 lg-mt-120 md-mt-80"
+        }`}
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-7">
+              <div className="title-one mb-40 lg-mb-20">
+                <h2>Benefits of Outsourcing </h2>
+              </div>
+              <p className="text-lg mb-40 lg-mb-20">
+              Web Development Services
+              </p>
+              <div
+                className="accordion accordion-style-one mt-15 md-mt-50"
+                id="accordionOne"
+              >
+                {faq_data
+                  .filter((faq) => faq.page === "web-2")
+                  .map((faq, i) => (
+                    <FaqItem key={i} {...faq} parent="accordionTwo" />
+                  ))}
+              </div>
+            </div>
+            <div className="col-lg-5 wow fadeInLeft">
+              <Image src={screen} alt="screen" className="lazy-img h-auto" />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* accordian end */}
+
+      
     </>
   );
 };

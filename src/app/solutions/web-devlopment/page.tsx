@@ -34,35 +34,19 @@ export default function WebDevlopment() {
         {/* header end */}
         <main>
           {/* hero banner start */}
-          <BreadcrumbOne 
-          title="Web Devlopment"
-          subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
-          page="Web Devlopment"
-          bg_img={about_bg}
-          // shape={shape}
-          style_2={true}
+          <BreadcrumbOne
+            title="Web Devlopment"
+            subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
+            page="Web Devlopment"
+            bg_img={about_bg}
+            // shape={shape}
+            style_2={true}
           />
           {/* hero banner end */}
 
-
-            {/* web content section Start */}
+          {/* web content section Start */}
           <WebDevlopmentSection />
-            {/* web content section end */}
-
-          {/* Start */}
-          <TwoColData />
-          {/* end */}
-
-          {/* start */}
-          <MendixFeature />
-          {/* end */}
-
-          {/* start */}
-          <FaqSolutions />
-          {/* end */}
-
-          <SectionSol1 />
-
+          {/* web content section end */}
 
 
           {/* block feature six start */}

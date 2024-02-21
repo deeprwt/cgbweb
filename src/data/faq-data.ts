@@ -73,6 +73,7 @@ const faq_data: IFaq[] = [
     id: 11,
     title: "Quick Turnaround Time",
     desc: "Adept at troubleshooting roadblocks and navigating complexities, our experienced team fulfils your requests swiftly and efficiently.",
+    isShow: true,
     page:'web-1'
   },
   {
@@ -104,6 +105,25 @@ const faq_data: IFaq[] = [
     title: "Commitment to Data Security",
     desc: "We prioritize data security and work toward ensuring the safety and security of your sensitive information.",
     page:'web-1'
+  },
+  {
+    id: 16,
+    title: "Access to Experience and Expertise",
+    desc: "By outsourcing your projects to a well-established agency, you get a qualified team with the requisite expertise attending to your requirements.",
+    isShow: true,
+    page:'web-2'
+  },
+  {
+    id: 17,
+    title: "Reduced Costs",
+    desc: "It is much more cost-efficient to outsource a specific project than to hire an in-house team for the same.",
+    page:'web-2'
+  },
+  {
+    id: 18,
+    title: "Faster Turnaround",
+    desc: "When you outsource your projects to an agency with set processes and workflows in place, you you receive your deliverables well before time.",
+    page:'web-2'
   },
 ];
 
