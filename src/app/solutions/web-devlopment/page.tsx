@@ -20,6 +20,7 @@ import FaqSolutions from "@/components/faq/faq-solutions";
 import FooterOne from "@/layout/footer/footer-one";
 import SectionSol1 from "@/components/two-col/section-sol1";
 import WebDevlopmentSection from "@/components/solutions/webdevloper";
+import SolutionsNav from "@/components/solutions/solutions-nav";
 
 export const metadata: Metadata = {
   title: "Web Devloment",
@@ -76,6 +77,13 @@ export default function WebDevlopment() {
           {/* blog item start */}
           {/* <HomeThreeBlogs /> */}
           {/* blog item end */}
+          
+          <SolutionsNav 
+          pretitle=""
+          nextitle="App Development"
+          page1=""
+          page2="/soltuions/app-devlopment"
+          />
         </main>
 
         {/* footer start */}

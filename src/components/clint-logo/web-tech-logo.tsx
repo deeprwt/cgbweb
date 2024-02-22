@@ -143,7 +143,7 @@ const WebTechLogo = () => {
                 <div className="logo-bg-white cursor-pointer m-2">
                   <Image
                     src={logo}
-                    alt="Cgb Clint Logo"
+                    alt="Cgb technolgy Logo"
                     layout="responsive"
                     width={154}
                     height={94}
@@ -159,7 +159,7 @@ const WebTechLogo = () => {
                 <div className="logo-bg-white cursor-pointer m-2">
                   <Image
                     src={logo}
-                    alt="Cgb Clint Logo"
+                    alt="Cgb technolgy Logo"
                     layout="responsive"
                     width={154}
                     height={94}

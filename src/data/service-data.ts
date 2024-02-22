@@ -189,36 +189,36 @@ const service_data:IService[] = [
   {
     id:22,
     icon:icon_11,
-    title:'Continuous Improvement',
-    desc:'Commit to ongoing refinement, evolving our offerings to stay ahead in a dynamic market landscape.',
+    title:'Full Stack Web Development',
+    desc:'System infrastructure, web architecture, and communication protocols - our front end development agency specializes in all these departments, delivering to you interactive front ends along with robust backends.',
     page:'web-1'
   },
   {
     id:23,
     icon:icon_11,
-    title:'Continuous Improvement',
-    desc:'Commit to ongoing refinement, evolving our offerings to stay ahead in a dynamic market landscape.',
+    title:'HTML5/CSS Development',
+    desc:'We feed interactive elements using W3C standard & cross-browser compatibility coding standards to put wind in your digital sails.',
     page:'web-1'
   },
   {
     id:24,
     icon:icon_11,
-    title:'Continuous Improvement',
-    desc:'Commit to ongoing refinement, evolving our offerings to stay ahead in a dynamic market landscape.',
+    title:'Custom Web App Development',
+    desc:'Our seasoned and pre-vetted front end architects use clean codes and a customized approach to infuse creativity and interactivity into your web portals.',
     page:'web-1'
   },
   {
     id:25,
     icon:icon_11,
-    title:'Continuous Improvement',
-    desc:'Commit to ongoing refinement, evolving our offerings to stay ahead in a dynamic market landscape.',
+    title:'CMS Design and Development',
+    desc:'With our comprehensive front end web development services, you can set up best-in-class, responsive and robust content management systems for your business.',
     page:'web-1'
   },
   {
     id:26,
     icon:icon_11,
-    title:'Continuous Improvement',
-    desc:'Commit to ongoing refinement, evolving our offerings to stay ahead in a dynamic market landscape.',
+    title:'Data Migration, Support, and Maintenance',
+    desc:'Be it migrating crucial data, resolving post-deployment queries or regular maintenance, obtain watertight solutions from our front-end experts.',
     page:'web-1'
   },
 ]
