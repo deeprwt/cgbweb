@@ -221,6 +221,34 @@ const service_data:IService[] = [
     desc:'Be it migrating crucial data, resolving post-deployment queries or regular maintenance, obtain watertight solutions from our front-end experts.',
     page:'web-1'
   },
+  {
+    id:27,
+    icon:icon_11,
+    title:'Enterprise Mobility Solutions',
+    desc:'What is it that makes mobile application development the need of the hour for your business? Businesses from around the world have realized the significance of mobility solutions.',
+    page:'app-1'
+  },
+  {
+    id:28,
+    icon:icon_11,
+    title:'iOS App Development',
+    desc:'Globtier is one of the leading Mobile App Development Company providing on-time and quality iOS app development services through its team of skilled professionals.',
+    page:'app-1'
+  },
+  {
+    id:29,
+    icon:icon_11,
+    title:'Android App Development',
+    desc:'Globtier offers custom Android App development services for businesses, because the Android devices comprises of numerous OS versions with diverse sizes of screens leading the development of android applications as the task of specialists.',
+    page:'app-1'
+  },
+  {
+    id:30,
+    icon:icon_11,
+    title:'M-Commerce Development',
+    desc:'Globtier has been working in mobile commerce industry from several years now. With our demonstrated experience in delivering multiple m-commerce solutions, our proficient team is fully capable',
+    page:'app-1'
+  },
 ]
 
 export default service_data;

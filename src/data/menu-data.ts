@@ -40,8 +40,8 @@ const menu_data:IMenu[] = [
       {
         id:3,
         menus:[
-          {link:'/solutions/web-devlopment',title:'Website Development'},
-          {link:'/service-v2',title:'App Development'},
+          {link:'/solutions/web-development',title:'Website Development'},
+          {link:'/solutions/app-development',title:'App Development'},
           {link:'/service-details',title:'Graphic Designing'},
           {link:'/team-v1',title:'Digital Marketing'},
           {link:'/team-v2',title:'Paid Ads'},

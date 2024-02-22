@@ -82,7 +82,7 @@ export default function WebDevlopment() {
           pretitle=""
           nextitle="App Development"
           page1=""
-          page2="/soltuions/app-devlopment"
+          page2="/solutions/app-development"
           />
         </main>
 
