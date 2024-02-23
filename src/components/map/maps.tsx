@@ -17,9 +17,9 @@ const MapWithCountries = () => {
           <ul className="map-dots">
             <li className="tabing"><div className="line"><span className="text-white m-4">North America</span></div></li>
             <li className="tabing"><div className="line"><span className="text-white m-4">Europe</span></div></li>
-            <li className="tabing"><div className="line"></div></li>
-            <li className="tabing"><div className="line"></div></li>
-            <li className="tabing"><div className="line"></div></li>
+            <li className="tabing"><div className="line"><span className="text-white m-4">India</span></div></li>
+            <li className="tabing"><div className="line"><span className="text-white m-4">Middle East</span></div></li>
+            <li className="tabing"><div className="line"><span className="text-white m-4">Japan</span></div></li>
           </ul>
         </div>
       </div>

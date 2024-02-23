@@ -14,7 +14,7 @@ const FooterOne = () => {
       <div className="container">
         <div className="inner-wrapper">
           <div className="row justify-content-between">
-            <div className="col-xl-6 col-md-3 footer-intro mb-30">
+            <div className="col-xl-5 col-md-3 footer-intro mb-30">
               <div className="logo">
                 <Link href="/" className="d-inline-block d-lg-none">
                   <Image width={110} src={logo} alt="logo" />
@@ -27,6 +27,8 @@ const FooterOne = () => {
               </div>
               {/* map end  */}
               {/* <p className="text-white lh-sm mb-35">Top-rated <span className="opacity-50">business <br/> consultancy for your success</span></p> */}
+              <p className="text-white lh-sm mb-35">Head office <br /> <span className="opacity-50">2nd FLOOR, NO 898/1-2, 80 Feet Main Road Koramagala, Bengaluru, Bengaluru Urban, Karnataka, 560034</span></p>
+              <p className="text-white lh-sm mb-35"><Link href="#">info@cgbinda.com |</Link> <span className="opacity-50"> <Link href="#">+91 8287668958</Link> </span></p>
               {/* social link */}
               <ul className="style-none d-flex align-items-center social-icon">
                 <FooterSocial />
