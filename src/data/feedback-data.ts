@@ -56,21 +56,21 @@ export const feedback_one = [
     user:user_1,
     name:'John Smith',
     location:'CEO & Head of Sky Tech Inc.',
-    desc:`"Efficient problem-solving, insightful market analysis, and actionable plans made the consulting experience invaluable to our business's success."`
+    desc:`"Impressed by CGB Solutions' top-notch staffing solutions! They delivered skilled professionals who seamlessly integrated into our team, driving project success."`
   },
   {
     id:2,
     user:user_1,
     name:'Mark John',
     location:'CEO & Head of Apple Tech Inc.',
-    desc:`"Lorem ipsum, dolor sit amet consectetur elit. Asperiores unde inventore tenetur. Accusantium tenetur id cupiditate quibusdam."`
+    desc:`"CGB Solutions' consulting services were a game-changer for us. Their expert guidance and insights helped us make strategic decisions that propelled our business forward."`
   },
   {
     id:3,
     user:user_1,
     name:'James Bond.',
     location:'CEO & Head of Pixel Tech Inc.',
-    desc:`"Efficient problem-solving, insightful market analysis, and actionable plans made the consulting experience invaluable to our business's success."`
+    desc:`"Exceptional customer support from CGB Solutions! Their team was always responsive, addressing our concerns promptly and ensuring smooth operations."`
   }
 ]
 // feedback one end
