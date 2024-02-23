@@ -137,7 +137,7 @@ const TabsData = () => {
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6">
-                            <Image src={img9} layout='responsive' width={1707} height={1138} alt="About us" className="w-100"></Image>
+                            <Image src={img5} layout='responsive' width={1707} height={1138} alt="About us" className="w-100"></Image>
                         </div>
                     </div>
             </div>
@@ -163,7 +163,7 @@ const TabsData = () => {
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6">
-                            <Image src={img5} layout="responsive" width={1707} height={1138} alt="About us" className="w-100"></Image>
+                            <Image src={img7} layout="responsive" width={1707} height={1138} alt="About us" className="w-100"></Image>
                         </div>
                     </div>
             </div>
@@ -189,7 +189,7 @@ const TabsData = () => {
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6">
-                            <Image src={img7} layout='responsive' width={1707} height={1138} alt="About us" className="w-100"></Image>
+                            <Image src={img9} layout='responsive' width={1707} height={1138} alt="About us" className="w-100"></Image>
                         </div>
                     </div>
             </div>
