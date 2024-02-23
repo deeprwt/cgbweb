@@ -49,3 +49,106 @@
 .logo-bg-white:hover{
     box-shadow: 0 0 15px rgb(0 0 0/30%);
 }
+
+.bg-cls{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.map-dots li:after{
+    height: 22px;
+    width: 22px;
+    margin: -5px 0 0 -5px;
+}
+
+.map-dots li:after {
+    content: "";
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin: -10px 0 0 -9px; /* Adjusted margin to center the dot */
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    box-shadow: 0 0 1px 2px $color-one;
+    animation-delay: 1.1s;
+    border-radius: 100%;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(0.1, 0.1); /* Corrected transform values */
+        opacity: 0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        transform: scale(1.1, 1.1);
+        opacity: 0;
+    }
+}
+
+.map-dots li .line {
+    height: 0;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 1s all;
+    overflow: hidden;
+    transition-delay: .7s;
+}
+
+.map-dots li:hover .line {
+    overflow: visible;
+}
+
+.detailTab li {
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    padding: 0 25px;
+    transition: .5s all;
+}
+
+.map-dots li {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    background: $color-one;
+    border-radius: 100%;
+    padding: 0;
+    border: 0;
+}
+
+.map-dots li {
+    height: 12px;
+    width: 12px;
+}
+
+.map-dots li:first-child {
+    top: 27%;
+    left: 19%;
+}
+
+.map-dots li:nth-child(2) {
+    top: 20%;
+    left: 53%;
+}
+
+.map-dots li:nth-child(3) {
+    right: 28%;
+    top: 45%;
+}
+
+.map-dots li:nth-child(4) {
+    right: 38%;
+    top: 41%;
+}
+
+.map-dots li:last-child {
+    bottom: 61%;
+    right: 11%;
+}

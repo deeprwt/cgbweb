@@ -232,21 +232,21 @@ const service_data:IService[] = [
     id:28,
     icon:icon_11,
     title:'iOS App Development',
-    desc:'Globtier is one of the leading Mobile App Development Company providing on-time and quality iOS app development services through its team of skilled professionals.',
+    desc:'CGB is one of the leading Mobile App Development Company providing on-time and quality iOS app development services through its team of skilled professionals.',
     page:'app-1'
   },
   {
     id:29,
     icon:icon_11,
     title:'Android App Development',
-    desc:'Globtier offers custom Android App development services for businesses, because the Android devices comprises of numerous OS versions with diverse sizes of screens leading the development of android applications as the task of specialists.',
+    desc:'CGB offers custom Android App development services for businesses, because the Android devices comprises of numerous OS versions with diverse sizes of screens leading the development of android applications as the task of specialists.',
     page:'app-1'
   },
   {
     id:30,
     icon:icon_11,
     title:'M-Commerce Development',
-    desc:'Globtier has been working in mobile commerce industry from several years now. With our demonstrated experience in delivering multiple m-commerce solutions, our proficient team is fully capable',
+    desc:'CGB has been working in mobile commerce industry from several years now. With our demonstrated experience in delivering multiple m-commerce solutions, our proficient team is fully capable',
     page:'app-1'
   },
 ]
