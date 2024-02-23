@@ -5,15 +5,15 @@ import Image from 'next/image';
 
 import OracleImg from "@/assets/images/cgbhome/cgb-meta.jpg";
 import icon from "@/assets/images/icon/icon_09.svg";
-import img1 from "@/assets/images/cgbhome/services/1.jpg"
+import img1 from "@/assets/images/cgbhome/services/oracle.jpg"
 import img2 from "@/assets/images/cgbhome/services/2.jpg"
-import img3 from "@/assets/images/cgbhome/services/3.jpg"
-import img4 from "@/assets/images/cgbhome/services/4.jpg"
-import img5 from "@/assets/images/cgbhome/services/5.jpg"
+import img3 from "@/assets/images/cgbhome/services/finacle.jpg"
+import img4 from "@/assets/images/cgbhome/services/servicenow.jpg"
+import img5 from "@/assets/images/cgbhome/services/mendix.jpg"
 import img6 from "@/assets/images/cgbhome/services/6.jpg"
-import img7 from "@/assets/images/cgbhome/services/7.jpg"
+import img7 from "@/assets/images/cgbhome/services/salesforce.jpg"
 import img8 from "@/assets/images/cgbhome/services/8.jpg"
-import img9 from "@/assets/images/cgbhome/services/9.jpg"
+import img9 from "@/assets/images/cgbhome/services/devops.jpg"
 import img10 from "@/assets/images/cgbhome/services/10.jpg"
 
 const TabsData = () => {
