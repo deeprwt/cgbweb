@@ -54,7 +54,7 @@ const GraphicDesigningSections = ({ cls }: { cls?: string }) => {
                   <p className="text-lg mb-40 lg-mb-20">
                     We are your one-stop solution for your complete digital
                     marketing and graphic design requirements. Uplift your
-                    brand's perception through our unmatched creative solutions.
+                    brand&lsquo;s perception through our unmatched creative solutions.
                   </p>
                   {/* <Link href="/contact" className="btn-four mt-15 me-4">
                         Contact us
@@ -76,7 +76,7 @@ const GraphicDesigningSections = ({ cls }: { cls?: string }) => {
                 <h3>We are top-notch mobile app development company.</h3>
               </div>
               <p className="text-lg my-4">
-                CGB is one of India’s most promising full-service digital
+                CGB is one of India&lsquo;s most promising full-service digital
                 agency, headquartered in Delhi-NCR. Driven by a strong team of
                 seasoned professionals including Conceptualizers, UI/UX Experts,
                 Experienced Web & Mobile App Engineers, Frontend & Markup
