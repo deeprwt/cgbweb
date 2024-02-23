@@ -31,10 +31,10 @@ const menu_data:IMenu[] = [
       {
         id:2,
         menus:[
-          {link:'/service-v1',title:'Contract Staffing'},
-          {link:'/service-v2',title:'Permanent Staffing'},
-          {link:'/service-details',title:'Hire-Train-Deploy'},
-          {link:'/service-details',title:'RPO'}
+          {link:'/coming-soon',title:'Contract Staffing'},
+          {link:'/coming-soon',title:'Permanent Staffing'},
+          {link:'/coming-soon',title:'Hire-Train-Deploy'},
+          {link:'/coming-soon',title:'RPO'}
         ]
       },
       {
@@ -46,11 +46,11 @@ const menu_data:IMenu[] = [
           {link:'/solutions/digital-marketing',title:'Digital Marketing'},
           {link:'/solutions/paid-ads',title:'Paid Ads'},
           {link:'/solutions/seo-smo',title:'SEO & SMO'},
-          {link:'/team-details',title:'Social Media Marketing'},
-          {link:'/team-details',title:'Email Marketing'},
-          {link:'/team-details',title:'Lead Generation'},
-          {link:'/team-details',title:'Branding Services'},
-          {link:'/team-details',title:'Startup Consulting'},
+          {link:'/coming-soon',title:'Social Media Marketing'},
+          {link:'/coming-soon',title:'Email Marketing'},
+          {link:'/coming-soon',title:'Lead Generation'},
+          {link:'/coming-soon',title:'Branding Services'},
+          {link:'/coming-soon',title:'Startup Consulting'},
 
         ]
       }
@@ -62,13 +62,13 @@ const menu_data:IMenu[] = [
     title:'JCOE',
     dropdown:true,
     dropdown_menus:[
-          {link:'#',title:'SAP'},
-          {link:'#',title:'Salesforces'},
-          {link:'#',title:'Oracle'},
-          {link:'#',title:'Servicenow'},
-          {link:'#',title:'Outsystems'},
-          {link:'#',title:'Mendix'},
-          {link:'#',title:'Low Code No Code'},
+          {link:'/coming-soon',title:'SAP'},
+          {link:'/coming-soon',title:'Salesforces'},
+          {link:'/coming-soon',title:'Oracle'},
+          {link:'/coming-soon',title:'Servicenow'},
+          {link:'/coming-soon',title:'Outsystems'},
+          {link:'/coming-soon',title:'Mendix'},
+          {link:'/coming-soon',title:'Low Code No Code'},
     ]
   },
   {
@@ -77,9 +77,9 @@ const menu_data:IMenu[] = [
     title:'Training ',
     dropdown:true,
     dropdown_menus:[
-          {link:'#',title:'Corporate Training'},
-          {link:'#',title:'Customise Training'},
-          {link:'#',title:'Online Courses'},
+          {link:'/coming-soon',title:'Corporate Training'},
+          {link:'/coming-soon',title:'Customise Training'},
+          {link:'/coming-soon',title:'Online Courses'},
     ]
   },
   {
@@ -88,14 +88,14 @@ const menu_data:IMenu[] = [
     title:'Company ',
     dropdown:true,
     dropdown_menus:[
-          {link:'#',title:'Our Story'},
+          {link:'/coming-soon',title:'Our Story'},
           {link:'/vision',title:'Vision'},
-          {link:'#',title:'Mission'},
-          {link:'#',title:'Awards'},
-          {link:'#',title:'Recognition'},
-          {link:'#',title:'Our Culture'},
-          {link:'#',title:'Leadership'},
-          {link:'#',title:'Partners'},
+          {link:'/coming-soon',title:'Mission'},
+          {link:'/coming-soon',title:'Awards'},
+          {link:'/coming-soon',title:'Recognition'},
+          {link:'/coming-soon',title:'Our Culture'},
+          {link:'/coming-soon',title:'Leadership'},
+          {link:'/coming-soon',title:'Partners'},
     ]
   },
   {
