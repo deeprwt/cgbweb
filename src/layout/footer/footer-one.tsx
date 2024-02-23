@@ -6,6 +6,8 @@ import Link from "next/link";
 import logo from "@/assets/images/logo/logome.png";
 import FooterSocial from "./footer-social";
 import MapWithCountries from "@/components/map/maps";
+import icon_1 from '@/assets/images/icon/icon_49.svg';
+import icon_2 from '@/assets/images/icon/icon_50.svg';
 import map from "@/assets/images/icon/footer-map.svg";
 
 const FooterOne = () => {
@@ -28,7 +30,7 @@ const FooterOne = () => {
               {/* map end  */}
               {/* <p className="text-white lh-sm mb-35">Top-rated <span className="opacity-50">business <br/> consultancy for your success</span></p> */}
               <p className="text-white lh-sm mb-35">Head office <br /> <span className="opacity-50">2nd FLOOR, NO 898/1-2, 80 Feet Main Road Koramagala, Bengaluru, Bengaluru Urban, Karnataka, 560034</span></p>
-              <p className="text-white lh-sm mb-35"><Link href="#">info@cgbinda.com |</Link> <span className="opacity-50"> <Link href="#">+91 8287668958</Link> </span></p>
+              <p className="text-white lh-sm mb-35 d-flex"><Link href="#" className="d-flex align-items-center"><Image src={icon_1} alt="icon" className="lazy-img icon me-3"/>info@cgbinda.com | &nbsp;</Link> <span className="opacity-50"> <Link href="#" className="d-flex"> <Image src={icon_2} alt="icon" className="lazy-img icon me-3"/>+91 8287668958</Link> </span></p>
               {/* social link */}
               <ul className="style-none d-flex align-items-center social-icon">
                 <FooterSocial />
