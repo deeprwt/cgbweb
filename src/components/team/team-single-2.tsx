@@ -13,11 +13,19 @@ const TeamSingleTwo = ({team,spacing}: {team:ITeam;spacing?: string;}) => {
           className="lazy-img w-100"
           style={{ height: "auto" }}
         />
-        <Link href="/team-details"
-          className="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"
-        >
-          <i className="bi bi-arrow-up-right"></i>
-        </Link>
+        {/* <Link href="#"
+          className="round-btn rounded-circle d-flex align-items-center h-100 w-100 tran3s"
+        > */}
+           <div className="round-btn rounded-circle d-flex align-items-center h-100 w-100 tran3s cursor-pointer">
+           <Image
+          src={team.gif}
+          alt="team-img"
+          className="lazy-img w-100"
+          style={{ height: "auto" }}
+        />
+           </div>
+          {/* <i className="bi bi-arrow-up-right"></i> */}
+        {/* </Link> */}
       </div>
       <h4 className="fw-500 pt-20 m0">{team.name}</h4>
       <div className="fs-6">{team.designation}</div>

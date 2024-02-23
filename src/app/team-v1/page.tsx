@@ -27,7 +27,7 @@ const TeamOnePage = () => {
             title="Our Talented Experts"
             subtitle="Meet our experts, guiding you through financial intricacies with precision"
             page="Team"
-            shape={shape}
+            // shape={shape}
             bg_img={team_bg}
           />
           {/* breadcrumb end */}

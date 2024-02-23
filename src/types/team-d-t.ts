@@ -6,4 +6,5 @@ export interface ITeam {
   name: string;
   designation: string;
   page: string;
+  gif: StaticImageData;
 }

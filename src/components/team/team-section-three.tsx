@@ -24,7 +24,7 @@ const TeamSectionThree = ({ style_2 = false }: { style_2?: boolean }) => {
                 <h2>Our Team</h2>
               </div>
               <p className="text-xl text-dark mb-30 lg-mb-10">
-                  We’ve verity package for our client based on your business
+              Our team is constantly committed to innovation and pushing the boundaries while delivering workplaces.
                 </p>
 
               <div className="row">
