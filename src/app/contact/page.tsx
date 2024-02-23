@@ -26,7 +26,7 @@ const ContactPage = () => {
             title="Contact us for inquiries"
             subtitle="Get our all info and also can message us directly from here"
             page="Contact"
-            // shape={shape}
+            // // shape={shape}
           />
           {/* breadcrumb end */}
 

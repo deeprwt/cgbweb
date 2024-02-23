@@ -7,9 +7,15 @@ const TeamTwoArea = () => {
     (t) => t.page === "team-three" || t.page === "team"
   );
   return (
-    <div className="team-section-four light-bg border-top pt-150 lg-pt-80 pb-100 lg-pb-40">
+    <div className="team-section-three light-bg position-relative pt-120 lg-pt-60 pb-130 lg-pb-60">
       <div className="container">
         <div className="position-relative">
+          <div className="title-one mb-40 lg-mb-10 wow fadeInUp text-center">
+            <h2>Meet Our Team</h2>
+          </div>
+          <p className="text-lg text-dark mb-30 lg-mb-10 text-center pb-20">
+          Our team is constantly committed to innovation and pushing the boundaries while delivering workplaces. Our greatest strength is the relationship of trust we have with our clients. Our CGB wear many hats. They are bikers, philosophers, farmers and musicians who are also the designers, engineers, innovators and project managers of workplaces of the future.
+          </p>
           <div className="row">
             {teams.map((t, i) => (
               <div

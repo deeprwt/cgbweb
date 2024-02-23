@@ -37,7 +37,7 @@ export default function WebDevlopment() {
             subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
             page="App Devlopment"
             bg_img={about_bg}
-            // shape={shape}
+            // // shape={shape}
             style_2={true}
           />
           {/* hero banner end */}

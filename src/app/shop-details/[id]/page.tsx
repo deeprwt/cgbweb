@@ -30,7 +30,7 @@ const ShopDetailsPage = ({ params }: { params: { id: string } }) => {
             subtitle="Meet our products, guiding you through financial intricacies with precision"
             page="Shop"
             bg_img={shop_bg}
-            shape={shape}
+            // shape={shape}
           />
           {/* breadcrumb end */}
 

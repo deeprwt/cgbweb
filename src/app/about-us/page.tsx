@@ -39,7 +39,7 @@ const AboutUsPage = () => {
             subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
             page="About Us"
             bg_img={about_bg}
-            // shape={shape}
+            // // shape={shape}
             style_2={true}
           />
           {/* breadcrumb end */}

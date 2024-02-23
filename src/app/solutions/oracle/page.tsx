@@ -38,7 +38,7 @@ export default function Oracle() {
           subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
           page="Mendix"
           bg_img={about_bg}
-          // shape={shape}
+          // // shape={shape}
           style_2={true}
           />
           {/* hero banner end */}

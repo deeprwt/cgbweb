@@ -28,7 +28,7 @@ const ProjectOnePage = () => {
             subtitle="Meet our products, guiding you through financial intricacies with precision"
             page="Project"
             bg_img={project_bg}
-            shape={shape}
+            // shape={shape}
           />
           {/* breadcrumb end */}
 

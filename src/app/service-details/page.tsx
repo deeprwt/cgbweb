@@ -28,7 +28,7 @@ const ServiceDetailsPage = () => {
             title="Single Service Details"
             subtitle="Offering solutions & services to address a spectrum of financial issues"
             page="Services"
-            // shape={shape}
+            // // shape={shape}
             bg_img={service_bg}
             style_2={true}
             cls="me-xl-4"

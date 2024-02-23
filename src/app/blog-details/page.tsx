@@ -32,7 +32,7 @@ const BlogDetailsPage = () => {
             page="Blog"
             bg_img={blog_bg}
             style_2={true}
-            // shape={shape}
+            // // shape={shape}
           />
           {/* breadcrumb end */}
 

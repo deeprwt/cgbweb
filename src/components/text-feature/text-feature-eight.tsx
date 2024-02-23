@@ -2,44 +2,45 @@ import React from "react";
 import Image from "next/image";
 // internal
 import screen from "@/assets/images/assets/screen_16.png";
-import { IFaq } from "@/data/faq-data";
+import {IFaq2} from "@/data/faq_data_edit";
+// import { IFaq2 } from "@/data/faq-data_edit";
 import FaqItem from "../faq/faq-item";
 import Link from "next/link";
 
 // faq data
-const faq_data: IFaq[] = [
+const faq_data: IFaq2[] = [
   {
-    id: "one",
+    id: 1,
     title: "Register & Create Account",
     desc: "It only takes 5 minutes. Set-up is smooth and simple, with fully customizable page design to reflect your brand.",
     isShow: true,
   },
   {
-    id: "two",
+    id: 2,
     title: "Manage Your Card",
     desc: "It only takes 5 minutes. Set-up is smooth and simple, with fully customizable page design to reflect your brand.",
   },
   {
-    id: "three",
+    id: 3,
     title: "Atm withdraw & Online Banking",
     desc: "It only takes 5 minutes. Set-up is smooth and simple, with fully customizable page design to reflect your brand.",
   },
 ];
 // faq data 2
-const faq_data_2: IFaq[] = [
+const faq_data_2: IFaq2[] = [
   {
-    id: "one",
+    id: 1,
     title: "Quality Services",
     desc: "It only takes 5 minutes. Set-up is smooth and simple, with fully customizable page design to reflect your brand.",
     isShow: true,
   },
   {
-    id: "two",
+    id: 2,
     title: "Fair Pricing",
     desc: "It only takes 5 minutes. Set-up is smooth and simple, with fully customizable page design to reflect your brand.",
   },
   {
-    id: "three",
+    id: 3,
     title: "Trusted & Secure",
     desc: "It only takes 5 minutes. Set-up is smooth and simple, with fully customizable page design to reflect your brand.",
   },

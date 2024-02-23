@@ -19,7 +19,7 @@ const CeoData = ({ style_2 = false }: { style_2?: boolean }) => {
           <div className="container">
             <div className="row align-items-center">
                 <div className="col-xl-5 col-lg-6 wow fadeInRight">
-                <Image src={sindhu} layout='responsive' width={300} height={400} alt="About us" className="w-100"></Image>
+                <Image src={sindhu} layout='responsive' width={300} height={400} alt="Sindhu profile" className="w-100"></Image>
               </div>
               <div className="col-xl-7 col-lg-6 wow fadeInLeft">
                 <div className="title-one">

@@ -21,7 +21,7 @@ const TeamSectionThree = ({ style_2 = false }: { style_2?: boolean }) => {
           <div className="container">
             <div className="position-relative">
               <div className="title-one mb-40 lg-mb-10 wow fadeInUp">
-                <h2>Our Team</h2>
+                <h2>Meet Our Team</h2>
               </div>
               <p className="text-xl text-dark mb-30 lg-mb-10">
               Our team is constantly committed to innovation and pushing the boundaries while delivering workplaces.
