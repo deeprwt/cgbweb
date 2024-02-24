@@ -15,6 +15,8 @@ import Kushangi  from "@/assets/images/media/1.jpg"
 import Shobha  from "@/assets/images/media/3.jpg"
 import gif1 from "@/assets/images/media/gif.gif"
 import gif2 from "@/assets/images/media/gif2.gif"
+import gif3 from "@/assets/images/media/gif3.gif"
+import gif4 from "@/assets/images/media/gif4.gif"
 // import Rahul  from "@/assets/images/media/6.jpg"
 import team_9 from "@/assets/images/media/img_27.jpg";
 import team_10 from "@/assets/images/media/img_28.jpg";
@@ -107,7 +109,7 @@ const team_data: ITeam[] = [
     name: "Moumita Ganguly",
     designation: "HR Manager",
     page: "team-three",
-    gif: gif1,
+    gif: gif3,
   },
   {
     id: 11,
@@ -121,9 +123,9 @@ const team_data: ITeam[] = [
     id: 12,
     img: Kushangi,
     name: "Kushangi Shrithika",
-    designation: "Content Writer",
+    designation: "Marketing Specialist",
     page: "team-three",
-    gif: gif1,
+    gif: gif4,
   },
   // team page
   // {
