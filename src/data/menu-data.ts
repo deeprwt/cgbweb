@@ -90,12 +90,12 @@ const menu_data:IMenu[] = [
     dropdown_menus:[
           {link:'/coming-soon',title:'Our Story'},
           {link:'/vision',title:'Vision'},
-          {link:'/coming-soon',title:'Mission'},
-          {link:'/coming-soon',title:'Awards'},
-          {link:'/coming-soon',title:'Recognition'},
-          {link:'/coming-soon',title:'Our Culture'},
-          {link:'/coming-soon',title:'Leadership'},
-          {link:'/coming-soon',title:'Partners'},
+          {link:'/mission',title:'Mission'},
+          {link:'/awards',title:'Awards'},
+          {link:'/recognition',title:'Recognition'},
+          {link:'/our-culture',title:'Our Culture'},
+          {link:'/leadersip',title:'Leadership'},
+          {link:'/partners',title:'Partners'},
     ]
   },
   {
