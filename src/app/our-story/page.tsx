@@ -11,14 +11,14 @@ import ServiceDetailsArea from "@/components/services/service-details-area";
 import NewsletterBanner from "@/components/newsletter/newsletter-banner";
 import FooterOne from "@/layout/footer/footer-one";
 import Company from "@/components/services/company";
-import VisionSection from "@/components/company/vision-section";
+import OurStorySection from "@/components/company/ourstory-section";
 
 
 export const metadata: Metadata = {
-  title: "Vision",
+  title: "Our Story",
 };
 
-const Vision = () => {
+export default function OurStory() {
   return (
     <Wrapper>
       <div className="main-page-wrapper">
@@ -28,9 +28,9 @@ const Vision = () => {
         <main>
           {/* breadcrumb start */}
           <BreadcrumbOne
-            title="Single Service Details"
+            title="Our Story"
             subtitle="Offering solutions & services to address a spectrum of financial issues"
-            page="Services"
+            page="Our Story"
             // // shape={shape}
             bg_img={service_bg}
             style_2={true}
@@ -39,7 +39,7 @@ const Vision = () => {
           {/* breadcrumb end */}
 
           {/* service details area start */}
-          <VisionSection />
+          <OurStorySection />
           {/* service details area end */}
 
         </main>
@@ -53,4 +53,3 @@ const Vision = () => {
   );
 };
 
-export default Vision;
