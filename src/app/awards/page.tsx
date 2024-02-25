@@ -10,13 +10,11 @@ import shape from "@/assets/images/shape/shape_27.svg";
 import ServiceDetailsArea from "@/components/services/service-details-area";
 import NewsletterBanner from "@/components/newsletter/newsletter-banner";
 import FooterOne from "@/layout/footer/footer-one";
-import Company from "@/components/services/company";
-import OurStorySection from "@/components/company/ourstory-section";
-import MissionSection from "@/components/company/mission-section";
+import AwardsSection from "@/components/company/awards-section";
 
 
 export const metadata: Metadata = {
-  title: "Mission - CGB's",
+  title: "Awards - CGB's",
 };
 
 export default function Mission() {
@@ -29,9 +27,9 @@ export default function Mission() {
         <main>
           {/* breadcrumb start */}
           <BreadcrumbOne
-            title="Mission"
+            title="Awards"
             subtitle="Offering solutions & services to address a spectrum of financial issues"
-            page="Mission"
+            page="Awards"
             // // shape={shape}
             bg_img={service_bg}
             style_2={true}
@@ -40,7 +38,7 @@ export default function Mission() {
           {/* breadcrumb end */}
 
           {/* service details area start */}
-          <MissionSection />
+          <AwardsSection />
           {/* service details area end */}
 
         </main>

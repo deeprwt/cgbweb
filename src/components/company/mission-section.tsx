@@ -20,19 +20,6 @@ import ils_icon from '@/assets/images/assets/ils_03.svg';
 import SideBar from './side-bar';
 
 
-
-// CardItem
-function CardItem({icon,title,subtitle}:{icon:StaticImageData;title:string;subtitle:string}) {
-  return (
-    <div className="card-style-sixteen text-center mt-40">
-      <div className="icon m-auto tran3s rounded-circle d-flex align-items-center justify-content-center">
-        <Image src={icon} alt="icon" className="lazy-img"/>
-       </div>
-      <h4 className="fw-bold mt-35 lg-mt-30 mb-15">{title}</h4>
-      <p className="m0">{subtitle}</p>
-    </div>
-  )
-}
 // style 
 const imgStyle = {
   height:'auto'
