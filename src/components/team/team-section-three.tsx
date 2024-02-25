@@ -23,7 +23,7 @@ const TeamSectionThree = ({ style_2 = false }: { style_2?: boolean }) => {
               <div className="title-one mb-40 lg-mb-10 wow fadeInUp">
                 <h2>Meet Our Team</h2>
               </div>
-              <p className="text-xl text-dark mb-30 lg-mb-10">
+              <p className="text-xl text-dark mb-30 p-20 lg-mb-10">
               Our team is constantly committed to innovation and pushing the boundaries while delivering workplaces.
                 </p>
 
@@ -40,8 +40,8 @@ const TeamSectionThree = ({ style_2 = false }: { style_2?: boolean }) => {
               </div>
 
               <div className="section-btn sm-mt-40">
-                <Link href="/team-v2" className="btn-five icon-link">
-                  <span className="text">See all Experts</span>
+                <Link href="/leadership" className="btn-five icon-link">
+                  <span className="text">Meet with all</span>
                   <div className="icon tran3s rounded-circle d-flex align-items-center justify-content-center">
                     <i className="bi bi-arrow-up-right"></i>
                   </div>

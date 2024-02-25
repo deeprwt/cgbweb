@@ -24,7 +24,7 @@ const TeamDetailsArea = () => {
                 {/* <Image src={bg_img} alt="Sindhu mam profile"></Image> */}
               {/* </div> */}
             </div>
-            <div className="col-lg-8 col-md-6">
+            <div className="col-lg-8 col-md-12">
               <div className="pt-45 pb-45 ps-xl-4 ps-lg-0 ps-3 pe-xl-4 pe-lg-3 pe-3 border-right h-100">
                 <h2 className="name fw-bold">Sindhu B.R.J</h2>
                 <div className="post">CEO, CGB Soltuions</div>

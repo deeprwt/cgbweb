@@ -94,7 +94,7 @@ const menu_data:IMenu[] = [
           {link:'/awards',title:'Awards'},
           {link:'/recognition',title:'Recognition'},
           {link:'/our-culture',title:'Our Culture'},
-          {link:'/leadersip',title:'Leadership'},
+          {link:'/leadership',title:'Leadership'},
           {link:'/partners',title:'Partners'},
     ]
   },
