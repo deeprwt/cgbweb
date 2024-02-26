@@ -10,6 +10,7 @@ import FaqSectionOne from "@/components/faq/faq-section-one";
 import FeedbackOne from "@/components/feedback/feedback-one";
 import HeroBannerTwo from "@/components/hero-banner/hero-banner-two";
 import HowWeDo from "@/components/home-data/how-we-do";
+import StaffingSolutions from "@/components/home-data/staffing-solutions";
 import WhatsNew from "@/components/home-data/whats-new";
 import CeoData from "@/components/leadership/ceo";
 import PartnersLogos from "@/components/partners/partners-logo";
@@ -48,12 +49,15 @@ export default function HomePage() {
           {/* tabs are for solutions start */}
           <TabsData />
           {/* tabs are for solutions start */}
+   
+          <StaffingSolutions />
+
+
+          <BlockFeatureAbout style_2={true} />
 
           {/* how we do page section start  */}
           <HowWeDo />
           {/* how we do page section end  */}
-
-          <BlockFeatureAbout style_2={true} />
 
           {/* clints logo start  */}
           <ClintLogo />

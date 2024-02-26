@@ -34,7 +34,7 @@ export default function ContractStaffing() {
         <main>
           {/* hero banner start */}
           <BreadcrumbOne 
-          title="Contract Staffing Solutions"
+          title="Contract Staffing"
           subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
           page="Contract Staffing"
           bg_img={about_bg}
@@ -43,49 +43,6 @@ export default function ContractStaffing() {
           />
           {/* hero banner end */}
 
-          {/* Start */}
-          <TwoColData />
-          {/* end */}
-
-          {/* start */}
-          <MendixFeature />
-          {/* end */}
-
-          {/* start */}
-          <FaqSolutions />
-          {/* end */}
-
-          <SectionSol1 />
-
-
-
-          {/* block feature six start */}
-          {/* <BlockFeatureSix /> */}
-          {/* block feature six end */}
-
-          {/* text feature four start */}
-          {/* <TextFeatureFour /> */}
-          {/* text feature four end */}
-
-          {/* text feature five start */}
-          {/* <TextFeatureFive /> */}
-          {/* text feature five end */}
-
-          {/* block feature seven start */}
-          {/* <BlockFeatureSeven /> */}
-          {/* block feature seven end */}
-
-          {/* feedback three start */}
-          {/* <FeedbackThree /> */}
-          {/* feedback three end */}
-
-          {/* fancy banner four start */}
-          {/* <FancyBannerFour /> */}
-          {/* fancy banner four end */}
-
-          {/* blog item start */}
-          {/* <HomeThreeBlogs /> */}
-          {/* blog item end */}
         </main>
 
         {/* footer start */}

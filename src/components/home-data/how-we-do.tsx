@@ -28,7 +28,7 @@ function CardItem({
         <Image src={icon} alt="icon" className="lazy-img" />
       </div>
       <h4 className="fw-bold mt-35 md-mt-30 mb-15">{title}</h4>
-      <p className="m0 fs-5 lh-base pe-xl-5 ps-xl-5">{subtitle}</p>
+      <p className="m0 fs-5 lh-base pe-xl-3 ps-xl-3">{subtitle}</p>
     </div>
   );
 }
@@ -80,7 +80,7 @@ const HowWeDo = () => {
                 <h4 className="fw-bold mt-35 md-mt-30 mb-15">
                   Product Experts
                 </h4>
-                <p className="m0 fs-5 lh-base pe-xl-5 ps-xl-5">
+                <p className="m0 fs-5 lh-base pe-xl-3 ps-xl-3">
                   Provide strategic insights to navigate market challenges
                 </p>
               </div>
