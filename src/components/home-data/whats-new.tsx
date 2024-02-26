@@ -17,11 +17,11 @@ const WhatsNew = () => {
       <div className="full position-relative service-details" style={backImg}>
       <div className="overlayStyle"></div>
         <div className="container position-relative" style={{zIndex: "1"}}>
-          <div className="counter-wrapper pt-80 pb-80">
+          <div className="counter-wrapper pt-40 pb-40">
             <div className="row details-meta">
               <div className="title-one">
                 {/* <div className="upper-title"></div> */}
-                <h3 className="text-white">What&apos;s New</h3>
+                <h3 className="text-white text-center">What&apos;s New</h3>
               </div>
               <div
                 className="col-md-3 mb-35 mt-35  wow fadeInUp"
