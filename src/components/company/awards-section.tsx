@@ -83,7 +83,7 @@ const AwardsSection = () => {
           </div>
           <div className="col-xxl-3 col-lg-3">
             <aside className="md-mt-40">
-              <div className="service-nav-item">
+              <div className="service-nav-item ">
                 <SideBar
                   active_data={false}
                   active_data1={false}
