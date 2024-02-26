@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Recognition - CGB's",
 };
 
-export default function Mission() {
+export default function Recognition() {
   return (
     <Wrapper>
       <div className="main-page-wrapper">

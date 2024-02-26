@@ -10,14 +10,16 @@ import shape from "@/assets/images/shape/shape_27.svg";
 import ServiceDetailsArea from "@/components/services/service-details-area";
 import NewsletterBanner from "@/components/newsletter/newsletter-banner";
 import FooterOne from "@/layout/footer/footer-one";
-import OurCultureSection from "@/components/company/ourculture-section";
+import AwardsSection from "@/components/company/awards-section";
+import RecognitionSection from "@/components/company/recognition-section";
+import PartnersSection from "@/components/company/partners-section";
 
 
 export const metadata: Metadata = {
-  title: "Our Culture - CGB's",
+  title: "Partners - CGB's",
 };
 
-export default function OurCulture() {
+export default function Partners() {
   return (
     <Wrapper>
       <div className="main-page-wrapper">
@@ -27,9 +29,9 @@ export default function OurCulture() {
         <main>
           {/* breadcrumb start */}
           <BreadcrumbOne
-            title="Our Culture"
+            title="Partners"
             subtitle="Offering solutions & services to address a spectrum of financial issues"
-            page="Our Culture"
+            page="Partners"
             // // shape={shape}
             bg_img={service_bg}
             style_2={true}
@@ -38,7 +40,7 @@ export default function OurCulture() {
           {/* breadcrumb end */}
 
           {/* service details area start */}
-            <OurCultureSection />
+            <PartnersSection />
           {/* service details area end */}
 
         </main>

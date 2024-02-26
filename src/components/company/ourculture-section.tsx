@@ -2,11 +2,13 @@ import React from "react";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 // internal
+import service_img from '@/assets/images/media/img_35.jpg';
 import awardsimg from "@/assets/images/company/awards/talentlinkedin.svg";
 import awardsimg2 from "@/assets/images/company/awards/grat-work.jpg";
 import awardsimg3 from "@/assets/images/company/awards/indian-achive-logo.png";
 import icon_10 from "@/assets/images/icon/icon_81.svg";
 import SideBar from "./side-bar";
+import ImgGallery from "../gallery/img-gallery";
 
 // CardItem
 function CardItem({
@@ -32,49 +34,26 @@ function CardItem({
 const imgStyle = {
   height: "auto",
 };
-const OurCectionSection = () => {
+const OurCultureSection = () => {
   return (
+    <>
     <div className="service-details mt-150 lg-mt-80 mb-100 lg-mb-80">
       <div className="container">
         <div className="row">
           <div className="col-xxl-9 col-lg-9">
             <div className="details-meta ps-xxl-5 ps-xl-3">
-              <h2>Our Recognition</h2>
+              <h2>Our Culture</h2>
               <p>
                 We aspire to be the visionary of a future where the seamless
                 integration of unparalleled talent and cutting-edge technology
                 not only redefines success for businesses but sets an entirely
                 new standard for global excellence
               </p>
-              <div className="line-wrapper pb-30 mt-60 lg-mt-40 mb-70 lg-mb-40">
-                <div className="row">
-                  <div className="col-md-4 wow fadeInUp">
-                    <CardItem
-                      icon={awardsimg}
-                      title="Collect Doc"
-                      subtitle="We collect require documents & send for check"
-                    />
-                  </div>
-                  <div className="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <CardItem
-                      icon={awardsimg2}
-                      title="Check & Finalize"
-                      subtitle="We check the documents & send for final approval"
-                    />
-                  </div>
-                  <div className="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-                    <CardItem
-                      icon={awardsimg3}
-                      title="Approved"
-                      subtitle="After approve you ready to use your accounts"
-                    />
-                  </div>
-                </div>
-              </div>
-              {/* <div className="img-meta mb-60 lg-mb-40">
+                
+              <div className="img-meta mb-60 lg-mb-40">
                 <Image src={service_img} alt="service_img" className="lazy-img w-100 rounded-4" 
                 style={imgStyle}/>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="col-xxl-3 col-lg-3">
@@ -96,7 +75,9 @@ const OurCectionSection = () => {
         </div>
       </div>
     </div>
+    <ImgGallery />
+    </>
   );
 };
 
-export default OurCectionSection;
+export default OurCultureSection;
