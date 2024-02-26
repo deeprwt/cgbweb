@@ -1,3 +1,4 @@
+import BlockFeatureAbout from "@/components/block-feature/block-feature-about";
 import BlockFeatureOne from "@/components/block-feature/block-feature-one";
 import BlockFeatureThree from "@/components/block-feature/block-feature-three";
 import BlockFeatureTwo from "@/components/block-feature/block-feature-two";
@@ -8,6 +9,7 @@ import FancyBannerTwo from "@/components/fancy-banner/fancy-banner-two";
 import FaqSectionOne from "@/components/faq/faq-section-one";
 import FeedbackOne from "@/components/feedback/feedback-one";
 import HeroBannerTwo from "@/components/hero-banner/hero-banner-two";
+import HowWeDo from "@/components/home-data/how-we-do";
 import WhatsNew from "@/components/home-data/whats-new";
 import CeoData from "@/components/leadership/ceo";
 import PartnersLogos from "@/components/partners/partners-logo";
@@ -40,12 +42,18 @@ export default function HomePage() {
           {/* whatsnew section end */}
 
           {/* about us content start  */}
-           <TextFeatureHome />
+          <TextFeatureHome />
           {/* about us content start  */}
 
           {/* tabs are for solutions start */}
           <TabsData />
           {/* tabs are for solutions start */}
+
+          {/* how we do page section start  */}
+          <HowWeDo />
+          {/* how we do page section end  */}
+
+          <BlockFeatureAbout style_2={true} />
 
           {/* clints logo start  */}
           <ClintLogo />
@@ -101,7 +109,7 @@ export default function HomePage() {
         </main>
 
         {/* footer start */}
-        <FooterOne/>
+        <FooterOne />
         {/* footer end */}
       </div>
     </Wrapper>

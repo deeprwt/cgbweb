@@ -385,7 +385,8 @@
             background: $color-one;
         }
     }
-    &.arrow:before,
+    // uncomment to add left arrow 
+    // &.arrow:before,
     &.arrow:after {
         content: url(../images/shape/shape_30.svg);
         position: absolute;
