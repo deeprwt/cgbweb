@@ -43,6 +43,7 @@ const settings = {
   autoplay: true,
   fade: true,
   autoplaySpeed: 5000,
+  touchMove: false // Disable touch events
 };
 
 
