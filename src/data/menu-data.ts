@@ -88,7 +88,7 @@ const menu_data:IMenu[] = [
     title:'Company ',
     dropdown:true,
     dropdown_menus:[
-          {link:'/coming-soon',title:'Our Story'},
+          {link:'/our-story',title:'Our Story'},
           {link:'/vision',title:'Vision'},
           {link:'/mission',title:'Mission'},
           {link:'/awards',title:'Awards'},
