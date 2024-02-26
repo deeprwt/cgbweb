@@ -22,6 +22,7 @@ import slider_3 from "@/assets/images/media/img_02.jpg";
 import icon_1 from "@/assets/images/icon/icon_85.svg";
 import icon_2 from "@/assets/images/icon/icon_88.svg";
 import icon_3 from "@/assets/images/icon/icon_89.svg";
+import GraphicTechLogo from "../clint-logo/graphic-tech-logo";
 
 // img style
 const imgStyle = {
@@ -73,7 +74,7 @@ const GraphicDesigningSections = ({ cls }: { cls?: string }) => {
             <div className="col-xxl-12 col-lg-12 py-4  ms-auto d-flex flex-column order-lg-last wow fadeInRight">
               <div className="title-one">
                 {/* <div className="upper-title">About us</div> */}
-                <h3>We are top-notch mobile app development company.</h3>
+                <h3>We are top-notch Graphic Designing company.</h3>
               </div>
               <p className="text-lg my-4">
                 CGB is one of India&lsquo;s most promising full-service digital
@@ -169,7 +170,7 @@ const GraphicDesigningSections = ({ cls }: { cls?: string }) => {
       {/* card end */}
 
       {/* technolgy logo slider start  */}
-      <AppTechLogo />
+      <GraphicTechLogo />
       {/* technolgy logo slider end  */}
 
       {/* accordian structure reasone to choose start  */}
@@ -184,7 +185,7 @@ const GraphicDesigningSections = ({ cls }: { cls?: string }) => {
               <div className="title-one mb-40 lg-mb-20">
                 <h2>Benefits of Outsourcing </h2>
               </div>
-              <p className="text-lg mb-40 lg-mb-20">Web Development Services</p>
+              <p className="text-lg mb-40 lg-mb-20">Graphic Designing Services</p>
               <div
                 className="accordion accordion-style-one mt-15 md-mt-50"
                 id="accordionOne"
