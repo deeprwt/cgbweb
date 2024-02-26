@@ -31,10 +31,10 @@ const menu_data:IMenu[] = [
       {
         id:2,
         menus:[
-          {link:'/coming-soon',title:'Contract Staffing'},
-          {link:'/coming-soon',title:'Permanent Staffing'},
-          {link:'/coming-soon',title:'Hire-Train-Deploy'},
-          {link:'/coming-soon',title:'RPO'}
+          {link:'/contract-staffing',title:'Contract Staffing'},
+          {link:'/permanent-staffing',title:'Permanent Staffing'},
+          {link:'/hire-train-deploy',title:'Hire-Train-Deploy'},
+          {link:'/rpo',title:'RPO'}
         ]
       },
       {
