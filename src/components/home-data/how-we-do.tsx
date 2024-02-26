@@ -28,9 +28,7 @@ function CardItem({
         <Image src={icon} alt="icon" className="lazy-img" />
       </div>
       <h4 className="fw-bold mt-35 md-mt-30 mb-15">{title}</h4>
-      <p className="m0 fs-5 lh-base pe-xl-5 ps-xl-5">
-        {subtitle}
-      </p>
+      <p className="m0 fs-5 lh-base pe-xl-5 ps-xl-5">{subtitle}</p>
     </div>
   );
 }
@@ -44,35 +42,35 @@ const HowWeDo = () => {
           <h3>How We Do</h3>
         </div>
         <p className="text-lg">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullaum laboris nisi ut aliquip
-          ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-          volupta velit esse cillum dolore eu fugiat nulla pariatur.
+          We bring together a team of Technical Architects, Product Experts,
+          Coaches, and Industry Experts to provide comprehensive solutions
+          tailored to your needs. <br />
+          We blend technical prowess with industry insights to deliver
+          unparalleled solutions that propel your business forward.
         </p>
         <div className="line-wrapper border-top border-bottom pt-20 pb-60 lg-pb-40 mt-60 lg-mt-40 mb-70 lg-mb-40">
           {/* project details feature start */}
           <div className="row">
             <div className="col-lg-3 wow fadeInUp">
-            <CardItem
-              icon={icon_1}
-              title="Technical Aechitects"
-              subtitle="The platform offers a drag-and-drop "
-            />
+              <CardItem
+                icon={icon_1}
+                title="Technical Aechitects"
+                subtitle="Craft robust and scalable technical solutions"
+              />
             </div>
             <div className="col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
-            <CardItem
-              icon={icon_1}
-              title="Product Experts"
-              subtitle="The platform offers a drag-and-drop "
-            />
+              <CardItem
+                icon={icon_1}
+                title="Product Experts"
+                subtitle=" Develop innovative products aligned with market demands."
+              />
             </div>
             <div className="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-            <CardItem
-              icon={icon_1}
-              title="Coaches"
-              subtitle="The platform offers a drag-and-drop "
-            />
+              <CardItem
+                icon={icon_1}
+                title="Coaches"
+                subtitle=" Empower your team with guidance and expertise."
+              />
             </div>
             <div className="col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
               <div className="card-style-sixteen text-center position-relative mt-40">
@@ -80,10 +78,10 @@ const HowWeDo = () => {
                   <Image src={icon_2} alt="icon" className="lazy-img" />
                 </div>
                 <h4 className="fw-bold mt-35 md-mt-30 mb-15">
-                    Product Experts
+                  Product Experts
                 </h4>
                 <p className="m0 fs-5 lh-base pe-xl-5 ps-xl-5">
-                  We check the documents & send for final approval
+                  Provide strategic insights to navigate market challenges
                 </p>
               </div>
             </div>
