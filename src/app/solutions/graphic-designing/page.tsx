@@ -19,7 +19,7 @@ import SolutionsNav from "@/components/solutions/solutions-nav";
 import GraphicDesigningSections from "@/components/solutions/graphicdesigning-section";
 
 export const metadata: Metadata = {
-  title: "App Development",
+  title: "Graphic Designing",
 };
 
 export default function GraphicDesigning() {

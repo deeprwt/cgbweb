@@ -15,7 +15,7 @@ const imgStyle = {
 
 const HeroBannerSix = () => {
   return (
-    <div className="hero-banner-six pt-170 md-pt-110 position-relative">
+    <div className="hero-banner-six pt-170 position-relative">
       <div className="container position-relative">
         <div className="row justify-content-between">
           <div className="col-md-6 wow fadeInLeft">
@@ -66,11 +66,11 @@ const HeroBannerSix = () => {
         <div className="row">
           <div className="col-12">
             <div className="partner-logo-one pt-60 md-pt-50">
-              <p className="fw-500 text-dark mb-40">
+              <p className="fw-500 text-dark mb-4">
                 <span className="text-decoration-underline">Join 27,000+</span>{" "}
                 companies who’ve reached{" "}
               </p>
-              <PartnersSliderOne />
+              {/* <PartnersSliderOne /> */}
             </div>
           </div>
         </div>

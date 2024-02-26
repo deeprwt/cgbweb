@@ -35,7 +35,7 @@ const slider_setting = {
 const BlockFeatureEleven = () => {
   const service_items = service_data.filter((s) => s.page === "home-5").slice(0,4);
   return (
-    <div className="block-feature-eleven overflow-hidden position-relative mt-225 lg-mt-100 pb-200 lg-pb-100 md-pb-80">
+    <div className="block-feature-eleven overflow-hidden position-relative mt-50 lg-mt-100 pb-200 lg-pb-100 md-pb-80">
       <div className="container">
         <div className="row gx-lg-5 align-items-center">
           <div className="col-lg-5 wow fadeInLeft">
