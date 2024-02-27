@@ -114,7 +114,7 @@ const ParmanentStaffingSection = ({ cls }: { cls?: string }) => {
                     When you do not have specific expertise in a given field
                   </li>
                   <li className="lim">
-                    When you don't have your own in-house dedicated recruiters
+                    When you don&lsquo;t have your own in-house dedicated recruiters
                   </li>
                 </ul>
               </div>
@@ -179,7 +179,7 @@ const ParmanentStaffingSection = ({ cls }: { cls?: string }) => {
             </h3>
             <p className="text-center">
               We help you recruit top talent for all your permanent direct-hire
-              roles, securing the skills needed for your organization's ongoing
+              roles, securing the skills needed for your organization&lsquo;s ongoing
               success. <br /> We utilize our recruiting experts and have direct
               access to a wide range of talent, including hard-to-reach
               professionals who are not actively looking for a new job.
@@ -218,9 +218,9 @@ const ParmanentStaffingSection = ({ cls }: { cls?: string }) => {
                     Delivering to your needs
                   </h4>
                   <p className="m0 fs-5 lh-base">
-                    Our job doesn't end when candidates sign contracts. We
-                    provide onboarding and answer all questions. We're your
-                    trusted point of contact throughout a worker's tenure.
+                    Our job doesn&lsquo;t end when candidates sign contracts. We
+                    provide onboarding and answer all questions. We&lsquo;re your
+                    trusted point of contact throughout a worker&lsquo;s tenure.
                   </p>
                 </div>
               </div>
