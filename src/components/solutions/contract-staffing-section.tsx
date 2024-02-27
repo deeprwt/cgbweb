@@ -89,7 +89,7 @@ const ContractStaffingSection = ({ cls }: { cls?: string }) => {
             <div className="col-xl-6 col-lg-6 wow fadeInLeft">
               <div className="mt-2">
                 <ul className="style-none list-item pb-20">
-                  <li className="lim">When you don’t have an HR department</li>
+                  <li className="lim">When you don't have an HR department</li>
                   <li className="lim">
                     When you need to scale quickly for only a certain period of
                     time
