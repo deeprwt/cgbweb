@@ -174,7 +174,7 @@ const DigitalMarketingSection = () => {
                           </li>
                           <li>Enjoying a free and user-friendly service for verifying and editing business information.</li>
                           <li>Improving visibility in local searches and increasing discoverability.</li>
-                          <li>Establishing trust and credibility through an official presence on Google's platform.</li>
+                          <li>Establishing trust and credibility through an official presence on Google platform.</li>
                         </ul>
                       </div>
                     </div>
