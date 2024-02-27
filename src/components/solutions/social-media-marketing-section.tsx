@@ -241,7 +241,7 @@ const SocialMediaMarketingSection = () => {
                         <p>
                           Your company or brand gets projected on how well you
                           are good with your customers when they need you. Make
-                          sure when you are engaging content, it's important to
+                          sure when you are engaging content, it&lsquo;s important to
                           offer your unlimited 24/7 support.
                         </p>
                         <ul className="style-none list-item ">
@@ -348,7 +348,7 @@ const SocialMediaMarketingSection = () => {
                     <div className="service-details">
                       <div className="details-meta ">
                         You cannot find your customers on all social media
-                        platforms. We track your potential customers' platforms
+                        platforms. We track your potential customer&lsquo;s platforms
                         to market your ideas. Platforms should be chosen based
                         on your business, and depending upon the choices of your
                         customers. Be it Facebook or LinkedIn, Instagram, or
