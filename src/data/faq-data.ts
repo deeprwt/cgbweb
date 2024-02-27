@@ -125,6 +125,42 @@ const faq_data: IFaq[] = [
     desc: "When you outsource your projects to an agency with set processes and workflows in place, you you receive your deliverables well before time.",
     page:'web-2'
   },
+  {
+    id: 19,
+    title: "Custom workforce solutions",
+    desc: "Regardless of the current or potential scale of your staffing needs, we build a custom solution with flexible and agile processes that support your business, ensuring your goals are met.",
+    page:'parmanent-staffing'
+  },
+  {
+    id: 20,
+    title: "Staffing solutions that scale",
+    desc: "Our high-touch programs range from onsite services to master vendor programs and beyond. We craft solutions that fit today's needs and achieve tomorrow's goals.",
+    page:'parmanent-staffing'
+  },
+  {
+    id: 21,
+    title: "Specialized recruiters",
+    desc: "Our recruiters specialize in your industry and nothing more. They understand how to navigate changes in the field and which skills are needed to future-proof your business.",
+    page:'parmanent-staffing'
+  },
+  {
+    id: 22,
+    title: "Advanced technology",
+    desc: "To better recruit and hire, we leverage technology to mine our mountain of data on talent, hourly wages, salary figures, and more.",
+    page:'parmanent-staffing'
+  },
+  {
+    id: 23,
+    title: "Upskilling/Reskilling",
+    desc: "Job candidates need training to meet the need for technical skill sets. Our Training Solutions offer programs to upskill, reskill, and cross-skill for future roles.",
+    page:'parmanent-staffing'
+  },
+  {
+    id: 24,
+    title: "Rapid turnaround",
+    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    page:'parmanent-staffing'
+  },
 ];
 
 export default faq_data;

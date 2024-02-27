@@ -63,7 +63,7 @@ function CardItem({
   );
 }
 
-const ParmanentStaffingSection = ({ cls }: { cls?: string }) => {
+const HireTrainDepolySection = ({ cls }: { cls?: string }) => {
   const service_items = service_data.filter(
     (s) => s.page === "parmanent-staffing"
   );
@@ -341,4 +341,4 @@ const ParmanentStaffingSection = ({ cls }: { cls?: string }) => {
   );
 };
 
-export default ParmanentStaffingSection;
+export default HireTrainDepolySection;

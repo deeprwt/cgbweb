@@ -270,6 +270,27 @@ const service_data:IService[] = [
     desc:'Only pay for staff when you actually need them and maintain the most efficient business output.',
     page:'contract-staffing'
   },
+  {
+    id:34,
+    icon:icon_11,
+    title:'Manage talent and skill scarcity across your business',
+    desc:'Using our extensive talent acquisition resources, we help you hire the best, across any skillset, regardless of scarcity.',
+    page:'parmanent-staffing'
+  },
+  {
+    id:35,
+    icon:icon_11,
+    title:'Tailored recruitment advisory',
+    desc:'We advise you across a range of topics from employer branding and organizational changes, to ESG with the goal to attract and retain top talent.',
+    page:'parmanent-staffing'
+  },
+  {
+    id:36,
+    icon:icon_11,
+    title:'Hire quickly and flexibly whenever you need to',
+    desc:'We manage your hiring needs efficiently, on budget, and on time, no matter the vacancy, no matter when you need support.',
+    page:'parmanent-staffing'
+  },
 ]
 
 export default service_data;
