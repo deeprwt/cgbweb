@@ -20,6 +20,7 @@ import FaqSolutions from "@/components/faq/faq-solutions";
 import FooterOne from "@/layout/footer/footer-one";
 import SectionSol1 from "@/components/two-col/section-sol1";
 import ContractStaffingSection from "@/components/solutions/contract-staffing-section";
+import HireTrainDepolySection from "@/components/solutions/hire-train-depoly-sections";
 
 export const metadata: Metadata = {
   title: "Hire Train Deploy - CGB's",
@@ -44,7 +45,7 @@ export default function HireTrainDeploy() {
           />
           {/* hero banner end */}
 
-          <ContractStaffingSection />
+          <HireTrainDepolySection />
         </main>
 
         {/* footer start */}

@@ -65,7 +65,7 @@ function CardItem({
 
 const HireTrainDepolySection = ({ cls }: { cls?: string }) => {
   const service_items = service_data.filter(
-    (s) => s.page === "parmanent-staffing"
+    (s) => s.page === "hire-train-depoly"
   );
   return (
     <>
@@ -74,50 +74,17 @@ const HireTrainDepolySection = ({ cls }: { cls?: string }) => {
         <div className="container">
           <div className="row align-items-center details-meta">
             <div className="title-one">
+                <div className="upper-title text-center">  Supercharge your workforce with</div>
               <h3 className="text-center">
-                When to choose our permanent recruitment solution
+               Industry-leading
+                Hire-Train-Deploy services
               </h3>
               <p className="text-lg text-center px-4 mb-35 md-mb-30">
-                Hiring permanently is a great way to grow your business. We act
-                as an extension to your company and handle everything from
-                talent acquisition to salary negotiations.
+                Unlock the full potential of your team with our comprehensive
+                Hire-Train-Deploy services at CGB Solutions. We provide
+                end-to-end solutions of hiring, training and deploying talented
+                individuals who align with your organization's goals.
               </p>
-            </div>
-            <div className="col-xl-5 col-lg-5 wow fadeInRight">
-              <Image
-                src={img1}
-                layout="responsive"
-                alt="About us"
-                className="w-100 h-auto"
-              ></Image>
-            </div>
-            <div className="col-xl-7 col-lg-7 wow fadeInLeft">
-              <div className="mt-2">
-                <ul className="style-none list-item pb-20">
-                  <li className="lim">
-                    When you have a tight deadline to hire, and are struggling
-                    to find the right talent
-                  </li>
-                  <li className="lim">
-                    When you need help finding and attracting hard-to-source
-                    candidates
-                  </li>
-                  <li className="lim">
-                    When you want a personal consultant with industry experience
-                    and a wide network
-                  </li>
-                  <li className="lim">
-                    When you need continual expert support at small or large
-                    scales
-                  </li>
-                  <li className="lim">
-                    When you do not have specific expertise in a given field
-                  </li>
-                  <li className="lim">
-                    When you don&lsquo;t have your own in-house dedicated recruiters
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>
@@ -132,12 +99,12 @@ const HireTrainDepolySection = ({ cls }: { cls?: string }) => {
               <div className="row">
                 <div className="title-one">
                   <h3 className="text-center">
-                    Find the perfect permanent fit
+                    Shake up the way you source tech talent
                   </h3>
                 </div>
                 <p className="text-lg text-dark text-center mb-35 px-5 py-3 md-mb-30">
-                  We help you directly hire new talent at any scale of business
-                  or recruitment volume
+                  Get in-demand talent in the chair — while giving diverse tech
+                  talent a seat at the table. Hire-Train-Deploy changes the game
                 </p>
                 {service_items.map((item, i) => (
                   <div
@@ -175,70 +142,37 @@ const HireTrainDepolySection = ({ cls }: { cls?: string }) => {
           <div>
             {/* <div className="upper-title">Process</div> */}
             <h3 className="text-center">
-              Recruiting for permanent placements that last
+              A workforce solution that is tailored to your needs
             </h3>
             <p className="text-center">
-              We help you recruit top talent for all your permanent direct-hire
-              roles, securing the skills needed for your organization&lsquo;s ongoing
-              success. <br /> We utilize our recruiting experts and have direct
-              access to a wide range of talent, including hard-to-reach
-              professionals who are not actively looking for a new job.
+              Globally unemployment is a huge problem and yet employers complain
+              they cannot find the necessary skills for their business needs.
+              Lack of experience is one of the main barriers, and India is no
+              exception. Employers are under pressure to keep up with the
+              growing talent demand — but all too often, the available talent
+              lacks the technical training or soft skills employers need now.
             </p>
           </div>
-          <div className="line-wrapper border-top border-bottom pt-20 pb-60 lg-pb-40 mt-60 lg-mt-40 mb-70 lg-mb-40">
-            {/* project details feature start */}
-            <div className="row">
-              <div className="col-lg-3 wow fadeInUp">
-                <CardItem
-                  icon={icon_1}
-                  title="Talent acquisition at scale"
-                  subtitle="We have a broad and up-to-date candidate database and use a combination of online as well as offline strategies or attraction campaigns to proactively source potential hires."
-                />
-              </div>
-              <div className="col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
-                <CardItem
-                  icon={icon_1}
-                  title="Assessing the right fit"
-                  subtitle="Each individual is thoroughly screened, and if you require candidates with particular skill sets, we evaluate them to determine if they possess the necessary skills and training."
-                />
-              </div>
-              <div className="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-                <CardItem
-                  icon={icon_1}
-                  title="Finding the best match"
-                  subtitle="We provide you with a selection of the best candidates, having already checked references, negotiated salary, and validated the right to work."
-                />
-              </div>
-              <div className="col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
-                <div className="card-style-sixteen text-center position-relative mt-40">
-                  <div className="icon m-auto tran3s rounded-circle d-flex align-items-center justify-content-center">
-                    <Image src={icon_2} alt="icon" className="lazy-img" />
-                  </div>
-                  <h4 className="fw-bold mt-35 md-mt-30 mb-15">
-                    Delivering to your needs
-                  </h4>
-                  <p className="m0 fs-5 lh-base">
-                    Our job doesn&lsquo;t end when candidates sign contracts. We
-                    provide onboarding and answer all questions. We&lsquo;re your
-                    trusted point of contact throughout a worker&lsquo;s tenure.
-                  </p>
-                </div>
-              </div>
-            </div>
-            {/* project details feature end */}
-          </div>
+            
         </div>
       </div>
 
       <div className="block-feature-ten block-feature-six service-details bg-two position-relative mt-150 lg-mt-80 pb-60 pt-60 lg-pb-60">
         <div className="container details-meta">
           <div className="row align-items-center">
-            <div className="col-lg-8 wow fadeInUp">
+            <div className="col-lg-12 wow fadeInUp">
               <div className="title-one mb-50 lg-mb-20">
-                <h3>Powered by technology</h3>
-                <p>
-                  We responsibly use technology to attract, engage, train, and
-                  retain top talent for your business.{" "}
+                <h3 className="text-center">
+                  A workforce solution that is tailored to your needs
+                </h3>
+                <p className="text-center">
+                  Globally unemployment is a huge problem and yet employers
+                  complain they cannot find the necessary skills for their
+                  business needs. Lack of experience is one of the main
+                  barriers, and India is no exception. Employers are under
+                  pressure to keep up with the growing talent demand — but all
+                  too often, the available talent lacks the technical training
+                  or soft skills employers need now.
                 </p>
               </div>
             </div>
@@ -248,8 +182,8 @@ const HireTrainDepolySection = ({ cls }: { cls?: string }) => {
               <div className="col-xl-4 col-md-6 wow fadeInUp">
                 <CardItem2
                   icon={icon_1}
-                  title="Nurture"
-                  subtitle="Using our extensive proprietary data, we nurture existing talent, ensuring you have a pool of great candidates ready when you need them."
+                  title="Faster resource identification and deployment"
+                  subtitle="Implementing efficient hiring processes and targeted training programs to swiftly identify and deploy qualified talent for project requirements."
                 />
               </div>
               <div
@@ -258,8 +192,8 @@ const HireTrainDepolySection = ({ cls }: { cls?: string }) => {
               >
                 <CardItem2
                   icon={icon_2}
-                  title="Attract"
-                  subtitle="We use the most in-demand job boards and social media channels use programmatic advertising to source the best candidates."
+                  title="Availability of project-ready talent"
+                  subtitle=" Developing a pipeline of skilled individuals through proactive recruitment and comprehensive training, ensuring a readily available pool of talent for immediate project needs."
                 />
               </div>
               <div
@@ -268,75 +202,55 @@ const HireTrainDepolySection = ({ cls }: { cls?: string }) => {
               >
                 <CardItem2
                   icon={icon_3}
-                  title="Engage"
-                  subtitle="We use a number of digital channels to engage talent for your business, from email to our branded candidate apps and chatbots."
-                />
-              </div>
-              <div className="col-xl-4 col-md-6 wow fadeInUp">
-                <CardItem2
-                  icon={icon_4}
-                  title="Assess"
-                  subtitle="To make sure we only deliver the best candidates, our digital tools include a large array of tests and assessments, customized based on your needs."
+                  title="Reduced hiring expenses"
+                  subtitle=" Employing cost-effective hiring methods such as talent development programs and internal promotions to minimize external recruitment costs."
                 />
               </div>
               <div
                 className="col-xl-4 col-md-6 wow fadeInUp"
-                data-wow-delay="0.1s"
+                data-wow-delay="0.3s"
               >
                 <CardItem2
-                  icon={icon_5}
-                  title="Hire & Onboard"
-                  subtitle="We enable a completely digital onboarding path for candidates so they can sign, upload, and be verified in just a few clicks."
+                  icon={icon_4}
+                  title="Cost-effective skilled talent"
+                  subtitle="Investing in training initiatives to upskill existing employees, thereby reducing the need for external hires and lowering overall talent acquisition costs."
                 />
               </div>
               <div
+                className="col-xl-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.4s"
+              >
+                <CardItem2
+                  icon={icon_5}
+                  title="Low liability over nonperforming associates"
+                  subtitle=" Ensuring rigorous training and performance evaluation processes to mitigate the risk of nonperforming hires, minimizing associated liabilities."
+                />
+              </div>
+              <div
+                className="col-xl-4 col-md-6 wow fadeInUp"
+                data-wow-delay="0.5s"
+              >
+                <CardItem2
+                  icon={icon_6}
+                  title="Higher employee utilization"
+                  subtitle="Focusing on effective deployment strategies and workload management to maximize employee productivity and engagement across projects."
+                />
+              </div>
+              {/* <div
                 className="col-xl-4 col-md-6 wow fadeInUp"
                 data-wow-delay="0.2s"
               >
                 <CardItem2
                   icon={icon_6}
-                  title="Insights"
-                  subtitle="We provide you with direct labor market intelligence and can advise you on the next best action for your business."
+                  title="Long-term sustainability"
+                  subtitle="Building a sustainable talent ecosystem by continuously investing in employee development, fostering career growth opportunities, and aligning talent strategies with long-term business objectives."
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
 
-      {/* accordian structure reasone to choose start  */}
-      <div
-        className={`faq-section-one service-details ${
-          cls ? cls : "mt-150 mb-120 lg-mt-120 md-mt-80"
-        }`}
-      >
-        <div className="container  details-meta">
-          <div className="row">
-            <div className="col-lg-7">
-              <div className="title-one mb-40 lg-mb-20">
-                <h3>Experience the CGB Difference</h3>
-              </div>
-              <p className="text-lg mb-40 lg-mb-20">
-              Quality connections, quality results.
-              </p>
-              <div
-                className="accordion accordion-style-one mt-15 md-mt-50"
-                id="accordionOne"
-              >
-                {faq_data
-                  .filter((faq) => faq.page === "parmanent-staffing")
-                  .map((faq, i) => (
-                    <FaqItem key={i} {...faq} parent="accordionOne" />
-                  ))}
-              </div>
-            </div>
-            <div className="col-lg-5 wow fadeInLeft">
-              <Image src={screen} alt="screen" className="lazy-img h-auto" />
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* accordian end */}
     </>
   );
 };

@@ -291,6 +291,27 @@ const service_data:IService[] = [
     desc:'We manage your hiring needs efficiently, on budget, and on time, no matter the vacancy, no matter when you need support.',
     page:'parmanent-staffing'
   },
+  {
+    id:37,
+    icon:icon_11,
+    title:'Hire',
+    desc:'We tap into our diverse roster of 100,000+ alumni, the 5,000+ learners we train every year, and new candidates sourced through community partnerships. Our reach is global — so we source talent when and where you need it.',
+    page:'hire-train-depoly'
+  },
+  {
+    id:38,
+    icon:icon_11,
+    title:'Train',
+    desc:'Candidates get a complete job-ready education — from tech skills and soft skills to real-world capstone projects — all built and taught by industry experts.',
+    page:'hire-train-depoly'
+  },
+  {
+    id:39,
+    icon:icon_11,
+    title:'Deploy',
+    desc:'We manage your hiring needs efficiently, on budget, and on time, no matter the vacancy, no matter when you need support.',
+    page:'hire-train-depoly'
+  },
 ]
 
 export default service_data;
