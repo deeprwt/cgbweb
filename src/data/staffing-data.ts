@@ -24,14 +24,6 @@ import icon_17 from '@/assets/images/icon/icon_10.svg';
 import icon_18 from '@/assets/images/icon/icon_11.svg';
 
 
-// data type 
-interface IService {
-    id: number;
-    icon: StaticImageData;
-    title: string;
-    desc: string;
-    page: string;
-}
 
 interface IStaffing {
   id: number;

@@ -40,15 +40,14 @@ const StaffingSolutions = () => {
         <div className="row gx-lg-5 align-items-center">
           <div className="col-lg-5 wow fadeInLeft">
             <div className="title-one">
-              <h2 className="color-deep">Our Services</h2>
+              <h2 className="">Staffing Solutions</h2>
             </div>
             <p className="text-lg text-dark mt-30 md-mt-20 mb-45 md-mb-30">
-              Marketing agency with top talented people are providing quality
-              services.
+            We offer a combination of these services tailored to the specific needs of our clients, aiming to streamline their staffing processes and optimize workforce management
             </p>
-            <Link href="/contact" className="btn-eighteen tran3s">
+            {/* <Link href="/contact" className="btn-eighteen tran3s">
               Explore All
-            </Link>
+            </Link> */}
           </div>
           <div className="col-lg-7">
             <div className="slider-wrapper md-mt-50">

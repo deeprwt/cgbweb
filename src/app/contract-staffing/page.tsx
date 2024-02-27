@@ -19,6 +19,7 @@ import MendixFeature from "@/components/solutions/mendix-feature";
 import FaqSolutions from "@/components/faq/faq-solutions";
 import FooterOne from "@/layout/footer/footer-one";
 import SectionSol1 from "@/components/two-col/section-sol1";
+import ContractStaffingSection from "@/components/solutions/contract-staffing-section";
 
 export const metadata: Metadata = {
   title: "Contract Staffing - CGB's",
@@ -43,6 +44,7 @@ export default function ContractStaffing() {
           />
           {/* hero banner end */}
 
+          <ContractStaffingSection />
         </main>
 
         {/* footer start */}

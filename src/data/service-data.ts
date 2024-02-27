@@ -249,6 +249,27 @@ const service_data:IService[] = [
     desc:'CGB has been working in mobile commerce industry from several years now. With our demonstrated experience in delivering multiple m-commerce solutions, our proficient team is fully capable',
     page:'app-1'
   },
+  {
+    id:31,
+    icon:icon_11,
+    title:'Hire employees during peak times',
+    desc:'When your talent needs change throughout the year, flexible placements ensure productivity.',
+    page:'contract-staffing'
+  },
+  {
+    id:32,
+    icon:icon_11,
+    title:'Evaluating talent before longer contracts',
+    desc:'Hire with increased certainty by spending longer times evaluating and ensuring the right fit for your business.',
+    page:'contract-staffing'
+  },
+  {
+    id:33,
+    icon:icon_11,
+    title:'Realize cost savings through flexibility',
+    desc:'Only pay for staff when you actually need them and maintain the most efficient business output.',
+    page:'contract-staffing'
+  },
 ]
 
 export default service_data;
