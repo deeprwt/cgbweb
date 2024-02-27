@@ -79,7 +79,7 @@ const SeoSmoSection = () => {
                         <ul className="style-none list-item ">
                           <li>
                             Off-page SEO complements on-page optimization to
-                            improve a site's ranking.
+                            improve a site&lsquo;s ranking.
                           </li>
                           <li>
                             It involves actions taken outside your website to
@@ -90,7 +90,7 @@ const SeoSmoSection = () => {
                             sites.
                           </li>
                           <li>
-                            Strategically enhance your website's authority and
+                            Strategically enhance your website&lsquo;s authority and
                             online presence.
                           </li>
                           <li>
@@ -136,7 +136,7 @@ const SeoSmoSection = () => {
                           </li>
                           <li>
                             Trust our expertise to implement technical
-                            optimizations that enhance your website's
+                            optimizations that enhance your website&lsquo;s
                             performance and SERPs.
                           </li>
                         </ul>
@@ -239,7 +239,7 @@ const SeoSmoSection = () => {
                           </li>
                           <li>
                             Targeting local search results with phrases like
-                            'near me'.
+                            '&lsquo; me&lsquo;.
                           </li>
                           <li>
                             Enhancing visibility and attracting local customers.
@@ -430,7 +430,7 @@ const SeoSmoSection = () => {
                           Inbound marketing helps you attract visitors who are already interested in what you have to offer.
                           </li>
                           <li>
-                          It provides informative and engaging content throughout the buyer's journey.
+                          It provides informative and engaging content throughout the buyer&lsquo;s journey.
                           </li>
                           <li>
                           It allows you to build relationships with potential customers and nurture them until they are ready to buy.
