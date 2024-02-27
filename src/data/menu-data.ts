@@ -46,11 +46,11 @@ const menu_data:IMenu[] = [
           {link:'/solutions/digital-marketing',title:'Digital Marketing'},
           {link:'/solutions/paid-ads',title:'Paid Ads'},
           {link:'/solutions/seo-smo',title:'SEO & SMO'},
-          {link:'/coming-soon',title:'Social Media Marketing'},
-          {link:'/coming-soon',title:'Email Marketing'},
-          {link:'/coming-soon',title:'Lead Generation'},
-          {link:'/coming-soon',title:'Branding Services'},
-          {link:'/coming-soon',title:'Startup Consulting'},
+          {link:'/solutions/social-media-marketing',title:'Social Media Marketing'},
+          // {link:'/solutions/email-marketing',title:'Email Marketing'},
+          // {link:'/solutions/lead-generation',title:'Lead Generation'},
+          // {link:'/coming-soon',title:'Branding Services'},
+          // {link:'/coming-soon',title:'Startup Consulting'},
 
         ]
       }
