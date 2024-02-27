@@ -16,6 +16,7 @@ import NewsletterBanner from "@/components/newsletter/newsletter-banner";
 import HeaderTwo from "@/layout/header/Header";
 import HeaderOne from "@/layout/header/header-one";
 import FooterOne from "@/layout/footer/footer-one";
+import DigitalMarketingSection from "@/components/solutions/digital-marketing-section";
 
 export const metadata: Metadata = {
   title: "Digital Marketing",
@@ -41,7 +42,7 @@ export default function HomePageSix() {
           {/* block feature twelve start */}
           <BlockFeatureTwelve />
           {/* block feature twelve end */}
-
+          <DigitalMarketingSection/>
           {/* portfolio two start */}
           <PortfolioTwo />
           {/* portfolio two end */}
@@ -51,7 +52,7 @@ export default function HomePageSix() {
           {/* text feature eight end */}
 
           {/* fancy banner five start */}
-          <FancyBannerFive style_3={true} />
+          {/* <FancyBannerFive style_3={true} />   */}
           {/* fancy banner five end */}
 
           {/* feedback six start */}

@@ -19,7 +19,7 @@ const BlockFeatureTwelve = () => {
     .filter((s) => s.page === "home-5")
     .slice(4, 6);
   return (
-    <div className="block-feature-twelve position-relative pt-130 lg-pt-80 pb-180 lg-pb-80">
+    <div className="block-feature-twelve position-relative pt-130 lg-pt-80 pb-40 lg-pb-40">
       <div className="container">
         <div className="row">
           <div className="col-lg-11">

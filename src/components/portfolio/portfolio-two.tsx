@@ -81,7 +81,7 @@ const PortfolioTwo = () => {
                     </h3>
                   </div>
                   <Link
-                    href="/project-details-v1"
+                    href="#"
                     className="round-btn rounded-circle d-flex align-items-center justify-content-center tran3s"
                   >
                     <i className="bi bi-arrow-up-right"></i>
