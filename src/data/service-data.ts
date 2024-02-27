@@ -154,7 +154,7 @@ const service_data:IService[] = [
   {
     id:17,
     icon:icon_15,
-    title:'Design & Development',
+    title:'UI & UX Design',
     desc:'Use receiving accounts in a growing number of currencies and get paid like a local.',
     page:'home-5'
   },
