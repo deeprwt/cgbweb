@@ -239,7 +239,7 @@ const SeoSmoSection = () => {
                           </li>
                           <li>
                             Targeting local search results with phrases like
-                            '&lsquo; me&lsquo;.
+                            &lsquo; me&lsquo;.
                           </li>
                           <li>
                             Enhancing visibility and attracting local customers.
