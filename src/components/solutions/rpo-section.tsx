@@ -74,7 +74,7 @@ const RPOSections = ({ cls }: { cls?: string }) => {
             <div className="title-one">
               <h3 className="text-center">Recruitment Process Outsourcing</h3>
               <p className="text-lg text-center px-4 mb-35 md-mb-30">
-                Recruiting in today's market can be challenging; hiring is often
+                Recruiting in today&lsquo;s market can be challenging; hiring is often
                 time-consuming and costly due to high demand for the best
                 talent. You may find your talent acquisition teams under
                 increasing pressure, which can in turn negatively impact the
