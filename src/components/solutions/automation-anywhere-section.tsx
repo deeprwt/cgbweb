@@ -89,8 +89,8 @@ const AutomationAnywhereSecton = ({ cls }: { cls?: string }) => {
                 businesses build and manage complete RPA ecosystems, ensuring
                 success every step of the way. Our team of Automation Anywhere
                 experts work with businesses to determine where automation is
-                feasible, and then take care of the hard work so you don't have
-                to. This way, you can focus on what you're good at and leave the
+                feasible, and then take care of the hard work so you don&apos;t have
+                to. This way, you can focus on what you&apos;re good at and leave the
                 tedious tasks to the Bots.
               </p>
             </div>
