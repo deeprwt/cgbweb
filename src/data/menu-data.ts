@@ -77,7 +77,7 @@ const menu_data:IMenu[] = [
     title:'Training ',
     dropdown:true,
     dropdown_menus:[
-          {link:'/coming-soon',title:'Corporate Training'},
+          {link:'/training/corporate-training',title:'Corporate Training'},
           {link:'/coming-soon',title:'Customise Training'},
           {link:'/coming-soon',title:'Online Courses'},
     ]
