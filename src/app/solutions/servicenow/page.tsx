@@ -15,13 +15,13 @@ import BreadcrumbOne from "@/components/breadcrumb/breadcrumb-one";
 
 import about_bg from "@/assets/images/media/img_26.jpg";
 import TwoColData from "@/components/two-col/two-col-data";
-import MendixFeature from "@/components/solutions/mendix-feature";
 import FaqSolutions from "@/components/faq/faq-solutions";
 import FooterOne from "@/layout/footer/footer-one";
 import SectionSol1 from "@/components/two-col/section-sol1";
+import ServicenNowSecton from "@/components/solutions/servicenow-section";
 
 export const metadata: Metadata = {
-  title: "Finacle",
+  title: "ServicenNow",
 };
 
 export default function ServiceNow() {
@@ -34,9 +34,9 @@ export default function ServiceNow() {
         <main>
           {/* hero banner start */}
           <BreadcrumbOne 
-          title="Mendix"
+          title="ServicenNow"
           subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
-          page="Mendix"
+          page="ServicenNow"
           bg_img={about_bg}
           // // shape={shape}
           style_2={true}
@@ -44,18 +44,18 @@ export default function ServiceNow() {
           {/* hero banner end */}
 
           {/* Start */}
-          <TwoColData />
+         
           {/* end */}
 
           {/* start */}
-          <MendixFeature />
+         <ServicenNowSecton/>
           {/* end */}
 
           {/* start */}
           <FaqSolutions />
           {/* end */}
 
-          <SectionSol1 />
+          
 
 
 
