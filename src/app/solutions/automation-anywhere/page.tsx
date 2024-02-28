@@ -19,6 +19,7 @@ import MendixFeature from "@/components/solutions/mendix-feature";
 import FaqSolutions from "@/components/faq/faq-solutions";
 import FooterOne from "@/layout/footer/footer-one";
 import SectionSol1 from "@/components/two-col/section-sol1";
+import AutomationAnywhereSecton from "@/components/solutions/automation-anywhere-section";
 
 export const metadata: Metadata = {
   title: "Automation Anywhere",
@@ -34,9 +35,9 @@ export default function AutomationAnywhere() {
         <main>
           {/* hero banner start */}
           <BreadcrumbOne 
-          title="Mendix"
-          subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
-          page="Mendix"
+          title="Automation Anywhere"
+          subtitle="Navigating Your Automation Anywhere Growth With Experience & Insightful Solutions."
+          page="Automation Anywhere"
           bg_img={about_bg}
           // // shape={shape}
           style_2={true}
@@ -44,18 +45,18 @@ export default function AutomationAnywhere() {
           {/* hero banner end */}
 
           {/* Start */}
-          <TwoColData />
+         
           {/* end */}
 
           {/* start */}
-          <MendixFeature />
+         
           {/* end */}
-
+            <AutomationAnywhereSecton/>
           {/* start */}
           <FaqSolutions />
           {/* end */}
 
-          <SectionSol1 />
+          {/* <SectionSol1 /> */}
 
 
 
