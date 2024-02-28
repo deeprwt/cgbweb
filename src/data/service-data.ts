@@ -501,6 +501,56 @@ const service_data:IService[] = [
     desc:'Our team is here to support you with all your bot training and optimization needs. We also offer continuous maintenance services to help keep your Automation Anywhere licenses up to date, manage tickets, and provide helpdesk support.',
     page:'automationanywhere'
   },
+  {
+    id:73,
+    icon:icon_11,
+    title:'ServiceNow consulting',
+    desc:'We can always advise you on the best ways to tackle your challenges, be it uncertainty in mapping your needs to ServiceNow functionality, a process malfunction or difficulties in expanding ServiceNow to more areas across your enterprise. We also provide the technical skills to overcome these challenges and work both in terms of one-time consultations and ongoing improvement projects.',
+    page:'servicenow'
+  },
+  {
+    id:74,
+    icon:icon_11,
+    title:'ServiceNow implementation',
+    desc:'We can help at any stage of your ServiceNow project. Our ServiceNow implementation services cover platform implementation from scratch, enhancement of your existing platform functionality, integrations (e.g., with IT infrastructure management tools, email services, CRM systems) as well as migration projects (from basic-functionality ticketing tools or legacy ITSM systems).',
+    page:'servicenow'
+  },  
+  
+  {
+    id:76,
+    icon:icon_11,
+    title:'Custom ServiceNow app development',
+    desc:'Although the existing ServiceNow functionality offering is extremely rich, you can still miss some apps or features. For example, the product you need may be included in the more expensive functionality package and buying it because of one app would be too wasteful. Or you don’t think that using one of your purchased apps is sensible because you are dissatisfied with the concept behind it. A custom ServiceNow application is always a good way out for such occasions. Our certified ServiceNow application developers will analyze your functionality requirements, design and deliver the app in a reasonable time frame.',
+    page:'servicenow'
+  },
+  {
+    id:77,
+    icon:icon_11,
+    title:'ServiceNow testing',
+    desc:'To ensure the quality of your ServiceNow solution, our certified team of test engineers can put your system through paces and uncover all there is to fix about it. They thoroughly check ServiceNow functionality, integrations, performance, security, usability and data quality to help you make your solution fully comply with your requirements.',
+    page:'servicenow'
+  },
+  {
+    id:78,
+    icon:icon_11,
+    title:'ServiceNow support',
+    desc:'To help you maintain the performance and user convenience of your solution, ScienceSoft’s experts can provide ServiceNow support services. This includes not only basic user support activities but also system parameters monitoring and on-the-fly troubleshooting.',
+    page:'servicenow'
+  },
+  {
+    id:75,
+    icon:icon_11,
+    title:'ServiceNow managed Services',
+    desc:'ScienceSoft can become your ServiceNow managed services provider for you to enjoy using ServiceNow without thinking about its performance issues or surfaced defects. We will take over all the worries concerning system administration and performance, security, and ongoing improvements as well as user training and support.',
+    page:'servicenow'
+  },
+  {
+    id:79,
+    icon:icon_11,
+    title:'ServiceNow consulting',
+    desc:'ScienceSoft can render you technical aid in making ServiceNow meet your business requirements. We set up and adjust the platform without code changes and also do various code-based customizations, such as back-end and client logic, code-level integrations, and access configuration.',
+    page:'servicenow'
+  },
 ]
 
 export default service_data;
