@@ -19,6 +19,7 @@ import MendixFeature from "@/components/solutions/mendix-feature";
 import FaqSolutions from "@/components/faq/faq-solutions";
 import FooterOne from "@/layout/footer/footer-one";
 import SectionSol1 from "@/components/two-col/section-sol1";
+import OracleSection from "@/components/solutions/oracle-section";
 
 export const metadata: Metadata = {
   title: "Oracle",
@@ -34,7 +35,7 @@ export default function Oracle() {
         <main>
           {/* hero banner start */}
           <BreadcrumbOne 
-          title="Mendix"
+          title="Oracle"
           subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
           page="Mendix"
           bg_img={about_bg}
@@ -42,21 +43,8 @@ export default function Oracle() {
           style_2={true}
           />
           {/* hero banner end */}
-
-          {/* Start */}
-          <TwoColData />
-          {/* end */}
-
-          {/* start */}
-          <MendixFeature />
-          {/* end */}
-
-          {/* start */}
-          <FaqSolutions />
-          {/* end */}
-
-          <SectionSol1 />
-
+          
+          <OracleSection />
 
 
           {/* block feature six start */}

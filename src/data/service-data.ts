@@ -452,6 +452,90 @@ const service_data:IService[] = [
     desc:'Every business has its own set of rules, principles and parameters and needs different e-learning strategies to successfully run in the industry. With Phoeniixx, you can get a whole new customized e-learning solution for your business.',
     page:'customisetraining'
   },
+  {
+    id:60,
+    icon:icon_11,
+    title:'OutSystems Consulting',
+    desc:'As a recognized OutSystems consulting partner, we perform an in-depth analysis of your business to determine the scope of your project and devise a strategy for Systems Development Life Cycle (SDLC) Management.',
+    page:'outsystems'
+  },
+  {
+    id:61,
+    icon:icon_11,
+    title:'Web App Development',
+    desc:'Our OutSystems development experts build feature-rich web apps that boost user engagement and enhance brand value and update them as or when required.',
+    page:'outsystems'
+  },
+  {
+    id:62,
+    icon:icon_11,
+    title:'Mobile App Development',
+    desc:'OutSystems rapid application development platforms enable us to develop mobile apps compatible with Windows, Android, and iOS, in much less time and at lower costs than traditional platforms.',
+    page:'outsystems'
+  },
+  {
+    id:63,
+    icon:icon_11,
+    title:'Integration',
+    desc:'We can seamlessly integrate OutSystems with all major database systems, web services, REST APIs, SAP, and Salesforce for better and more optimized results.',
+    page:'outsystems'
+  },
+  {
+    id:64,
+    icon:icon_11,
+    title:'Resource Augmentation',
+    desc:'With a team of certified OutSystems consultants, administrators, developers, and project managers – we help you expand your in-house resources to implement and deliver projects in a hassle-free manner.',
+    page:'outsystems'
+  },
+  {
+    id:65,
+    icon:icon_11,
+    title:'Maintenance & Support',
+    desc:'Our support team assists you with platform upgrades, security, maintenance, as well as complex integrations, enabling you to keep pace with a dynamic business environment.',
+    page:'outsystems'
+  },
+  {
+    id:66,
+    icon:icon_11,
+    title:'Enhanced Data Accessibility',
+    desc:'Effortlessly access up-to-date data throughout the organization, ensuring quick and easy decision-making.',
+    page:'oracle'
+  },
+  {
+    id:67,
+    icon:icon_11,
+    title:'Streamline Manual Processes',
+    desc:'Eliminate time-consuming and resource-draining manual processes through automation and optimization.',
+    page:'oracle'
+  },
+  {
+    id:68,
+    icon:icon_11,
+    title:'Ensured Data Integrity',
+    desc:'Eliminate time-consuming and resource-draining manual processes through automation and optimization.',
+    page:'oracle'
+  },
+  {
+    id:70,
+    icon:icon_11,
+    title:'Actionable Inventory Insights',
+    desc:'Strategically plan and balance inventory to meet demand, leveraging valuable insights for optimized inventory management.',
+    page:'oracle'
+  },
+  {
+    id:71,
+    icon:icon_11,
+    title:'Effective Supply & Demand Management',
+    desc:'Successfully manage supply chains in the face of rapid changes, rising costs, and evolving buyer behavior.',
+    page:'oracle'
+  },
+  {
+    id:72,
+    icon:icon_11,
+    title:'Exceed Expectations',
+    desc:'Consistently deliver on promised order accuracy, on-time delivery, and cost savings to meet and surpass customer expectations.',
+    page:'oracle'
+  },
 ]
 
 export default service_data;

@@ -19,12 +19,14 @@ import MendixFeature from "@/components/solutions/mendix-feature";
 import FaqSolutions from "@/components/faq/faq-solutions";
 import FooterOne from "@/layout/footer/footer-one";
 import SectionSol1 from "@/components/two-col/section-sol1";
+import OracleSection from "@/components/solutions/oracle-section";
+import OutsystemsSection from "@/components/solutions/outsystems-section";
 
 export const metadata: Metadata = {
-  title: "Finacle",
+  title: "Outsystems - CGB's",
 };
 
-export default function Outsystems() {
+export default function OutSystems() {
   return (
     <Wrapper>
       <div className="main-page-wrapper">
@@ -34,29 +36,16 @@ export default function Outsystems() {
         <main>
           {/* hero banner start */}
           <BreadcrumbOne 
-          title="Mendix"
+          title="Outsystems"
           subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
-          page="Mendix"
+          page="Outsystems"
           bg_img={about_bg}
           // // shape={shape}
           style_2={true}
           />
           {/* hero banner end */}
-
-          {/* Start */}
-          <TwoColData />
-          {/* end */}
-
-          {/* start */}
-          <MendixFeature />
-          {/* end */}
-
-          {/* start */}
-          <FaqSolutions />
-          {/* end */}
-
-          <SectionSol1 />
-
+          
+          <OutsystemsSection />
 
 
           {/* block feature six start */}

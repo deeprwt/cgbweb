@@ -44,30 +44,37 @@ const FooterOne = () => {
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/pricing">Pricing Plan</Link>
+                <Link href="/about-us">About us</Link>
+                  
                 </li>
                 <li>
-                  <Link href="/about-us">About us</Link>
+                <Link href="/contact">Contact us</Link>
                 </li>
                 <li>
-                  <Link href="/service-v1">Our services</Link>
+                  <Link href="/blog">blogs</Link>
                 </li>
               </ul>
             </div>
             <div className="col-xl-2 col-md-2 col-sm-4 mb-20">
-              <h5 className="footer-title">Company</h5>
+              <h5 className="footer-title">Tech Solutions</h5>
               <ul className="footer-nav-link style-none">
                 <li>
-                  <Link href="/about-us-2">About us</Link>
+                  <Link href="/solutions/oracle">Oracle</Link>
                 </li>
                 <li>
-                  <Link href="/blog">Blogs</Link>
+                  <Link href="/solutions/finacle">Finacle</Link>
                 </li>
                 <li>
-                  <Link href="/faq">FAQ’s</Link>
+                  <Link href="/solutions/outsystems">Outsystems</Link>
                 </li>
                 <li>
-                  <Link href="/contact">Contact</Link>
+                  <Link href="/solutions/mendix">Mendix</Link>
+                </li>
+                <li>
+                  <Link href="/solutions/servicenow">ServiceNow</Link>
+                </li>
+                <li>
+                  <Link href="/solutions/automation-anywhere">Automation Anywhere</Link>
                 </li>
               </ul>
             </div>
