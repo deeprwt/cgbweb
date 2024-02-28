@@ -452,6 +452,55 @@ const service_data:IService[] = [
     desc:'Every business has its own set of rules, principles and parameters and needs different e-learning strategies to successfully run in the industry. With Phoeniixx, you can get a whole new customized e-learning solution for your business.',
     page:'customisetraining'
   },
+  {
+    id:66,
+    icon:icon_11,
+    title:'Automation Anywhere Assessmet',
+    desc:'Our IT audit will evaluate your company&apos;s infrastructure and processes to determine if Automation Anywhere development and integration is feasible. Well create a roadmap, PoC, and governance design to help you make the best decision for your business.',
+    page:'automationanywhere'
+  },
+  {
+    id:67,
+    icon:icon_11,
+    title:'Automation Anywhere Consulting',
+    desc:'Our skilled and experienced advisors can help you with several different aspects of Automation Anywhere. We&apos;re always using PoC modelling to make sure you get the best value. If you need help for a short project or for an extended period, we can work with your team to get the job done.',
+    page:'automationanywhere'
+  },
+  {
+    id:68,
+    icon:icon_11,
+    title:'Automation Anywhere Development & Configuration',
+    desc:'Development and scale-up of RPA Automation Anywhere bots to achieve business goals – including process standardization/triggers, security, and governance.',
+    page:'automationanywhere'
+  },
+  {
+    id:69,
+    icon:icon_11,
+    title:'Automation Anywhere Development & Configuration',
+    desc:'Development and scale-up of RPA Automation Anywhere bots to achieve business goals – including process standardization/triggers, security, and governance.',
+    page:'automationanywhere'
+  },
+  {
+    id:70,
+    icon:icon_11,
+    title:'Automation Anywhere Implementation',
+    desc:'Smart digital workers, or intelligent bots, can be deployed in phases - pilot and full-scale - in order to automate tasks that would normally drain time and resources, leaving them free for strategic business functions that are more important.',
+    page:'automationanywhere'
+  },
+  {
+    id:71,
+    icon:icon_11,
+    title:'Automation Anywhere Managed Services',
+    desc:'We manage the complete RPA set up and related IT services to help clients with on-demand availability of Automation Anywhere certified developers. This allows for incremental efficiency and user-adoption so that your company can run as smoothly as possible.',
+    page:'automationanywhere'
+  },
+  {
+    id:72,
+    icon:icon_11,
+    title:'Automation Anywhere Support and Maintenance',
+    desc:'Our team is here to support you with all your bot training and optimization needs. We also offer continuous maintenance services to help keep your Automation Anywhere licenses up to date, manage tickets, and provide helpdesk support.',
+    page:'automationanywhere'
+  },
 ]
 
 export default service_data;
