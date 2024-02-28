@@ -375,6 +375,83 @@ const service_data:IService[] = [
     desc:'We are committed to ongoing innovation and evolution in recruitment practices. By continuously evaluating and refining our processes, technologies, and strategies, we ensure that our clients remain at the forefront of talent acquisition and recruitment excellence.',
     page:'rpo'
   },
+  {
+    id:49,
+    icon:icon_11,
+    title:'Sales Training',
+    desc:'Revolutionizing sales methodologies, our training equips sales teams with innovative strategies and tools to thrive in competitive markets.',
+    page:'corporatetraining'
+  },
+  {
+    id:50,
+    icon:icon_11,
+    title:'Service Training',
+    desc:'We emphasize on nurturing exceptional customer service skills, essential for sustaining long-term client relationships in today’s service-oriented economy.',
+    page:'corporatetraining'
+  },
+  {
+    id:51,
+    icon:icon_11,
+    title:'Soft skills Training',
+    desc:'Revolutionizing sales methodologies, our training equips sales teams with innovative strategies and tools to thrive in competitive markets.',
+    page:'corporatetraining'
+  },
+  {
+    id:52,
+    icon:icon_11,
+    title:'Behavioural Training',
+    desc:'This focuses on the holistic development of individuals, addressing areas like conflict resolution, stress management, and fostering emotional intelligence.',
+    page:'corporatetraining'
+  },
+  {
+    id:53,
+    icon:icon_11,
+    title:'Leadership Training',
+    desc:'Our leadership modules are designed to cultivate visionary leaders and competent managers, instilling skills in strategic thinking and effective team management.',
+    page:'corporatetraining'
+  },
+  {
+    id:54,
+    icon:icon_11,
+    title:'First Time Manager Training',
+    desc:'For those new to managerial roles, emphasizing foundational managerial skills.',
+    page:'corporatetraining'
+  },
+  {
+    id:55,
+    icon:icon_11,
+    title:'Technical Skills Training',
+    desc:'mparts skills for technical roles, such as IT and engineering.',
+    page:'corporatetraining'
+  },
+  {
+    id:56,
+    icon:icon_11,
+    title:'Compliance Training',
+    desc:'Ensures adherence to industry and company-specific regulations.',
+    page:'corporatetraining'
+  },
+  {
+    id:57,
+    icon:icon_11,
+    title:'Our triumphant clients',
+    desc:'Our clients are the roots of our e-learning organization. Their satisfaction is our topmost priority and we are working with all our hearts for the same. We provide one of the best-customized e-learning services for the growth of their business and make them leading in the industry.',
+    page:'customisetraining'
+  },
+  {
+    id:58,
+    icon:icon_11,
+    title:'Great solutions',
+    desc:'The best e-learning solutions come with great challenges and we are here to provide you with the best. Phoeniixx gives you the best e-learning strategies which make your business different from the competition.',
+    page:'customisetraining'
+  },
+  {
+    id:59,
+    icon:icon_11,
+    title:'Customized solutions',
+    desc:'Every business has its own set of rules, principles and parameters and needs different e-learning strategies to successfully run in the industry. With Phoeniixx, you can get a whole new customized e-learning solution for your business.',
+    page:'customisetraining'
+  },
 ]
 
 export default service_data;
