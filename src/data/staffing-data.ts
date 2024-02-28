@@ -50,7 +50,7 @@ const staffing_data:IStaffing[] = [
     title:'Parmanent Staffing',
     desc:'Use receiving accounts in a growing number of currencies and get paid like a local.',
     page:'staffing-1',
-    link: '/parmanent-staffing'
+    link: '/permanent-staffing'
   },
   {
     id:3,

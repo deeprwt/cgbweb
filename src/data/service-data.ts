@@ -312,6 +312,69 @@ const service_data:IService[] = [
     desc:'We manage your hiring needs efficiently, on budget, and on time, no matter the vacancy, no matter when you need support.',
     page:'hire-train-depoly'
   },
+  {
+    id:40,
+    icon:icon_11,
+    title:'Scalability',
+    desc:'Our adaptable recruitment solutions are designed to accommodate fluctuations in hiring demands, ensuring that your organization can scale up or down as needed without compromising on efficiency or quality.',
+    page:'rpo'
+  },
+  {
+    id:41,
+    icon:icon_11,
+    title:'Technology Integration',
+    desc:'We leverage cutting-edge recruitment tools and technologies to streamline the hiring process, from applicant tracking systems to AI-powered candidate screening tools. Our seamless integration of technology enhances efficiency and enables data-driven decision-making.',
+    page:'rpo'
+  },
+  {
+    id:42,
+    icon:icon_11,
+    title:'Talent Sourcing',
+    desc:'With our strategic approach to candidate acquisition, we tap into extensive networks and resources to attract top talent across various industries and roles. We utilize a combination of channels, including job boards, social media platforms, and professional networks, to identify and engage with qualified candidates.',
+    page:'rpo'
+  },
+  {
+    id:43,
+    icon:icon_11,
+    title:'Candidate Engagement and Experience',
+    desc:'We prioritize personalized candidate interaction throughout the recruitment process, ensuring a positive experience for every candidate. From initial contact to onboarding, we strive to provide meaningful engagement and support to candidates, enhancing satisfaction and retention.',
+    page:'rpo'
+  },
+  {
+    id:44,
+    icon:icon_11,
+    title:'Compliance and Risk Management',
+    desc:'Ethical and legal recruitment practices are at the forefront of our operations. We ensure strict adherence to labor laws, regulations, and industry standards, mitigating risks associated with non-compliance and promoting fair and ethical recruitment practices.',
+    page:'rpo'
+  },
+  {
+    id:45,
+    icon:icon_11,
+    title:'Analytics and Reporting',
+    desc:'Our data-driven approach provides valuable insights into recruitment metrics, trends, and performance. Through robust analytics and reporting capabilities, we offer actionable insights that enable continuous improvement and optimization of recruitment strategies.',
+    page:'rpo'
+  },
+  {
+    id:46,
+    icon:icon_11,
+    title:'Customized Solutions',
+    desc:'We understand that every organization has unique recruitment needs and challenges. That&lsquo;s why we collaborate closely with our clients to develop tailored recruitment strategies that align with their specific requirements, culture, and business objectives.',
+    page:'rpo'
+  },
+  {
+    id:47,
+    icon:icon_11,
+    title:'Employer Branding',
+    desc:'Enhancing your company&lsquo;s reputation as an employer of choice is essential for attracting top talent. We work with our clients to develop and promote their employer brand through effective employer branding strategies, candidate experience management, and positive employer branding initiatives.',
+    page:'rpo'
+  },
+  {
+    id:48,
+    icon:icon_11,
+    title:'Continuous Improvement',
+    desc:'We are committed to ongoing innovation and evolution in recruitment practices. By continuously evaluating and refining our processes, technologies, and strategies, we ensure that our clients remain at the forefront of talent acquisition and recruitment excellence.',
+    page:'rpo'
+  },
 ]
 
 export default service_data;

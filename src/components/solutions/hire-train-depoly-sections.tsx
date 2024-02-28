@@ -83,7 +83,7 @@ const HireTrainDepolySection = ({ cls }: { cls?: string }) => {
                 Unlock the full potential of your team with our comprehensive
                 Hire-Train-Deploy services at CGB Solutions. We provide
                 end-to-end solutions of hiring, training and deploying talented
-                individuals who align with your organization's goals.
+                individuals who align with your organization&lsquo;s goals.
               </p>
             </div>
           </div>

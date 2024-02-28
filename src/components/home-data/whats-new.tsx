@@ -21,7 +21,7 @@ const WhatsNew = () => {
             <div className="row details-meta">
               <div className="title-one">
                 {/* <div className="upper-title"></div> */}
-                <h3 className="text-white text-center">What&apos;s New</h3>
+                <h3 className="text-center">What&apos;s New</h3>
               </div>
               <div
                 className="col-md-3 mb-35 mt-35  wow fadeInUp"
