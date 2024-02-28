@@ -453,6 +453,7 @@ const service_data:IService[] = [
     page:'customisetraining'
   },
   {
+<<<<<<< HEAD
     id:60,
     icon:icon_11,
     title:'OutSystems Consulting',
@@ -500,41 +501,191 @@ const service_data:IService[] = [
     title:'Enhanced Data Accessibility',
     desc:'Effortlessly access up-to-date data throughout the organization, ensuring quick and easy decision-making.',
     page:'oracle'
+=======
+    id:66,
+    icon:icon_11,
+    title:'Automation Anywhere Assessmet',
+    desc:'Our IT audit will evaluate your company&apos;s infrastructure and processes to determine if Automation Anywhere development and integration is feasible. Well create a roadmap, PoC, and governance design to help you make the best decision for your business.',
+    page:'automationanywhere'
+>>>>>>> a6f607cd965b9043ce67c9281cf88be7544ee97d
   },
   {
     id:67,
     icon:icon_11,
+<<<<<<< HEAD
     title:'Streamline Manual Processes',
     desc:'Eliminate time-consuming and resource-draining manual processes through automation and optimization.',
     page:'oracle'
+=======
+    title:'Automation Anywhere Consulting',
+    desc:'Our skilled and experienced advisors can help you with several different aspects of Automation Anywhere. We&apos;re always using PoC modelling to make sure you get the best value. If you need help for a short project or for an extended period, we can work with your team to get the job done.',
+    page:'automationanywhere'
+>>>>>>> a6f607cd965b9043ce67c9281cf88be7544ee97d
   },
   {
     id:68,
     icon:icon_11,
+<<<<<<< HEAD
     title:'Ensured Data Integrity',
     desc:'Eliminate time-consuming and resource-draining manual processes through automation and optimization.',
     page:'oracle'
+=======
+    title:'Automation Anywhere Development & Configuration',
+    desc:'Development and scale-up of RPA Automation Anywhere bots to achieve business goals – including process standardization/triggers, security, and governance.',
+    page:'automationanywhere'
+  },
+  {
+    id:69,
+    icon:icon_11,
+    title:'Automation Anywhere Development & Configuration',
+    desc:'Development and scale-up of RPA Automation Anywhere bots to achieve business goals – including process standardization/triggers, security, and governance.',
+    page:'automationanywhere'
+>>>>>>> a6f607cd965b9043ce67c9281cf88be7544ee97d
   },
   {
     id:70,
     icon:icon_11,
+<<<<<<< HEAD
     title:'Actionable Inventory Insights',
     desc:'Strategically plan and balance inventory to meet demand, leveraging valuable insights for optimized inventory management.',
     page:'oracle'
+=======
+    title:'Automation Anywhere Implementation',
+    desc:'Smart digital workers, or intelligent bots, can be deployed in phases - pilot and full-scale - in order to automate tasks that would normally drain time and resources, leaving them free for strategic business functions that are more important.',
+    page:'automationanywhere'
+>>>>>>> a6f607cd965b9043ce67c9281cf88be7544ee97d
   },
   {
     id:71,
     icon:icon_11,
+<<<<<<< HEAD
     title:'Effective Supply & Demand Management',
     desc:'Successfully manage supply chains in the face of rapid changes, rising costs, and evolving buyer behavior.',
     page:'oracle'
+=======
+    title:'Automation Anywhere Managed Services',
+    desc:'We manage the complete RPA set up and related IT services to help clients with on-demand availability of Automation Anywhere certified developers. This allows for incremental efficiency and user-adoption so that your company can run as smoothly as possible.',
+    page:'automationanywhere'
+>>>>>>> a6f607cd965b9043ce67c9281cf88be7544ee97d
   },
   {
     id:72,
     icon:icon_11,
+<<<<<<< HEAD
     title:'Exceed Expectations',
     desc:'Consistently deliver on promised order accuracy, on-time delivery, and cost savings to meet and surpass customer expectations.',
     page:'oracle'
+=======
+    title:'Automation Anywhere Support and Maintenance',
+    desc:'Our team is here to support you with all your bot training and optimization needs. We also offer continuous maintenance services to help keep your Automation Anywhere licenses up to date, manage tickets, and provide helpdesk support.',
+    page:'automationanywhere'
+  },
+  {
+    id:73,
+    icon:icon_11,
+    title:'ServiceNow consulting',
+    desc:'We can always advise you on the best ways to tackle your challenges, be it uncertainty in mapping your needs to ServiceNow functionality, a process malfunction or difficulties in expanding ServiceNow to more areas across your enterprise. We also provide the technical skills to overcome these challenges and work both in terms of one-time consultations and ongoing improvement projects.',
+    page:'servicenow'
+  },
+  {
+    id:74,
+    icon:icon_11,
+    title:'ServiceNow implementation',
+    desc:'We can help at any stage of your ServiceNow project. Our ServiceNow implementation services cover platform implementation from scratch, enhancement of your existing platform functionality, integrations (e.g., with IT infrastructure management tools, email services, CRM systems) as well as migration projects (from basic-functionality ticketing tools or legacy ITSM systems).',
+    page:'servicenow'
+  },  
+  
+  {
+    id:76,
+    icon:icon_11,
+    title:'Custom ServiceNow app development',
+    desc:'Although the existing ServiceNow functionality offering is extremely rich, you can still miss some apps or features. For example, the product you need may be included in the more expensive functionality package and buying it because of one app would be too wasteful. Or you don’t think that using one of your purchased apps is sensible because you are dissatisfied with the concept behind it. A custom ServiceNow application is always a good way out for such occasions. Our certified ServiceNow application developers will analyze your functionality requirements, design and deliver the app in a reasonable time frame.',
+    page:'servicenow'
+  },
+  {
+    id:77,
+    icon:icon_11,
+    title:'ServiceNow testing',
+    desc:'To ensure the quality of your ServiceNow solution, our certified team of test engineers can put your system through paces and uncover all there is to fix about it. They thoroughly check ServiceNow functionality, integrations, performance, security, usability and data quality to help you make your solution fully comply with your requirements.',
+    page:'servicenow'
+  },
+  {
+    id:78,
+    icon:icon_11,
+    title:'ServiceNow support',
+    desc:'To help you maintain the performance and user convenience of your solution, ScienceSoft’s experts can provide ServiceNow support services. This includes not only basic user support activities but also system parameters monitoring and on-the-fly troubleshooting.',
+    page:'servicenow'
+  },
+  {
+    id:75,
+    icon:icon_11,
+    title:'ServiceNow managed Services',
+    desc:'ScienceSoft can become your ServiceNow managed services provider for you to enjoy using ServiceNow without thinking about its performance issues or surfaced defects. We will take over all the worries concerning system administration and performance, security, and ongoing improvements as well as user training and support.',
+    page:'servicenow'
+  },
+  {
+    id:79,
+    icon:icon_11,
+    title:'ServiceNow consulting',
+    desc:'ScienceSoft can render you technical aid in making ServiceNow meet your business requirements. We set up and adjust the platform without code changes and also do various code-based customizations, such as back-end and client logic, code-level integrations, and access configuration.',
+    page:'servicenow'
+  },
+  {
+    id:80,
+    icon:icon_11,
+    title:'Banks',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:81,
+    icon:icon_11,
+    title:'Payment Service Providers',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:82,
+    icon:icon_11,
+    title:'Lending companies',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:83,
+    icon:icon_11,
+    title:'Insurance companies',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:84,
+    icon:icon_11,
+    title:'Investment companies',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:86,
+    icon:icon_11,
+    title:'DeFi companies',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:87,
+    icon:icon_11,
+    title:'Fintech startups',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:88,
+    icon:icon_11,
+    title:'Financial software product companies',
+    desc:'',
+    page:'finacle'
+>>>>>>> a6f607cd965b9043ce67c9281cf88be7544ee97d
   },
 ]
 
