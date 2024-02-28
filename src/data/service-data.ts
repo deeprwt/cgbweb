@@ -551,6 +551,62 @@ const service_data:IService[] = [
     desc:'ScienceSoft can render you technical aid in making ServiceNow meet your business requirements. We set up and adjust the platform without code changes and also do various code-based customizations, such as back-end and client logic, code-level integrations, and access configuration.',
     page:'servicenow'
   },
+  {
+    id:80,
+    icon:icon_11,
+    title:'Banks',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:81,
+    icon:icon_11,
+    title:'Payment Service Providers',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:82,
+    icon:icon_11,
+    title:'Lending companies',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:83,
+    icon:icon_11,
+    title:'Insurance companies',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:84,
+    icon:icon_11,
+    title:'Investment companies',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:86,
+    icon:icon_11,
+    title:'DeFi companies',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:87,
+    icon:icon_11,
+    title:'Fintech startups',
+    desc:'',
+    page:'finacle'
+  },
+  {
+    id:88,
+    icon:icon_11,
+    title:'Financial software product companies',
+    desc:'',
+    page:'finacle'
+  },
 ]
 
 export default service_data;
