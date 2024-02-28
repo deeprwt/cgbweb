@@ -431,6 +431,27 @@ const service_data:IService[] = [
     desc:'Ensures adherence to industry and company-specific regulations.',
     page:'corporatetraining'
   },
+  {
+    id:57,
+    icon:icon_11,
+    title:'Our triumphant clients',
+    desc:'Our clients are the roots of our e-learning organization. Their satisfaction is our topmost priority and we are working with all our hearts for the same. We provide one of the best-customized e-learning services for the growth of their business and make them leading in the industry.',
+    page:'customisetraining'
+  },
+  {
+    id:58,
+    icon:icon_11,
+    title:'Great solutions',
+    desc:'The best e-learning solutions come with great challenges and we are here to provide you with the best. Phoeniixx gives you the best e-learning strategies which make your business different from the competition.',
+    page:'customisetraining'
+  },
+  {
+    id:59,
+    icon:icon_11,
+    title:'Customized solutions',
+    desc:'Every business has its own set of rules, principles and parameters and needs different e-learning strategies to successfully run in the industry. With Phoeniixx, you can get a whole new customized e-learning solution for your business.',
+    page:'customisetraining'
+  },
 ]
 
 export default service_data;
