@@ -18,7 +18,8 @@ const menu_data:IMenu[] = [
     mega_menu:true,
     mega_menus:[
       {
-        id:1,
+        id:1,    
+        subtitle : 'It Soltuions',
         menus:[
           {link:'/solutions/oracle',title:'Oracle'},
           {link:'/solutions/finacle',title:'Finacle'},
@@ -30,6 +31,7 @@ const menu_data:IMenu[] = [
       },
       {
         id:2,
+        subtitle : 'Staffing Solutions',
         menus:[
           {link:'/contract-staffing',title:'Contract Staffing'},
           {link:'/permanent-staffing',title:'Permanent Staffing'},
@@ -39,6 +41,7 @@ const menu_data:IMenu[] = [
       },
       {
         id:3,
+        subtitle : 'Digital Solutions',
         menus:[
           {link:'/solutions/web-development',title:'Website Development'},
           {link:'/solutions/app-development',title:'App Development'},

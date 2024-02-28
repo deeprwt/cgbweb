@@ -69,6 +69,7 @@ const Navbar = ({logo_white=false}:{logo_white?:boolean}) => {
                     <div key={mm.id} className="col-lg-4">
                       <div className="menu-column">
                         <ul className="style-none mega-dropdown-list">
+                      <span className="font-weight-bold dropdown-item" style={{fontWeight: "500", fontSize: "20px"}}>{mm.subtitle}</span>    {/*  add new subtitle for mega menu */}
                           {mm.menus.map((sm, i) => (
                             <li key={i}>
                               <Link href={sm.link} className={`dropdown-item ${pathname === sm.link?'active':''}`}>
