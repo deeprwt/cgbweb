@@ -220,7 +220,7 @@ const OutsystemsSection = ({ cls }: { cls?: string }) => {
                 organization.Whether it be a large enterprise or a
                 small-to-medium sized business, OutSystems custom development
                 experts can build serious applications that solve their biggest
-                business challenges. Here's why you can rely on OutSystems:
+                business challenges. Here&lsquo;s why you can rely on OutSystems:
               </p>
             </div>
             <div className="border-bottom mt-40 pb-50 sm-pb-30">
