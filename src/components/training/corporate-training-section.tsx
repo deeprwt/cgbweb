@@ -75,7 +75,7 @@ const CorporateTrainingSecton = ({ cls }: { cls?: string }) => {
               <h3 className="text-center">We work at the intersection of
 talent, <br /> business and social impact</h3>
               <p className="text-lg text-center px-4 mb-35 md-mb-30">
-              Our new-age learning solutions, powered by best-in-class technology, deliver measurable business and individual impact. Centum's expertise in corporate training helps organizations drive employee productivity, develop a pipeline of future leaders, and craft customized learning journeys. Our work also involves CSR implementation integrating livelihood skilling and capability development into an organisation's CSR strategy.
+              Our new-age learning solutions, powered by best-in-class technology, deliver measurable business and individual impact. Centum&lsquo;s expertise in corporate training helps organizations drive employee productivity, develop a pipeline of future leaders, and craft customized learning journeys. Our work also involves CSR implementation integrating livelihood skilling and capability development into an organisation&lsquo;s CSR strategy.
               </p>
             </div>
           </div>
