@@ -45,7 +45,7 @@ const TabsData = () => {
                             technology acquisitions and new releases of applications in align with Oracle product direction and technology roadmap.
                             </p>
                             <div className="d-inline-flex flex-wrap align-items-center pb-4">
-                            <Link href="/contact" className="btn-three icon-link mt-15">
+                            <Link href="/solutions/oracle" className="btn-three icon-link mt-15">
                                 <span>Read More</span>
                                 <Image src={icon} alt="icon" className="lazy-img icon ms-1"/>
                             </Link>
@@ -78,7 +78,7 @@ const TabsData = () => {
                                 institutions with the tools they need to thrive in the digital age
                             </p>
                             <div className="d-inline-flex flex-wrap align-items-center pb-4">
-                            <Link href="/contact" className="btn-three icon-link mt-15">
+                            <Link href="/solutions/finacle" className="btn-three icon-link mt-15">
                                 <span>Read More</span>
                                 <Image src={icon} alt="icon" className="lazy-img icon ms-1"/>
                             </Link>
@@ -104,7 +104,7 @@ const TabsData = () => {
                                 From initial implementation to process optimization and module integration, we guide you through every step.
                             </p>
                             <div className="d-inline-flex flex-wrap align-items-center pb-4">
-                            <Link href="/contact" className="btn-three icon-link mt-15">
+                            <Link href="/solutions/servicenow" className="btn-three icon-link mt-15">
                                 <span>Read More</span>
                                 <Image src={icon} alt="icon" className="lazy-img icon ms-1"/>
                             </Link>
@@ -130,8 +130,14 @@ const TabsData = () => {
                                 Welcome to a new era of simplicity and efficiency in software creation.
                             </p>
                             <div className="d-inline-flex flex-wrap align-items-center pb-4">
-                            <Link href="/contact" className="btn-three icon-link mt-15">
-                                <span>Read More</span>
+                            <Link href="/solutions/outsystems" className="btn-three icon-link mt-15">
+                                <span>Outsystems</span>
+                                <Image src={icon} alt="icon" className="lazy-img icon ms-1"/>
+                            </Link>
+                            </div>
+                            <div className="d-inline-flex flex-wrap align-items-center pb-4">
+                            <Link href="/solutions/mendix" className="btn-three icon-link mt-15">
+                                <span>Mendix</span>
                                 <Image src={icon} alt="icon" className="lazy-img icon ms-1"/>
                             </Link>
                             </div>
