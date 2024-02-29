@@ -19,7 +19,7 @@ const menu_data:IMenu[] = [
     mega_menus:[
       {
         id:1,    
-        subtitle : 'It Soltuions',
+        subtitle : 'IT Soltuions',
         menus:[
           {link:'/solutions/oracle',title:'Oracle'},
           {link:'/solutions/finacle',title:'Finacle'},

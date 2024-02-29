@@ -28,9 +28,9 @@ const Vision = () => {
         <main>
           {/* breadcrumb start */}
           <BreadcrumbOne
-            title="Single Service Details"
-            subtitle="Offering solutions & services to address a spectrum of financial issues"
-            page="Services"
+            title="Vision"
+            subtitle="To achieve innovation, excellence, and ingenuity"
+            page="Vision"
             // // shape={shape}
             bg_img={service_bg}
             style_2={true}

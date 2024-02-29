@@ -28,7 +28,7 @@ export default function OurCulture() {
           {/* breadcrumb start */}
           <BreadcrumbOne
             title="Our Culture"
-            subtitle="Offering solutions & services to address a spectrum of financial issues"
+            subtitle="If successful business was a book, work culture would have been the prelude to it."
             page="Our Culture"
             // // shape={shape}
             bg_img={service_bg}

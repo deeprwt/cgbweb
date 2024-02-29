@@ -31,6 +31,7 @@ const MissionSection = ()=> {
         <div className="row">
           <div className="col-xxl-9 col-lg-9 order-lg-last">
             <div className="details-meta ps-xxl-5 ps-xl-3">
+              {/* <div className="upper-title"></div> */}
               <h2>Our Mission</h2>
               <p>We aspire to be the visionary of a future where the seamless integration of unparalleled talent and cutting-edge technology not only redefines success for businesses but sets an entirely new standard for global excellence</p>
               

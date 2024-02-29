@@ -14,7 +14,6 @@ import Company from "@/components/services/company";
 import OurStorySection from "@/components/company/ourstory-section";
 import MissionSection from "@/components/company/mission-section";
 
-
 export const metadata: Metadata = {
   title: "Mission - CGB's",
 };
@@ -30,7 +29,7 @@ export default function Mission() {
           {/* breadcrumb start */}
           <BreadcrumbOne
             title="Mission"
-            subtitle="Offering solutions & services to address a spectrum of financial issues"
+            subtitle="Deliver Products and Services That Leave a Positive Impact"
             page="Mission"
             // // shape={shape}
             bg_img={service_bg}
@@ -42,7 +41,6 @@ export default function Mission() {
           {/* service details area start */}
           <MissionSection />
           {/* service details area end */}
-
         </main>
 
         {/* footer start */}
@@ -52,5 +50,4 @@ export default function Mission() {
       </div>
     </Wrapper>
   );
-};
-
+}
