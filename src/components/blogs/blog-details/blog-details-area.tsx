@@ -11,8 +11,8 @@ import icon from "@/assets/images/icon/icon_93.svg";
 import BlogDetailsForm from "@/components/forms/blog-details-form";
 import { IBlog } from "@/types/blog-d-t";
 
-const BlogDetailsArea = ({blog}:{blog:IBlog}) => {
-  const {date,title,post_info,img} = blog || {};
+const BlogDetailsArea = ({ blog }: { blog: IBlog }) => {
+  const { date, title, post_info, img, content } = blog || {};
   return (
     <div className="blog-details position-relative mt-150 lg-mt-80 mb-150 lg-mb-80">
       <div className="container">
@@ -31,15 +31,16 @@ const BlogDetailsArea = ({blog}:{blog:IBlog}) => {
                   <h4>{title}</h4>
                 </div>
                 <div className="post-details-meta">
-                  <p>
-                    Tomfoolery crikey bits and bobs brilliant bamboozled down
-                    the pub amongst brolly hanky panky, cack bonnet arse over
-                    tit burke bugger all mate bodge. cillum dolore fugiat
-                    pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui official deserunt mollit anim id est
-                    laborum.Suspendisse interdum consectetur libero id faucib
-                    nisl. Lacus vel facilisis volutpat est velit egestas.
-                  </p>
+                  {/* Rendering content headings and paragraphs dynamically */}
+                  {content.map((item, index) => (
+                    <div key={index}>
+                      <h3>
+                       {item.heading}
+                      </h3>
+                      <p>{item.paragraph}</p>
+                    </div>
+                  ))}
+                  {/* End of content rendering */}
                   <p>
                     Tempus imperdiet nulla malesuada pellentesque elit eget
                     gravida cum. Sit amet ris nullam eget felis. Enim praesent
@@ -48,11 +49,7 @@ const BlogDetailsArea = ({blog}:{blog:IBlog}) => {
                   <div className="quote-wrapper">
                     <div className="wrapper">
                       <div className="icon rounded-circle d-flex align-items-center justify-content-center m-auto">
-                        <Image
-                          src={icon}
-                          alt="icon"
-                          className="lazy-img"
-                        />
+                        <Image src={icon} alt="icon" className="lazy-img" />
                       </div>
                       <div className="row">
                         <div className="col-xxl-9 col-xl-11 m-auto">
@@ -84,7 +81,7 @@ const BlogDetailsArea = ({blog}:{blog:IBlog}) => {
                       />
                     </div>
                   </div> */}
-                  <h3>Work Harder & Gain Success</h3>
+                  {/* <h3>Work Harder & Gain Success</h3>
                   <p>
                     One touch of a red-hot stove is usually all we need to avoid
                     that kind of discomfort in quis elit future. The same Duis
@@ -100,7 +97,7 @@ const BlogDetailsArea = ({blog}:{blog:IBlog}) => {
                     that kind of discomfort in quis elit future. The same Duis
                     aute irure dolor in reprehenderit. sunt in culpa qui
                     official deserunt mollit anim id est laborum.
-                  </p>
+                  </p> */}
                 </div>
                 <div className="bottom-widget d-sm-flex align-items-center justify-content-between">
                   <ul className="d-flex align-items-center tags style-none pt-20">

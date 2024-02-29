@@ -7,7 +7,7 @@ import { IBlog } from "@/types/blog-d-t";
 import Pagination from "@/ui/pagination";
 
 const BlogGridArea = () => {
-  const blog_items = blog_data.filter((b) => b.page === "blog-grid");
+  const blog_items = blog_data.filter((b) => b.page === "home");
   const {currentItems,handlePageClick,pageCount} = usePagination<IBlog>(blog_items,4);
   return (
     <div className="blog-section-two position-relative mt-150 lg-mt-80 mb-150 lg-mb-80">
