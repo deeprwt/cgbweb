@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Whatsnew from "@/assets/images/cgbhome/whatsnew.png";
+import Whatsnew2 from "@/assets/images/cgbhome/cloud_world_tour.svg";
 import bg_image from "@/assets/images/background/backgroundnew.jpg";
 
 const backImg = {
@@ -38,7 +39,7 @@ const WhatsNew = () => {
                 data-wow-delay="0.1s"
               >
                 <Image
-                  src={Whatsnew}
+                  src={Whatsnew2}
                   alt="what's new"
                   className="w-100 h-100 shadowimg"
                 />

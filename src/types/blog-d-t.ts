@@ -10,5 +10,7 @@ export interface IBlog {
   designation?: string;
   author:string;
   category:string;
+  content: string; // Change the type to string
+  content2: string; // Change the type to string
   page: string;
 }
