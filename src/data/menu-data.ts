@@ -108,7 +108,7 @@ const menu_data:IMenu[] = [
     dropdown:true,
     dropdown_menus:[
       {link:'/blog',title:'Blogs'},
-      {link:'/blog-grid',title:'News & Media'},
+      {link:'/news-media',title:'News & Media'},
       // {link:'/blog-grid',title:'Blog Grid'},
       // {link:'/blog-details',title:'Blog Details'},
     ]
