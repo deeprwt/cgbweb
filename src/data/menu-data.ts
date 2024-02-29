@@ -82,7 +82,7 @@ const menu_data:IMenu[] = [
     dropdown_menus:[
           {link:'/training/corporate-training',title:'Corporate Training'},
           {link:'/training/customise-training',title:'Customise Training'},
-          {link:'/coming-soon',title:'Online Courses'},
+          // {link:'/coming-soon',title:'Online Courses'},
     ]
   },
   {
