@@ -21,6 +21,7 @@ const DigitalMarketingSection = () => {
     <>
       <div className="block-feature-twelve position-relative pt-130 lg-pt-80 pb-180 lg-pb-80">
         <div className="container">
+          {/* ---------------------------------Section staring-------------------------------*/}
           <div className="row">
             <div className="col-lg-11">
               <div className="title-one mb-40 lg-mb-20">
@@ -30,7 +31,11 @@ const DigitalMarketingSection = () => {
               </div>
             </div>
           </div>
+          {/* ---------------------------------Section End-------------------------------*/}
+
           <div className="row gx-xl-5">
+          {/* ---------------------------------Section staring-------------------------------*/}
+
             <div className="col-lg-4 d-flex mt-40 md-mt-20">
               <div className="p-2 bg-white vstack tran3s w-100 rounded-4">
                 <Image
@@ -42,6 +47,8 @@ const DigitalMarketingSection = () => {
                 />
               </div>
             </div>
+          {/* ---------------------------------Section staring-------------------------------*/}
+
             <div className="col-lg-8 d-flex mt-40 md-mt-20">
               <div className="card-style-nineteen">
                 <div className="row">
@@ -79,7 +86,10 @@ const DigitalMarketingSection = () => {
                 </div>
               </div>
             </div>
+
           </div>
+          {/* ---------------------------------Section staring-------------------------------*/}
+
           <div className="row gx-xl-5">
             <div className="col-lg-4 d-flex mt-40 md-mt-20">
               <div className="p-2 bg-white vstack tran3s w-100 rounded-4">
@@ -126,6 +136,8 @@ const DigitalMarketingSection = () => {
               </div>
             </div>
           </div>
+          {/* ---------------------------------Section staring-------------------------------*/}
+
           <div className="row gx-xl-5">
             <div className="col-lg-4 d-flex mt-40 md-mt-20">
               <div className="p-2 bg-white vstack tran3s w-100 rounded-4">
@@ -176,6 +188,8 @@ const DigitalMarketingSection = () => {
               </div>
             </div>
           </div>
+          {/* ---------------------------------Section staring-------------------------------*/}
+
           <div className="row gx-xl-5">
             <div className="col-lg-4 d-flex mt-40 md-mt-20">
               <div className="p-2 bg-white vstack tran3s w-100 rounded-4">
@@ -227,6 +241,8 @@ const DigitalMarketingSection = () => {
               </div>
             </div>
           </div>
+          {/* ---------------------------------Section staring-------------------------------*/}
+
         </div>
         <Image src={shape} alt="shape" className="lazy-img shapes shape_01" />
       </div>
