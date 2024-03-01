@@ -42,7 +42,7 @@ export default function HomePageSix() {
           {/* block feature twelve start */}
           <BlockFeatureTwelve />
           {/* block feature twelve end */}
-          <DigitalMarketingSection/>
+          {/* <DigitalMarketingSection/> */}
           {/* portfolio two start */}
           <PortfolioTwo />
           {/* portfolio two end */}

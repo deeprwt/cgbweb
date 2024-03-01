@@ -45,7 +45,7 @@ const PortfolioTwo = () => {
     sliderRef.current?.slickNext();
   };
   return (
-    <div className="portfolio-two position-relative mt-180 lg-mt-80">
+    <div className="portfolio-two position-relative mt-80 lg-mt-80">
       <div className="container">
         <div className="position-relative mb-80 lg-mb-40">
           <div className="d-flex justify-content-between align-items-center">
