@@ -42,7 +42,6 @@ const DigitalMarketingSection = () => {
                 />
               </div>
             </div>
-
             <div className="col-lg-8 d-flex mt-40 md-mt-20">
               <div className="card-style-nineteen">
                 <div className="row">
