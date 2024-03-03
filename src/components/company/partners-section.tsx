@@ -37,7 +37,7 @@ const PartnersSection = () => {
         <div className="row">
           <div className="col-xxl-9 col-lg-9">
             <div className="details-meta ps-xxl-5 ps-xl-3">
-              <h2>Partners With CGB</h2>
+              <h3>Trusted Partners: From Leading Brands</h3>
               <p>
                 We aspire to be the visionary of a future where the seamless
                 integration of unparalleled talent and cutting-edge technology

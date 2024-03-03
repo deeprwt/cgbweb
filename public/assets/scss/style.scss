@@ -64,10 +64,10 @@
 
 .map-dots li:after {
     content: "";
-    height: 30px;
-    width: 30px;
+    height: 20px;
+    width: 20px;
     position: absolute;
-    margin: -10px 0 0 -9px; /* Adjusted margin to center the dot */
+    margin: -4px 0 0 -4px; /* Adjusted margin to center the dot */
     animation: pulsate 2s ease-out;
     animation-iteration-count: infinite;
     opacity: 0;

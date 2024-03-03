@@ -75,12 +75,12 @@ const PartnerLogo = () => {
     <>
 
         <div className="partner-logo-one pt-80 lg-pt-40 pb-80 lg-pb-40 service-details">
-            <div className="container pt-40 lg-pt-40 px-4 pb-40 lg-pb-40 bo-rd light-bg ">
+            <div className="container px-4 py-4 bo-rd light-bg ">
             <div className="row align-items-center details-meta">
               <div className="col-5 col-sm-4 col-lg-3 wow fadeInLeft">
                 <div className="title-one">
-                  <div className="upper-title">Trusted Global Brands</div>
-                  <h3>Partners</h3>
+                  <div className="upper-title ">Trusted Global Brands</div>
+                  <h3 className="">Partners</h3>
                 </div>
                 {/* <p className="text-lg mt-45 lg-mt-30 mb-35 lg-mb-20">
                 Experience the extraordinary with CGB Solutions. We innovate relentlessly, 
