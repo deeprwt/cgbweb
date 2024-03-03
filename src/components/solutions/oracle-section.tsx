@@ -95,7 +95,7 @@ const OracleSection = ({ cls }: { cls?: string }) => {
               <div className="upper-title text-center">
                 Unlock Your Business Potential
               </div>
-              <h3 className="text-center">Oracle NetSuite ERP</h3>
+              <h2 className="text-center">Oracle NetSuite ERP</h2>
               <p className="text-lg text-center px-4 mb-35 md-mb-30">
                 Welcome to the world of Oracle NetSuite, a comprehensive
                 cloud-based ERP solution designed to streamline your business
@@ -118,7 +118,7 @@ const OracleSection = ({ cls }: { cls?: string }) => {
               <div className="row">
                 <div className="title-one">
                   {/* <div className="upper-title">Core aspects of</div> */}
-                  <h3 className="mb-80">Challenges that NetSuite Solves</h3>
+                  <h2 className="mb-80">Challenges that NetSuite Solves</h2>
                 </div>
                 {service_items.map((item, i) => (
                   <div
@@ -156,7 +156,7 @@ const OracleSection = ({ cls }: { cls?: string }) => {
           <div className="border-bottom mt-40 pb-50 sm-pb-30 details-meta">
             <div className="row">
               <div className="title-one lg-mb-10 wow fadeInUp">
-                <h3>Benefits of Oracle NetSuite</h3>
+                <h2>Benefits of Oracle NetSuite</h2>
               </div>
               <p className="text-xl text-dark mb-30 lg-mb-10">
                 There are a plethora of benefits that Oracle NetSuite ERP can

@@ -692,6 +692,27 @@ const service_data:IService[] = [
     desc:'',
     page:'finacle'
   },
+  {
+    id:93,
+    icon:icon_11,
+    title:'Logo - A professional explainer',
+    desc:`Who doesn't want a pictorial presentation of their ideas? Of course, it starts with a logo design. With just one picture of the logo, you can bring your business dream to reality. An effective logo or a webpage gives you a distinct identity and effectively represents your company's value.`,
+    page:'graphic'
+  },
+  {
+    id:94,
+    icon:icon_11,
+    title:'Building trust with the first impression',
+    desc:'Wondering how a graphic design or web page can build trust among brands and customers? Pictures speak sharper than words. The more visual evidence the more convincing it is and builds the credibility of the business which is necessary. Also, it persuades the buyers about the quality of products and services you are capable of delivering.',
+    page:'graphic'
+  },
+  {
+    id:95,
+    icon:icon_11,
+    title:'Excellent communicator to carry your message',
+    desc:'What knowledge is if we are not adapting ourselves to our fast-forwarding lives? Yes, nobody has time to know what your company offers. However, they invest time in viewing creative graphic designs and aesthetic images. Graphic designs are not only a feast for sore eyes on your website but, also help establish communication with your customer.',
+    page:'graphic'
+  },
 ]
 
 export default service_data;

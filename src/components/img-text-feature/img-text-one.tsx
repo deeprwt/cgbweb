@@ -1,7 +1,10 @@
 import React from "react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 // internal
+import { ul_data } from "@/data/ul-data";
+
+import service_data from "@/data/service-data";
 import screen_1 from "@/assets/images/assets/screen_04.svg";
 import screen_2 from "@/assets/images/assets/screen_05.svg";
 import shape from "@/assets/images/shape/shape_06.svg";
@@ -11,105 +14,92 @@ const imageStyle = {
   height: "auto",
 };
 
-const ImgTextOne = ({cls,style_2}:{cls?:string;style_2?:boolean}) => {
+// props type
+type IProps = {
+  title?: string;
+  subtitle: string;
+  img: StaticImageData;
+  cls?: string;
+  filter_data: string;
+  style_2?: boolean;
+};
+
+const ImgTextOne = ({
+  title,
+  subtitle,
+  img,
+  filter_data,
+  cls,
+  style_2 = false,
+}: IProps) => {
+  // const filter_ul = ul_data.filter((s) => s.page === "graphic");
+
   return (
     <>
-    {!style_2 && <div className={`text-feature-three position-relative ${cls?cls:'mt-30 pb-150 lg-pb-80'}`}>
-      <div className="container">
-        <div className="row">
-                <div className="col-md-8">
-                <div className="title-one mb-40 lg-mb-20">
-                    {/* <div className="upper-title">Customer Centric</div> */}
-                    <h2>We offer creative graphic design services</h2>
-                  </div>
-                </div>
-          <div className="col-xxl-5 col-lg-6 ms-auto d-flex flex-column order-lg-last wow fadeInRight">
-            <div className="title-one">
-              <div className="upper-title">About us</div>
-              <h2>Guideline for your financial grow.</h2>
+      {!style_2 && (
+        <div className="service-details pt-80 pb-80">
+          <div className="container">
+            <div className={`row ${cls}`}>
+              <div className="details-meta ps-xxl-5 ps-xl-3">
+                <h2 className="text-center pb-5">{title}</h2>
+              </div>
             </div>
-            <p className="text-lg mt-45 lg-mt-30 mb-35 lg-mb-30">
-              Your success is our mission. As business advisors, we offer expert
-              guidance, unlocking your potential for growth and profitability
-            </p>
-            <div>
-              <Link href="/about-us" className="btn-four mt-15">
-                More About us
-              </Link>
-            </div>
-            <div className="counter-wrapper mt-60 lg-mt-40 pt-25 lg-pt-10">
-              <div className="row">
-                <div className="col-xl-6 col-sm-5">
-                  <div className="counter-block-one mt-20">
-                    <div className="main-count fw-bold">
-                      <span className="counter">1.2</span>x
-                    </div>
-                    <p className="m0">Rapid wealth grow</p>
-                  </div>
+            <div className="row">
+              <div className="col-xxl-7 col-lg-7 d-flex align-items-center order-lg-last wow fadeInRight">
+                <div className="details-meta ps-xxl-5 ps-xl-3">
+                  <h3>{subtitle}</h3>
+                  <ul className="style-none list-item pb-20">
+                    {ul_data
+                      .filter((s) => s.page === `${filter_data}`)
+                      .map((item, i) => (
+                        <li key={item.id} className="m-0 pb-2 fs-5 lh-base">
+                          {item.ul}
+                        </li>
+                      ))}
+                  </ul>
                 </div>
-                <div className="col-xl-6 col-sm-7">
-                  <div className="counter-block-one mt-20">
-                    <div className="main-count fw-bold">
-                      $<span className="counter">1.3</span>b+
-                    </div>
-                    <p className="m0">Cumulative trading volume</p>
-                  </div>
-                </div>
+              </div>
+              <div className="col-xxl-5 col-lg-5 order-lg-first wow fadeInLeft">
+                <Image
+                  src={img}
+                  alt="screen"
+                  className="lazy-img w-full h-auto"
+                />
               </div>
             </div>
           </div>
-          <div className="col-xxl-6 col-lg-5 d-flex order-lg-second wow fadeInLeft">
-            <div className="media-wrapper w-100 position-relative">
-              <Image src={screen_1} alt="screen" className="lazy-img shapes screen_01" style={imageStyle}/>
-              <Image src={screen_2} alt="screen" className="lazy-img shapes screen_02" style={imageStyle}/>
+        </div>
+      )}
+
+      {style_2 && (
+        <div className="service-details pt-80 pb-80">
+          <div className="container">
+            <div className="row">
+              <div className="col-xxl-7 col-lg-7 d-flex align-items-center  order-last order-md-first wow fadeInRight">
+                <div className="details-meta ps-xxl-5 ps-xl-3">
+                  <h3>{subtitle}</h3>
+                  <ul className="style-none list-item pb-20">
+                    {ul_data
+                      .filter((s) => s.page === `${filter_data}`)
+                      .map((item, i) => (
+                        <li key={item.id} className="m-0 pb-2 fs-5 lh-base">
+                          {item.ul}
+                        </li>
+                      ))}
+                  </ul>
+                </div>
+              </div>
+              <div className="col-xxl-5 col-lg-5  order-first order-md-last wow fadeInLeft">
+                <Image
+                  src={img}
+                  alt="screen"
+                  className="lazy-img w-full h-auto"
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <Image src={shape} alt="shape" className="lazy-img shapes shape_01" />
-    </div>}
-
-    {style_2 && <div className="text-feature-three text-feature-one position-relative mt-150 lg-mt-80 pb-150 lg-pb-80">
-			<div className="container">
-				<div className="row align-items-center">
-					<div className="col-xxl-5 col-lg-6 ms-auto d-flex flex-column order-lg-last wow fadeInRight">
-						<div className="title-one">
-							<div className="upper-title">Don’t Be Fool</div>
-							<h4 className="fw-bold mt-30 mb-20 text-center">Guideline for your financial grow.</h4>
-						</div>
-						<p className="text-lg mt-35 lg-mt-10 mb-30">Your success is our mission. As business advisors, we offer expert guidance, unlocking your potential for growth and profitability</p>
-						<div><Link href="/contact" className="btn-four mt-15">Let’s Talk</Link></div>
-						<div className="counter-wrapper mt-50 lg-mt-40 pt-5">
-							<div className="row">
-								<div className="col-xl-6 col-sm-5">
-									<div className="counter-block-one mt-20">
-										<div className="main-count fw-bold">
-                      <span className="counter">1.2</span>x
-                      </div>
-										<p className="m0">Rapid wealth grow</p>
-									</div>
-								</div>
-								<div className="col-xl-6 col-sm-7">
-									<div className="counter-block-one mt-20">
-										<div className="main-count fw-bold">$<span className="counter">1.3</span>b+</div>
-										<p className="m0">Cumulative trading volume</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="col-xxl-7 col-lg-6 wow fadeInLeft">
-						<div className="media-list-item me-auto pe-xxl-5 pe-4 ps-xxl-5 ps-4 pb-35 md-mt-40 d-flex align-items-end">
-							<ul className="style-none">
-								<li>Mobile app easy management & access</li>
-								<li>Ton’s of features for handle the card easily</li>
-								<li>Strong security system.</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>}
+      )}
     </>
   );
 };

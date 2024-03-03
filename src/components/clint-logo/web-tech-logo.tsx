@@ -135,7 +135,7 @@ const WebTechLogo = () => {
         <div className="container">
           <div className="title-one text-center mb-60 details-meta">
             {/* <div className="upper-title"></div> */}
-            <h3>Technologies We Use for Web Development</h3>
+            <h2>Technologies We Use for Web Development</h2>
           </div>
           <Slider {...slider_setting} className="partner-slider-one my-2">
             {slider_logos.map((logo, i) => (

@@ -5,6 +5,7 @@ import faq_data from "@/data/faq-data";
 import Image, { StaticImageData } from "next/image";
 import service_data from "@/data/service-data";
 // images import
+import logo_1 from "@/assets/images/solutions/graphic/Logo-Design.svg";
 import screen_1 from "@/assets/images/assets/screen_04.svg";
 import img_1 from "@/assets/images/solutions/webdevlopment/1.jpg";
 import icon from "@/assets/images/icon/icon_27.svg";
@@ -52,19 +53,19 @@ function CardItem({
 }
 
 const GraphicDesigningSections = ({ cls }: { cls?: string }) => {
-  const service_items = service_data.filter((s) => s.page === "app-1");
+  const service_items = service_data.filter((s) => s.page === "graphic");
   return (
     <>
       {/* section data start  */}
-      <div className="text-feature-one service-details pt-80 lg-pt-80 pb-80 lg-pb-80">
+      <div className="text-feature-one pt-80 lg-pt-80 pb-80 lg-pb-80">
         <div className="container">
-          <div className="row details-meta">
-            <div className="col-xxl-12 col-lg-12 py-4  ms-auto d-flex flex-column order-lg-last wow fadeInRight">
+          <div className="row">
+            <div className="col-xxl-12 col-lg-12 py-4  ms-auto d-flex flex-column order-lg-last wow fadeInUp">
               <div className="title-one">
                 {/* <div className="upper-title">About us</div> */}
-                <h3 className="text-center">
+                <h2 className="text-center">
                   We are top-notch Graphic Designing company.
-                </h3>
+                </h2>
               </div>
               <p className="text-lg my-4">
                 Graphic designing is a work of art that captivates one&lsquo;s
@@ -99,67 +100,23 @@ const GraphicDesigningSections = ({ cls }: { cls?: string }) => {
       </div>
       {/* section data end  */}
 
-      <ImgTextOne />
-
-      {/* Section data slider start  */}
-      <div className="project-details-two light-bg border-top pt-150 lg-pt-80 pb-95 lg-pb-60">
-        <div className="container">
-          <div className="bg-wrapper">
-            <div className="row">
-              <div className="col-lg-5">
-                <div className="slider-wrapper">
-                  <div
-                    className="h-100 bg-cls"
-                    style={{ backgroundImage: `url(${slider_2.src})` }}
-                  ></div>
-                </div>
-              </div>
-              <div className="col-lg-7">
-                <div className="p-5">
-                  <div className="title-one mb-40 lg-mb-20">
-                    <div className="upper-title">Customer Centric</div>
-                    <h2>Global Graphic Design Agency</h2>
-                  </div>
-                  <p className="text-lg mb-40 lg-mb-20">
-                    We are your one-stop solution for your complete digital
-                    marketing and graphic design requirements. Uplift your
-                    brand&lsquo;s perception through our unmatched creative
-                    solutions.
-                  </p>
-                  {/* <Link href="/contact" className="btn-four mt-15 me-4">
-                        Contact us
-                    </Link> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Section data slider end  */}
-
       {/* card starts from here  */}
-      <div className="block-feature-six service-details bg-two position-relative pt-150 lg-pt-60 pb-120 lg-pb-40">
+      <div className="block-feature-six service-details bg-two position-relative pt-120 lg-pt-60 pb-120 lg-pb-40">
         <div className="container details-meta">
           <div className="row gx-lg-5">
             <div className="col-lg-12">
-              <div className="row">
-                {/* <div className="title-one">
-                  <h3>Web Development</h3>
+              <div className="col-12 col-md-10 m-auto">
+                <div className="title-one">
+                  <h2 className="text-center">
+                    How can your business get benefit from graphic designing?
+                  </h2>
                 </div>
-                <p className="text-lg text-dark mb-35 md-mb-30">
+              </div>
+              <div className="row">
+                {/* <p className="text-lg text-dark mb-35 md-mb-30">
                   Services We Offer
                 </p> */}
-                <div className="col-lg-4 d-flex  wow fadeInLeft">
-                  <div className="ms-auto pe-xxl-5 pe-4 ps-xxl-5 ps-4 pb-35 md-mt-60 d-flex align-items-center">
-                    <Image
-                      src={about}
-                      alt="cgb aboutus"
-                      className="shap-animate"
-                      style={{ height: "auto" }}
-                    ></Image>
-                  </div>
-                </div>
+
                 {service_items.map((item, i) => (
                   <div
                     key={item.id}
@@ -182,16 +139,6 @@ const GraphicDesigningSections = ({ cls }: { cls?: string }) => {
                     </div>
                   </div>
                 ))}
-                <div className="col-lg-4 d-flex  wow fadeInLeft">
-                  <div className="ms-auto pe-xxl-5 pe-4 ps-xxl-5 ps-4 pb-35 md-mt-60 d-flex align-items-center">
-                    <Image
-                      src={about}
-                      alt="cgb aboutus"
-                      className="shap-animate"
-                      style={{ height: "auto" }}
-                    ></Image>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -201,17 +148,59 @@ const GraphicDesigningSections = ({ cls }: { cls?: string }) => {
       </div>
       {/* card end */}
 
+      {/* Section data slider start  */}
+      <ImgTextOne
+        title="We offer creative graphic design services"
+        subtitle="Logo design"
+        filter_data="graphic-1"
+        img={logo_1}
+      />
+      <ImgTextOne
+        subtitle="Brand identity design"
+        filter_data="graphic-2"
+        img={logo_1}
+        style_2={true}
+      />
+      <ImgTextOne
+        subtitle="Brochure & pamphlet design"
+        filter_data="graphic-3"
+        cls="d-none"
+        img={logo_1}
+      />
+      <ImgTextOne
+        subtitle="Advertising"
+        filter_data="graphic-2"
+        img={logo_1}
+        style_2={true}
+      />
+      <ImgTextOne
+        subtitle="Customized design"
+        filter_data="graphic-3"
+        cls="d-none"
+        img={logo_1}
+      />
+      <ImgTextOne
+        subtitle="Technology-driven solutions"
+        filter_data="graphic-2"
+        img={logo_1}
+        style_2={true}
+      />
+
+      {/* Section data slider end  */}
+
       {/* technolgy logo slider start  */}
       <GraphicTechLogo />
       {/* technolgy logo slider end  */}
 
       {/* work flow data start  */}
 
-      <div className="project-details-one service-details position-relative pt-80 lg-pb-80">
+      <div className="block-feature-six project-details-one service-details position-relative pt-80 lg-pb-80">
         <div className="container details-meta">
           <div>
             {/* <div className="upper-title">Process</div> */}
-            <h3 className="text-center">The flow of graphic designing work we follow</h3>
+            <h3 className="text-center">
+              The flow of graphic designing work we follow
+            </h3>
           </div>
           <div className="line-wrapper border-top border-bottom pt-20 pb-60 lg-pb-40 mt-60 lg-mt-40 mb-70 lg-mb-40">
             {/* project details feature start */}

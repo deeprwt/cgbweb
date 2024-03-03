@@ -72,7 +72,7 @@ const AppTechLogo = () => {
         <div className="container">
           <div className="title-one text-center mb-60 details-meta">
             {/* <div className="upper-title"></div> */}
-            <h3 className="">Technologies We Use for App Development</h3>
+            <h2 className="">Technologies We Use for App Development</h2>
           </div>
           <Slider {...slider_setting} className="partner-slider-one my-2">
             {slider_logos.map((logo, i) => (
