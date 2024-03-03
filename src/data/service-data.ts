@@ -24,7 +24,7 @@ import icon_17 from '@/assets/images/icon/icon_10.svg';
 import icon_18 from '@/assets/images/icon/icon_11.svg';
 
 
-// data type 
+// data type
 interface IService {
     id: number;
     icon: StaticImageData;
@@ -136,49 +136,50 @@ const service_data:IService[] = [
     desc:'Use receiving accounts in a growing number of currencies and get paid like a local.',
     page:'home-4'
   },
-  // home 5
+  // home 5------------------------------------------------------------------------------------
   {
     id:15,
     icon:icon_15,
-    title:'Design & Development',
-    desc:'Use receiving accounts in a growing number of currencies and get paid like a local.',
+    title:'Website Development',
+    desc:'Envision, design, and bring to life your digital storefront with our expert website development services. From sleek portfolios to robust e-commerce platforms, we build websites that captivate and convert.',
     page:'home-5'
   },
   {
     id:16,
     icon:icon_16,
-    title:'Digital Marketing',
-    desc:'Use receiving accounts in a growing number of currencies and get paid like a local.',
+    title:'App Development',
+    desc:'Step into the realm of mobile with confidence. Our skilled developers create custom mobile applications that engage users, streamline processes, and amplify your brand`s presence on iOS, Android, or cross-platform environments.',
     page:'home-5'
   },
   {
     id:17,
     icon:icon_15,
-    title:'UI & UX Design',
-    desc:'Use receiving accounts in a growing number of currencies and get paid like a local.',
+    title:'Graphic Designing',
+    desc:'Enhance your brand identity and captivate your audience with stunning visuals. Our graphic design services cover everything from logos and branding to marketing collateral and UI/UX design.',
     page:'home-5'
   },
   {
     id:18,
     icon:icon_16,
-    title:'Digital Marketing',
-    desc:'Use receiving accounts in a growing number of currencies and get paid like a local.',
+    title:'Paid Ads',
+    desc:'Invest wisely in your digital growth with our paid advertising solutions. From Google Ads to social media campaigns, we craft targeted strategies to maximize your ROI and drive measurable results.',
     page:'home-5'
   },
   {
     id:19,
     icon:icon_17,
-    title:'Our Mission',
-    desc:'Optimize expense tracking across platforms, & product lines using multiple cards.',
+    title:'SEO & SMO',
+    desc:'Navigate the digital landscape with clarity and purpose. Our SEO and SMO services optimize your online presence, ensuring your brand shines bright in search engine results and social media feeds.',
     page:'home-5'
   },
   {
     id:20,
     icon:icon_18,
-    title:'Our Vision',
-    desc:'Elit esse cillum dolore eui fugiat nulla pariatur.',
+    title:'Social Media Marketing ',
+    desc:'Harness the power of social media to amplify your brand`s voice. Our social media marketing strategies are tailored to your unique goals, driving engagement, building communities, and nurturing relationships across platforms.',
     page:'home-5'
   },
+  // home 5 end-----------------------------------------------------------------------------------------
   {
     id:21,
     icon:icon_11,
@@ -598,8 +599,8 @@ const service_data:IService[] = [
     title:'ServiceNow implementation',
     desc:'We can help at any stage of your ServiceNow project. Our ServiceNow implementation services cover platform implementation from scratch, enhancement of your existing platform functionality, integrations (e.g., with IT infrastructure management tools, email services, CRM systems) as well as migration projects (from basic-functionality ticketing tools or legacy ITSM systems).',
     page:'servicenow'
-  },  
-  
+  },
+
   {
     id:81,
     icon:icon_11,

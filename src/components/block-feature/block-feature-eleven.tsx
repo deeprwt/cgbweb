@@ -12,15 +12,15 @@ const slider_setting = {
   dots: true,
   arrows: false,
   centerPadding: "0px",
-  slidesToShow: 3,
-  slidesToScroll: 3,
+  slidesToShow: 2,
+  slidesToScroll: 1,
   autoplay: false,
   autoplaySpeed: 3000,
   responsive: [
     {
       breakpoint: 1200,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 3,
       },
     },
     {
@@ -33,22 +33,21 @@ const slider_setting = {
 };
 
 const BlockFeatureEleven = () => {
-  const service_items = service_data.filter((s) => s.page === "home-5").slice(0,4);
+  const service_items = service_data.filter((s) => s.page === "home-5").slice(0,6);
   return (
     <div className="block-feature-eleven overflow-hidden position-relative mt-50 lg-mt-100 pb-200 lg-pb-100 md-pb-80">
       <div className="container">
         <div className="row gx-lg-5 align-items-center">
           <div className="col-lg-5 wow fadeInLeft">
             <div className="title-one">
-              <h2 className="color-deep">Our Services</h2>
+              <h2 className="color-deep">Digital marketing services we offer</h2>
             </div>
             <p className="text-lg text-dark mt-30 md-mt-20 mb-45 md-mb-30">
-              Marketing agency with top talented people are providing quality
-              services.
+            Our prowess as one of the top digital marketing agencies in the provision of these exceptional digital marketing services.
             </p>
-            <Link href="/contact" className="btn-eighteen tran3s">
+            {/* <Link href="/contact" className="btn-eighteen tran3s">
               Explore All
-            </Link>
+            </Link> */}
           </div>
           <div className="col-lg-7">
             <div className="slider-wrapper md-mt-50">

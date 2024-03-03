@@ -6,7 +6,8 @@ import icon_1 from "@/assets/images/icon/icon_97.svg";
 import icon_2 from "@/assets/images/icon/icon_27.svg";
 import shape from "@/assets/images/shape/shape_45.svg";
 import arrow from "@/assets/images/icon/icon_09.svg";
-import business_man from "@/assets/images/assets/businessman_02.png";
+import business_man from "@/assets/images/solutions/digital-marketing/cta-banner.webp";
+import digital_pg from "@/assets/images/solutions/digital-marketing/cta-banner.webp";
 import service_data from "@/data/service-data";
 
 // img style
@@ -17,7 +18,7 @@ const imgStyle = {
 const BlockFeatureTwelve = () => {
   const service_items = service_data
     .filter((s) => s.page === "home-5")
-    .slice(4, 6);
+    .slice(0, 1);
   return (
     <div className="block-feature-twelve position-relative pt-130 lg-pt-80 pb-40 lg-pb-40">
       <div className="container">
@@ -25,23 +26,22 @@ const BlockFeatureTwelve = () => {
           <div className="col-lg-11">
             <div className="title-one mb-40 lg-mb-20">
               <h2 className="color-deep">
-                We are here to help you manage, build & protect your wealth.
+              CGB Solutions: Unlocking Digital Excellence
               </h2>
             </div>
           </div>
         </div>
         <div className="row gx-xl-5">
-          <div className="col-lg-8 d-flex mt-40 md-mt-20">
+          <div className="col-lg-12 d-flex mt-40 md-mt-20">
             <div className="card-style-eighteen position-relative">
               <div className="row h-100">
                 <div className="col-lg-7 order-lg-last">
-                  <div className="pt-45">
+                  <div className="pt-45 pb-40">
                     <div className="icon rounded-circle d-flex align-items-center justify-content-center">
                       <Image src={icon_1} alt="icon" className="lazy-img" />
                     </div>
                     <blockquote>
-                      “Efficient, knowledgeable, & smooth experience. Highly
-                      recommended”
+                      “Discover the keys to digital mastery with CGB Solutions. We specialize in a variety of services tailored to elevate your online presence .”
                     </blockquote>
                     <h6>
                       - Musa Jamy. <span>CEO babun</span>
@@ -50,7 +50,7 @@ const BlockFeatureTwelve = () => {
                 </div>
                 <div className="col-lg-5 d-flex align-items-end justify-content-center order-lg-first">
                   <Image
-                    src={business_man}
+                    src={digital_pg}
                     alt="man-img"
                     className="lazy-img"
                     style={imgStyle}
@@ -80,7 +80,7 @@ const BlockFeatureTwelve = () => {
             <div className="card-style-nineteen">
               <div className="row">
                 <div className="col-lg-7">
-                  <h2 className="color-deep fw-bold mt-20">We’r Babun</h2>
+                  <h2 className="color-deep fw-bold mt-20">We’r CGB </h2>
                   <p className="text-md mt-30 lg-mt-20 mb-35">
                     Your success is our mission. As business advisors, we offer
                     expert guidance, unlocking your potential
@@ -97,7 +97,7 @@ const BlockFeatureTwelve = () => {
                 <div className="col-lg-4 ms-auto">
                   <div className="counter-block-one md-mt-40">
                     <div className="main-count fw-bold">
-                      <span className="counter">710</span>k+
+                      <span className="counter">100</span>+
                     </div>
                     <p className="m0">Successful Projects</p>
                   </div>
