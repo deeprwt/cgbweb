@@ -33,7 +33,7 @@
   .theme-main-menu.menu-style-two .gap-fix {padding-left: 25px; padding-right: 25px;}
   .theme-main-menu.menu-style-five .inner-content {padding: 16px 25px;}
   .h1, h1 {font-size: 65px;}
-  .h2, h2 {font-size: 48px;}
+  .h2, h2 {font-size: 52px;}
   .title-two h2 {font-size: 64px;} 
   .title-four h2 {font-size: 55px;}
   .text-xl {font-size: 24px;}
@@ -292,7 +292,7 @@
   .h1, h1 {font-size: 55px;}
   .h2, h2,.fancy-banner-three .title-one h2 {font-size: 48px; line-height: 1.12em;}
   /* .title-two h2 {font-size: 56px;} */
-  .title-two h2 {font-size: 48px;}
+  .title-two h2 {font-size: 52px;}
   .title-four h2 {font-size: 46px;}
   .text-xl {font-size: 22px;}
   .hero-banner-one .hero-heading {padding: 11px 47px 30px 25px;}
