@@ -89,9 +89,9 @@ const TextFeatureAbout = ({ style_2 = false }: { style_2?: boolean }) => {
                   solutions that effectively address their needs.
                 </p>
                 <div className="d-inline-flex flex-wrap align-items-center">
-                  <Link href="/contact" className="btn-four mt-15 me-4">
+                  {/* <Link href="/contact" className="btn-four mt-15 me-4">
                     Contact us
-                  </Link>
+                  </Link> */}
                   {/* <Link href="/contact" className="btn-three icon-link mt-15">
                         <span>Request a Callback</span>
                         <Image src={icon} alt="icon" className="lazy-img icon ms-1"/>
