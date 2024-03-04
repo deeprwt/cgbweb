@@ -20,6 +20,8 @@ import FaqSolutions from "@/components/faq/faq-solutions";
 import FooterOne from "@/layout/footer/footer-one";
 import SectionSol1 from "@/components/two-col/section-sol1";
 import AutomationAnywhereSecton from "@/components/solutions/automation-anywhere-section";
+import screen from "@/assets/images/assets/screen_11.png";
+
 
 export const metadata: Metadata = {
   title: "Automation Anywhere",
@@ -53,7 +55,11 @@ export default function AutomationAnywhere() {
           {/* end */}
             <AutomationAnywhereSecton/>
           {/* start */}
-          <FaqSolutions />
+          <FaqSolutions
+            title="Why use Automation Anywhere for businesses?"
+            img={screen}
+            page="automationsfaq"
+          />
           {/* end */}
 
           {/* <SectionSol1 /> */}

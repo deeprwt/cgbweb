@@ -20,6 +20,7 @@ import FaqSolutions from "@/components/faq/faq-solutions";
 import FooterOne from "@/layout/footer/footer-one";
 import SectionSol1 from "@/components/two-col/section-sol1";
 import FinacleSecton from "@/components/solutions/finacle-section";
+import screen from '@/assets/images/assets/screen_11.png';
 
 export const metadata: Metadata = {
   title: "Finacle",
@@ -53,7 +54,11 @@ export default function Finacle() {
           {/* end */}
 
           {/* start */}
-          <FaqSolutions />
+          <FaqSolutions 
+          title="Why use Finacle for businesses?"
+          img={screen}
+          page="finaclefaq"
+          />
           {/* end */}
 
           

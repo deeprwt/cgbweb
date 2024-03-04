@@ -161,6 +161,54 @@ const faq_data: IFaq[] = [
     desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
     page:'parmanent-staffing'
   },
+  {
+    id: 25,
+    title: "Rapid turnaround",
+    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    page:'finaclefaq'
+  },
+  {
+    id: 26,
+    title: "Rapid turnaround",
+    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    page:'finaclefaq'
+  },
+  {
+    id: 27,
+    title: "Rapid turnaround",
+    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    page:'finaclefaq'
+  },
+  {
+    id: 28,
+    title: "Rapid turnaround",
+    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    page:'finaclefaq'
+  },
+  {
+    id: 29,
+    title: "Rapid turnaround",
+    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    page:'finaclefaq'
+  },
+  {
+    id: 30,
+    title: "Faster time to market",
+    desc: "By utilizing rapid and agile application development, you can decrease your time-to-market by 10 times.",
+    page:'mendixfaq'
+  },
+  {
+    id: 31,
+    title: "Accelerate growth",
+    desc: "Achieve rapid scaling of your operations by seamlessly connecting people, processes, and systems to enhance efficiency and productivity.",
+    page:'mendixfaq'
+  },
+  {
+    id: 32,
+    title: "Build ideas into existence",
+    desc: "Collaborate on innovation and bring your ideas to fruition by empowering both business and IT teams.",
+    page:'mendixfaq'
+  },
 ];
 
 export default faq_data;

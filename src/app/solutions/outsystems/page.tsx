@@ -20,6 +20,7 @@ import FaqSolutions from "@/components/faq/faq-solutions";
 import FooterOne from "@/layout/footer/footer-one";
 import SectionSol1 from "@/components/two-col/section-sol1";
 import OracleSection from "@/components/solutions/oracle-section";
+import screen from "@/assets/images/assets/screen_11.png";
 import OutsystemsSection from "@/components/solutions/outsystems-section";
 
 export const metadata: Metadata = {
@@ -46,6 +47,14 @@ export default function OutSystems() {
           {/* hero banner end */}
           
           <OutsystemsSection />
+
+          {/* start */}
+          <FaqSolutions
+            title="Why use Outsystems for businesses?"
+            img={screen}
+            page="outsystemsfaq"
+          />
+          {/* end */}
 
 
           {/* block feature six start */}
