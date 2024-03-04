@@ -98,7 +98,7 @@ const ImgTextOne = ({
                   </ul>
                 </div>
               </div>
-              <div className="col-xxl-5 col-lg-5  order-first order-md-last wow fadeInLeft">
+              <div className="col-xxl-5 col-lg-5  order-first order-md-last wow fadeInLeft d-flex align-items-center ">
                 <Image
                   src={img}
                   alt="screen"

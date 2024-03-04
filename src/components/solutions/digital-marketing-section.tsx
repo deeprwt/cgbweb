@@ -8,6 +8,9 @@ import shape from "@/assets/images/shape/shape_45.svg";
 import arrow from "@/assets/images/icon/icon_09.svg";
 import business_man from "@/assets/images/assets/businessman_02.png";
 import service_data from "@/data/service-data";
+import ImgTextOne from "../img-text-feature/img-text-one";
+import Finacle5 from '@/assets/images/solutions/Finacle/Fincale-5.jpg'
+
 
 // img style
 const imgStyle = {
@@ -19,6 +22,9 @@ const DigitalMarketingSection = () => {
     .slice(4, 6);
   return (
     <>
+
+
+
       <div className="block-feature-twelve position-relative pt-130 lg-pt-80 pb-180 lg-pb-80">
         <div className="container">
           {/* ---------------------------------Section staring-------------------------------*/}
