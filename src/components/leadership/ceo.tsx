@@ -9,7 +9,7 @@ import icon_3 from "@/assets/images/icon/icon_11.svg";
 import shape from "@/assets/images/shape/shape_05.svg";
 import ab from "@/assets/images/cgbhome/about.png";
 import linkd from "@/assets/images/icon/linkedinicon.png";
-import sindhu from "@/assets/images/cgbhome/sindhu.png";
+import sindhu from "@/assets/images/cgbhome/sindhuUpdate.png";
 
 const CeoData = ({ style_2 = false }: { style_2?: boolean }) => {
   return (
@@ -18,14 +18,14 @@ const CeoData = ({ style_2 = false }: { style_2?: boolean }) => {
         <div className="text-feature-one  light-bg pt-120 lg-pt-80 pb-150 lg-pb-80">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-xl-5 col-lg-6 wow fadeInRight">
+              <div className="col-xl-5 col-lg-6 wow fadeInRight d-flex justify-content-center ">
                 <Image
                   src={sindhu}
-                  layout="responsive"
-                  width={300}
-                  height={400}
+                  // layout="responsive"
+                  width={385}
+                  height={540}
                   alt="Sindhu profile"
-                  className="w-100"
+                  // className="w-100"
                 ></Image>
               </div>
               <div className="col-xl-7 col-lg-6 wow fadeInLeft">
