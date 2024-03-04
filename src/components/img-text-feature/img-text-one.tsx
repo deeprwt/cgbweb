@@ -19,6 +19,8 @@ type IProps = {
   title?: string;
   subtitle: string;
   img: StaticImageData;
+  para?:string;
+  subpara?:string;
   cls?: string;
   filter_data: string;
   style_2?: boolean;
@@ -29,6 +31,8 @@ const ImgTextOne = ({
   subtitle,
   img,
   filter_data,
+  para,
+  subpara,
   cls,
   style_2 = false,
 }: IProps) => {
@@ -40,14 +44,18 @@ const ImgTextOne = ({
         <div className="service-details pt-80 pb-80">
           <div className="container">
             <div className={`row ${cls}`}>
-              <div className="details-meta ps-xxl-5 ps-xl-3">
+              <div className="title-one details-meta ps-xxl-5 ps-xl-3">
                 <h2 className="text-center pb-5">{title}</h2>
+                <p className="">
+                  {para}
+                </p>
               </div>
             </div>
             <div className="row">
               <div className="col-xxl-7 col-lg-7 d-flex align-items-center order-lg-last wow fadeInRight">
                 <div className="details-meta ps-xxl-5 ps-xl-3">
                   <h3>{subtitle}</h3>
+                  <p className="">{subpara}</p>
                   <ul className="style-none list-item pb-20">
                     {ul_data
                       .filter((s) => s.page === `${filter_data}`)
@@ -78,6 +86,7 @@ const ImgTextOne = ({
               <div className="col-xxl-7 col-lg-7 d-flex align-items-center  order-last order-md-first wow fadeInRight">
                 <div className="details-meta ps-xxl-5 ps-xl-3">
                   <h3>{subtitle}</h3>
+                  <p className="">{subpara}</p>
                   <ul className="style-none list-item pb-20">
                     {ul_data
                       .filter((s) => s.page === `${filter_data}`)

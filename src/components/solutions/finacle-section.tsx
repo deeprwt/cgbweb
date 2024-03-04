@@ -18,6 +18,13 @@ import icon_4 from "@/assets/images/icon/icon_65.svg";
 import icon_5 from "@/assets/images/icon/icon_66.svg";
 import icon_6 from "@/assets/images/icon/icon_67.svg";
 import shape from "@/assets/images/shape/shape_05.svg";
+import Finacle1 from '@/assets/images/solutions/Finacle/Fincale-1.jpg'
+import Finacle2 from '@/assets/images/solutions/Finacle/Fincale-2.jpg'
+import Finacle3 from '@/assets/images/solutions/Finacle/Fincale-3.jpg'
+import Finacle4 from '@/assets/images/solutions/Finacle/Fincale-4.jpg'
+import Finacle5 from '@/assets/images/solutions/Finacle/Fincale-5.jpg'
+import Finacle6 from '@/assets/images/solutions/Finacle/Fincale-6.jpg'
+import ImgTextOne from "../img-text-feature/img-text-one";
 
 // card item
 function CardItem2({
@@ -131,250 +138,94 @@ const FinacleSecton = ({ cls }: { cls?: string }) => {
       </div>
       {/* card end */}
       {/* card2 starting */}
-      <div className="block-feature-ten block-feature-six service-details position-relative bg-two mb-50 mt-50 lg-mt-80 pb-60 pt-60 lg-pb-60">
-        {/* starring */}
-        <div className="container details-meta">
-          <div className="row align-items-center">
-            <div className="col-lg-10 wow fadeInUp">
-              <div className="title-one lg-mb-20">
-                <h3>One Partner to Meet All Your Financial IT Needs</h3>
-                <p>
-                  Our financial IT services encompass software development,
-                  consulting, comprehensive IT support, QA, cybersecurity, and
-                  data analytics.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* staring */}
-          <div className="col-lg-10 d-flex mt-40 md-mt-20">
-            <div className="card-style-nineteen">
-              <div className="row">
-                <div className="col-lg-12">
-                  <h2 className="color-deep fw-bold mt-8 mb-15">
-                    Financial software development
-                  </h2>
-                  <p>
-                    Our financial IT services encompass software development,
-                    consulting, comprehensive IT support, QA, cybersecurity, and
-                    data analytics.
-                  </p>
 
-                  <div className="service-details">
-                    <div className="details-meta ">
-                      <ul className="style-none list-item ">
-                        <li>Financial software development.</li>
-                        <li>Proof of Concept and MVP delivery.</li>
-                        <li>Data migration to the new financial solution.</li>
-                        <li>
-                          Financial application integration with the required
-                          systems.
-                        </li>
-                        <li>User training.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* End */}
-          {/* staring */}
-          <div className="col-lg-10 d-flex mt-40 md-mt-20">
-            <div className="card-style-nineteen">
-              <div className="row">
-                <div className="col-lg-12">
-                  <h2 className="color-deep fw-bold mt-8 mb-15">
-                    Financial IT solution consulting
-                  </h2>
-                  <p>
-                    We design robust solutions tailored to your needs and
-                    deliver a detailed project plan for risk-free
-                    implementation.
-                  </p>
+      {/*--------------------Img and orderList tag Staring------------------ */}
+      <ImgTextOne
+        /* Main Heading   */
+        title="One Partner to Meet All Your Financial IT Needs"
+        para="Our financial IT services encompass software development,
+        consulting, comprehensive IT support, QA, cybersecurity, and
+        data analytics."
+        img={Finacle1}
+        subtitle="Financial software development"
+        subpara="Our financial IT services encompass software development, consulting, comprehensive IT support, QA, cybersecurity, and data analytics."
+        filter_data="finacel-1"
+      />
+      {/*--------------------Img and orderList tag End------------------ */}
 
-                  <div className="service-details">
-                    <div className="details-meta ">
-                      <ul className="style-none list-item ">
-                        <li>
-                          Functional design, architecture design, UX and UI
-                          design..
-                        </li>
-                        <li>
-                          Consulting on cloud, AI and ML, big data, blockchain
-                          implementation..
-                        </li>
-                        <li>Development project planning</li>
-                        <li>Expert advice on project cost optimization.</li>
-                        <li>Tech stack selection.</li>
-                        <li>Security and compliance consulting.</li>
-                        <li>Feasibility study, cost and ROI estimation.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* End */}
-          {/* staring */}
-          <div className="col-lg-10 d-flex mt-40 md-mt-20">
-            <div className="card-style-nineteen">
-              <div className="row">
-                <div className="col-lg-12">
-                  <h2 className="color-deep fw-bold mt-8 mb-15">
-                    Financial software product consulting
-                  </h2>
-                  <p>
-                    We assist in idea productization, CX strategy creation, and
-                    technical design to help you plan and launch a winning
-                    financial solution. You get:
-                  </p>
+      {/*--------------------Img and orderList tag Staring------------------ */}
+      <ImgTextOne
+        title="One Partner to Meet All Your Financial IT Needs"
+        para="Our financial IT services encompass software development,
+        consulting, comprehensive IT support, QA, cybersecurity, and
+        data analytics."
+        img={Finacle2}
+        subtitle="Financial IT solution consulting"
+        subpara="We design robust solutions tailored to your needs and deliver a detailed project plan for risk-free implementation."
+        filter_data="finacel-2"
+        style_2={true}
+      />
+      {/*--------------------Img and orderList tag Staring------------------ */}
 
-                  <div className="service-details">
-                    <div className="details-meta ">
-                      <ul className="style-none list-item ">
-                        <li>A clear financial product concept.</li>
-                        <li>A unique selling proposition.</li>
-                        <li>
-                          User journey maps and a usability testing report.
-                        </li>
-                        <li>An optimal tech stack for product development.</li>
-                        <li>
-                          An interactive prototype of your financial solution.
-                        </li>
-                        <li>A comprehensive UI kit.</li>
-                        <li>An realistic market entry plan.</li>
-                        <li>A clear financial product concept.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* End */}
-          {/* staring */}
-          <div className="col-lg-10 d-flex mt-40 md-mt-20">
-            <div className="card-style-nineteen">
-              <div className="row">
-                <div className="col-lg-12">
-                  <h2 className="color-deep fw-bold mt-8 mb-15">
-                    Financial software development
-                  </h2>
-                  <p>
-                    Our financial IT services encompass software development,
-                    consulting, comprehensive IT support, QA, cybersecurity, and
-                    data analytics.
-                  </p>
-                  <div className="service-details">
-                    <div className="details-meta ">
-                      <ul className="style-none list-item ">
-                        <li>Financial software development.</li>
-                        <li>Proof of Concept and MVP delivery.</li>
-                        <li>Data migration to the new financial solution.</li>
-                        <li>
-                          Financial application integration with the required
-                          systems.
-                        </li>
-                        <li>User training.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-10 d-flex mt-40 md-mt-20">
-            <div className="card-style-nineteen">
-              <div className="row">
-                <div className="col-lg-12">
-                  <h2 className="color-deep fw-bold mt-8 mb-15">
-                    Financial software modernization
-                  </h2>
-                  <p>
-                    We upgrade your existing software to help you get a modern
-                    solution at an optimal cost and with minimal disruption to
-                    business workflows.
-                  </p>
+      {/*--------------------Img and orderList tag End------------------ */}
+      <ImgTextOne
+        title="One Partner to Meet All Your Financial IT Needs"
+        para="Our financial IT services encompass software development,
+        consulting, comprehensive IT support, QA, cybersecurity, and
+        data analytics."
+        img={Finacle3}
+        subtitle="Financial software product consulting"
+        subpara="We assist in idea productization, CX strategy creation, and technical design to help you plan and launch a winning financial solution."
+        filter_data="finacel-3"
+        cls="d-none"
+      />
+      {/*--------------------Img and orderList tag End------------------ */}
+      {/*--------------------Img and orderList tag Staring------------------ */}
+      
+    
+      {/*--------------------Img and orderList tag End------------------ */}
+      {/*--------------------Img and orderList tag Staring------------------ */}
+      <ImgTextOne
+        title="One Partner to Meet All Your Financial IT Needs"
+        para="Our financial IT services encompass software development,
+        consulting, comprehensive IT support, QA, cybersecurity, and
+        data analytics."
+        img={Finacle4}
+        subtitle="Financial software modernization"
+        subpara="We upgrade your existing software to help you get a modern solution at an optimal cost and with minimal disruption to business workflows."
+        filter_data="finacel-4"
+        style_2={true}
+      />
+      {/*--------------------Img and orderList tag End------------------ */}
+      {/*--------------------Img and orderList tag Staring------------------ */}
+      <ImgTextOne
+        title="One Partner to Meet All Your Financial IT Needs"
+        para="Our financial IT services encompass software development,
+        consulting, comprehensive IT support, QA, cybersecurity, and
+        data analytics."
+        img={Finacle5}
+        subtitle="Managed financial IT services"
+        subpara=" We monitor, troubleshoot, and upgrade all components of your financial IT infrastructure and apps to keep them stable, cost-effective, and relevant to your needs. Our teams adapt to your time zones and business hours."
+        filter_data="finacel-6"
+        style_2={true}
+      />
+      {/*--------------------Img and orderList tag End------------------ */}
 
-                  <div className="service-details">
-                    <div className="details-meta ">
-                      <ul className="style-none list-item ">
-                        <li>
-                          Cloud migration (Azure, AWS, GCP, DigitalOcean,
-                          Rackspace).
-                        </li>
-                        <li>Architecture, code, UX, and UI redesign.</li>
-                        <li>Legacy app containerization.</li>
-                        <li>Software evolution with new features.</li>
-                        <li>Tech stack modernization.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-10 d-flex mt-40 md-mt-20">
-            <div className="card-style-nineteen">
-              <div className="row">
-                <div className="col-lg-12">
-                  <h2 className="color-deep fw-bold mt-8 mb-15">
-                    Managed financial IT services
-                  </h2>
-                  <p>
-                    We monitor, troubleshoot, and upgrade all components of your
-                    financial IT infrastructure and apps to keep them stable,
-                    cost-effective, and relevant to your needs. Our teams adapt
-                    to your time zones and business hours.
-                  </p>
-                  <div className="service-details">
-                    <div className="details-meta ">
-                      <ul className="style-none list-item ">
-                        <li>IT infrastructure support and monitoring.</li>
-                        <li>Application support and maintenance.</li>
-                        <li>L1 L3 IT help desk.</li>
-                        <li>Cloud management.</li>
-                        <li>User training.</li>
-                        <li>Managed security.</li>
-                        <li>IT automation.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-10 d-flex mt-40 md-mt-20">
-            <div className="card-style-nineteen">
-              <div className="row">
-                <div className="col-lg-12">
-                  <h2 className="color-deep fw-bold mt-8 mb-15">
-                  Quality assurance of financial solutions
-                  </h2>
-                  <p>
-                  We offer versatile QA services to ensure top-notch quality of financial IT systems.
-                  </p>
-                  <div className="service-details">
-                    <div className="details-meta ">
-                      <ul className="style-none list-item ">
-                        <li>Financial software audit and code review.</li>
-                        <li>One-time testing: functional, performance, usability, security testing.</li>
-                        <li>Continuous testing in parallel with development: system, integration, regression testing, and more.</li>
-                        <li>Test automation.</li>
-                       
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* End */}
-        </div>
-        {/* End */}
-      </div>
+      {/*--------------------Img and orderList tag Staring------------------ */}
+      <ImgTextOne
+        title="One Partner to Meet All Your Financial IT Needs"
+        para="Our financial IT services encompass software development,
+        consulting, comprehensive IT support, QA, cybersecurity, and
+        data analytics."
+        img={Finacle6}
+        subtitle=" Quality assurance of financial solutions"
+        subpara="We offer versatile QA services to ensure top-notch quality
+        of financial IT systems."
+        filter_data="finacel-7"
+        cls="d-none"
+      />
+      {/*--------------------Img and orderList tag End------------------ */}
+
       {/* card2 end */}
       {/* card2 starting */}
 
