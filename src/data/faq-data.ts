@@ -161,6 +161,36 @@ const faq_data: IFaq[] = [
     desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
     page:'parmanent-staffing'
   },
+  {
+    id: 25,
+    title: "Rapid turnaround",
+    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    page:'finaclefaq'
+  },
+  {
+    id: 26,
+    title: "Rapid turnaround",
+    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    page:'finaclefaq'
+  },
+  {
+    id: 27,
+    title: "Rapid turnaround",
+    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    page:'finaclefaq'
+  },
+  {
+    id: 28,
+    title: "Rapid turnaround",
+    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    page:'finaclefaq'
+  },
+  {
+    id: 29,
+    title: "Rapid turnaround",
+    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    page:'finaclefaq'
+  },
 ];
 
 export default faq_data;
