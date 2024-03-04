@@ -1,24 +1,38 @@
-'use client'
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from 'next/navigation';
 // internal
 import Navbar from "./navbar";
-import logo from '@/assets/images/logo/logome.png'
+import logo from "@/assets/images/logo/logome.png";
 import useSticky from "@/hooks/use-sticky";
 import LoginModal from "@/components/common/login-modal";
 
 const HeaderTwo = () => {
-  const {sticky} = useSticky();
-  
+  console.log("hi")
+  const { sticky } = useSticky();
+  console.log("hi2")
+  const pathrouter = usePathname();
+   // Access the current page URL
+
+   console.log(pathrouter)
+
   return (
     <>
-      <header className={`theme-main-menu menu-overlay menu-style-one white-vr sticky-menu ${sticky?'fixed':''}`}>
+      <header
+        className={`${pathrouter === "/solutions/digital-marketing" ? "header-change " : "" } theme-main-menu menu-overlay menu-style-one white-vr sticky-menu ${
+          sticky ? "fixed" : ""
+        }`}
+      >
         <div className="inner-content position-relative">
           <div className="top-header">
             <div className="d-flex align-items-center justify-content-between">
               <div className="logo order-lg-0">
-                <Link href="/" className="d-flex align-items-center justify-content-center">
+                <Link
+                  href="/"
+                  className="d-flex align-items-center justify-content-center"
+                >
                   <Image width={110} src={logo} alt="logo" />
                 </Link>
               </div>
@@ -56,7 +70,7 @@ const HeaderTwo = () => {
       </header>
 
       {/* login modal start */}
-      <LoginModal/>
+      <LoginModal />
       {/* login modal end */}
     </>
   );
