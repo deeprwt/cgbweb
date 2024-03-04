@@ -131,7 +131,7 @@ const ServicenNowSecton = ({ cls }: { cls?: string }) => {
       </div>
       {/* card end */}
       {/* card2 starting */}
-      <div className="block-feature-ten block-feature-six service-details position-relative bg-two mb-50 mt-50 lg-mt-80 pb-60 pt-60 lg-pb-60">
+      <div className="block-feature-ten  service-details position-relative  mb-50 mt-50 lg-mt-80 pb-60 pt-60 lg-pb-60">
         <div className="container details-meta">
           <div className="row align-items-center">
             <div className="col-lg-10 wow fadeInUp">

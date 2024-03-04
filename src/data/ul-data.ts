@@ -107,23 +107,199 @@ export const ul_data: IUl[] = [
     page: "graphic-5",
   },
   {
-    id: 11,
+    id: 21,
     ul: ["At Cgbsolutions, the clients closely work with our technical team."],
     page: "graphic-6",
   },
   {
-    id: 11,
+    id: 22,
     ul: ["The technical team always works with technology-driven solutions that are required during each phase of a project."],
     page: "graphic-6",
   },
   {
-    id: 11,
+    id: 23,
     ul: ["Guarantees the best result and puts in all the effort to achieve it."],
     page: "graphic-6",
   },
   {
-    id: 11,
+    id: 24,
     ul: ["We at Cgbsolutions, completely understand the significance of technology and implement the same at work."],
     page: "graphic-6",
+  },
+  {
+    id: 25,
+    ul: ["Financial software development."],
+    page: "finacel-1",
+  },
+  {
+    id: 26,
+    ul: ["Proof of Concept and MVP delivery."],
+    page: "finacel-1",
+  },
+  {
+    id: 27,
+    ul: ["Data migration to the new financial solution."],
+    page: "finacel-1",
+  },
+  {
+    id: 28,
+    ul: ["Financial application integration with the required systems."],
+    page: "finacel-1",
+  },
+  {
+    id: 30,
+    ul: ["Functional design, architecture design, UX and UI design.."],
+    page: "finacel-2",
+  },
+  {
+    id: 31,
+    ul: ["Consulting on cloud, AI and ML, big data, blockchain implementation."],
+    page: "finacel-2",
+  },
+  {
+    id: 32,
+    ul: ["Development project planning"],
+    page: "finacel-2",
+  },
+  {
+    id: 33,
+    ul: ["Expert advice on project cost optimization."],
+    page: "finacel-2",
+  },
+  {
+    id: 34,
+    ul: ["Tech stack selection."],
+    page: "finacel-2",
+  },
+  {
+    id: 35,
+    ul: ["Security and compliance consulting."],
+    page: "finacel-2",
+  },
+  {
+    id: 36,
+    ul: ["Feasibility study, cost and ROI estimation."],
+    page: "finacel-2",
+  },
+  {
+    id: 37,
+    ul: ["A clear financial product concept."],
+    page: "finacel-3",
+  },
+  {
+    id: 37,
+    ul: ["A unique selling proposition."],
+    page: "finacel-3",
+  },
+  {
+    id: 37,
+    ul: ["User journey maps and a usability testing report."],
+    page: "finacel-3",
+  },
+  {
+    id: 37,
+    ul: ["An optimal tech stack for product development."],
+    page: "finacel-3",
+  },
+  {
+    id: 37,
+    ul: ["An interactive prototype of your financial solution."],
+    page: "finacel-3",
+  },
+  {
+    id: 37,
+    ul: ["A comprehensive UI kit."],
+    page: "finacel-3",
+  },
+  {
+    id: 37,
+    ul: ["An realistic market entry plan."],
+    page: "finacel-3",
+  },
+  {
+    id: 37,
+    ul: ["A clear financial product concept."],
+    page: "finacel-3",
+  },
+  
+  {
+    id: 43,
+    ul: ["Cloud migration (Azure, AWS, GCP, DigitalOcean, Rackspace)"],
+    page: "finacel-4",
+  },
+  {
+    id: 44,
+    ul: ["Architecture, code, UX, and UI redesign."],
+    page: "finacel-4",
+  },
+  {
+    id: 45,
+    ul: ["Legacy app containerization."],
+    page: "finacel-4",
+  },
+  {
+    id: 46,
+    ul: ["Software evolution with new features."],
+    page: "finacel-4",
+  },
+  {
+    id: 47,
+    ul: ["Tech stack modernization."],
+    page: "finacel-4",
+  },
+  {
+    id: 48,
+    ul: ["IT infrastructure support and monitoring.."],
+    page: "finacel-6",
+  },
+  {
+    id: 49,
+    ul: ["Application support and maintenance."],
+    page: "finacel-6",
+  },
+  {
+    id: 50,
+    ul: ["L1 L3 IT help desk."],
+    page: "finacel-6",
+  },
+  {
+    id: 51,
+    ul: ["Cloud management."],
+    page: "finacel-6",
+  },
+  {
+    id: 52,
+    ul: ["User training."],
+    page: "finacel-6",
+  },
+  {
+    id: 53,
+    ul: ["Managed security."],
+    page: "finacel-6",
+  },
+  {
+    id: 54,
+    ul: ["IT automation."],
+    page: "finacel-6",
+  },
+  {
+    id: 55,
+    ul: ["Financial software audit and code review."],
+    page: "finacel-7",
+  },
+  {
+    id: 56,
+    ul: [" One-time testing: functional, performance, usability,security testing."],
+    page: "finacel-7",
+  },
+  {
+    id: 57,
+    ul: [" Continuous testing in parallel with development: system, integration, regression testing, and more.."],
+    page: "finacel-7",
+  },
+  {
+    id: 58,
+    ul: [" Test automation"],
+    page: "finacel-7",
   },
 ];
