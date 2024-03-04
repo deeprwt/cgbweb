@@ -10,13 +10,9 @@ import useSticky from "@/hooks/use-sticky";
 import LoginModal from "@/components/common/login-modal";
 
 const HeaderTwo = () => {
-  console.log("hi")
   const { sticky } = useSticky();
-  console.log("hi2")
+     // Access the current page URL
   const pathrouter = usePathname();
-   // Access the current page URL
-
-   console.log(pathrouter)
 
   return (
     <>
