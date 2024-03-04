@@ -6,11 +6,10 @@ import icon_1 from "@/assets/images/icon/icon_97.svg";
 import icon_2 from "@/assets/images/icon/icon_27.svg";
 import shape from "@/assets/images/shape/shape_45.svg";
 import arrow from "@/assets/images/icon/icon_09.svg";
-import business_man from "@/assets/images/solutions/digital-marketing/cta-banner.webp";
 import digital_pg from "@/assets/images/solutions/digital-marketing/cta-banner.webp";
 import service_data from "@/data/service-data";
 
-// img style
+//-------------------------------img style----------------------------------------
 const imgStyle = {
   height: "auto",
 };
@@ -26,7 +25,7 @@ const BlockFeatureTwelve = () => {
           <div className="col-lg-11">
             <div className="title-one mb-40 lg-mb-20">
               <h2 className="color-deep">
-              CGB Solutions: Unlocking Digital Excellence
+                CGB Solutions: Unlocking Digital Excellence
               </h2>
             </div>
           </div>
@@ -41,10 +40,12 @@ const BlockFeatureTwelve = () => {
                       <Image src={icon_1} alt="icon" className="lazy-img" />
                     </div>
                     <blockquote>
-                      “Discover the keys to digital mastery with CGB Solutions. We specialize in a variety of services tailored to elevate your online presence .”
+                      “Discover the keys to digital mastery with CGB Solutions.
+                      We specialize in a variety of services tailored to elevate
+                      your online presence.”
                     </blockquote>
                     <h6>
-                      - Musa Jamy. <span>CEO babun</span>
+                      - Musa Jamy. <span>CEO CGB</span>
                     </h6>
                   </div>
                 </div>
@@ -62,13 +63,18 @@ const BlockFeatureTwelve = () => {
           {service_items.map((s, i) => (
             <div key={i} className="col-lg-4 d-flex mt-40 md-mt-20">
               <div className="card-style-two bg-white vstack tran3s w-100">
-                <Image src={s.icon} alt="icon" className="lazy-img icon2 me-auto"/>
+                <Image
+                  src={s.icon}
+                  alt="icon"
+                  className="lazy-img icon2 me-auto"
+                />
                 <h4 className="fw-bold mt-50 mb-25">Our Mission</h4>
                 <p className="mb-20">
                   Optimize expense tracking across platforms, & product lines
                   using multiple cards.
                 </p>
-                <Link href="/service-details"
+                <Link
+                  href="/service-details"
                   className="arrow-btn tran3s mt-auto stretched-link"
                 >
                   <Image src={arrow} alt="arrow-icon" className="lazy-img" />
@@ -85,7 +91,8 @@ const BlockFeatureTwelve = () => {
                     Your success is our mission. As business advisors, we offer
                     expert guidance, unlocking your potential
                   </p>
-                  <Link href="/service-v2"
+                  <Link
+                    href="/service-v2"
                     className="btn-seven d-inline-flex align-items-center"
                   >
                     <span className="text">Learn More</span>

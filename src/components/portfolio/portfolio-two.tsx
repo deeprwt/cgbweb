@@ -1,5 +1,5 @@
-"use client"
-import React,{useRef} from "react";
+"use client";
+import React, { useRef } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 import Link from "next/link";
@@ -26,10 +26,10 @@ const slider_setting = {
   ],
 };
 
-// img style 
+// img style
 const imgStyle = {
-  height:'auto'
-}
+  height: "auto",
+};
 
 const PortfolioTwo = () => {
   const portfolio_items = portfolio_data.filter(
@@ -48,6 +48,7 @@ const PortfolioTwo = () => {
     <div className="portfolio-two position-relative mt-80 lg-mt-80">
       <div className="container">
         <div className="position-relative mb-80 lg-mb-40">
+          {/* ---------------------------------Section staring-------------------------------*/}
           <div className="d-flex justify-content-between align-items-center">
             <div className="title-one">
               <h2 className="color-deep m0">Our Projects.</h2>
@@ -61,15 +62,26 @@ const PortfolioTwo = () => {
               </li>
             </ul>
           </div>
+          {/* ---------------------------------Section End-------------------------------*/}
         </div>
       </div>
+      {/* ---------------------------------Slider section Staring-------------------------------*/}
       <div className="slider-wrapper">
-        <Slider {...slider_setting} ref={sliderRef} className="project-slider-one">
+        <Slider
+          {...slider_setting}
+          ref={sliderRef}
+          className="project-slider-one"
+        >
           {portfolio_items.map((item) => (
             <div key={item.id} className="item">
               <div className="portfolio-block-two">
                 <div className="img-wrapper">
-                  <Image src={item.img} alt="image" className="w-100" style={imgStyle}/>
+                  <Image
+                    src={item.img}
+                    alt="image"
+                    className="w-100"
+                    style={imgStyle}
+                  />
                 </div>
                 <div className="caption d-flex align-items-center justify-content-between flex-wrap">
                   <div>
@@ -92,6 +104,7 @@ const PortfolioTwo = () => {
           ))}
         </Slider>
       </div>
+      {/* ---------------------------------Slider Section End-------------------------------*/}
     </div>
   );
 };

@@ -34,7 +34,7 @@ interface IService {
 }
 
 const service_data:IService[] = [
-  // home 1
+  // home Staring ----------------------------------------------------------
   {
     id:1,
     icon:icon_1,
@@ -63,7 +63,9 @@ const service_data:IService[] = [
     desc:'Secure your dreams through disciplined savings & prudent investments.',
     page:'home'
   },
-  // home 2
+  // home End ------------------------------------------------------------------------------------
+  // home 2 staring ------------------------------------------------------------------------------------
+
   {
     id:5,
     icon:icon_5,
@@ -85,7 +87,8 @@ const service_data:IService[] = [
     desc:'Use receiving accounts in a growing number of currencies and get paid like a local.',
     page:'home-2'
   },
-  // home 3
+  // home 3 staring ------------------------------------------------------------------------------------
+  // 
   {
     id:8,
     icon:icon_8,
@@ -114,7 +117,8 @@ const service_data:IService[] = [
     desc:'Establish stringent frameworks to optimize efficiency and ensure compliance, mitigating risks effectively.',
     page:'home-3'
   },
-  // home 4
+  // home 3 end ------------------------------------------------------------------------------------
+  // home 4 staring ------------------------------------------------------------------------------------
   {
     id:12,
     icon:icon_12,
@@ -136,6 +140,7 @@ const service_data:IService[] = [
     desc:'Use receiving accounts in a growing number of currencies and get paid like a local.',
     page:'home-4'
   },
+  // home 4 end ------------------------------------------------------------------------------------
   // home 5------------------------------------------------------------------------------------
   {
     id:15,
