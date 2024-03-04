@@ -7,6 +7,8 @@ import icon_2 from "@/assets/images/icon/icon_10.svg";
 import icon_3 from "@/assets/images/icon/icon_11.svg";
 import shape from "@/assets/images/shape/shape_05.svg";
 import about from "@/assets/images/assets/screen_14.png";
+import mission from "@/assets/images/icon/mission.svg"
+import vision from "@/assets/images/icon/vision.svg"
 
 // card item
 function CardItem({
@@ -103,11 +105,11 @@ const TextFeatureAbout = ({ style_2 = false }: { style_2?: boolean }) => {
         </div>
       )}
       {style_2 && (
-        <div className="text-feature-one mt-150 lg-mt-80">
+        <div className="text-feature-one mt-80 lg-mt-80">
           <div className="container">
             <div className="line-wrapper position-relative">
               <div className="row align-items-center">
-                <div className="col-lg-7 wow fadeInLeft">
+                <div className="col-lg-6 wow fadeInLeft">
                   <div className="title-one">
                     {/* <div className="upper-title">About us</div> */}
                     <h2>Our Story</h2>
@@ -132,15 +134,15 @@ const TextFeatureAbout = ({ style_2 = false }: { style_2?: boolean }) => {
                     <Image src={icon} alt="icon" className="lazy-img icon ms-1"/>
                   </Link> */}
                 </div>
-                <div className="col-lg-5 ms-auto wow fadeInRight">
+                <div className="col-lg-6 ms-auto wow fadeInRight">
                   <CardItem
-                    icon={icon_2}
+                    icon={mission}
                     link="/mission"
                     title="Our Mission"
                     desc="We aspire to be the visionary of a future where the seamless integration of unparalleled talent and cutting-edge technology not only redefines success for businesses but sets an entirely new standard for global excellence"
                   />
                   <CardItem
-                    icon={icon_3}
+                    icon={vision}
                     link="/vision"
                     title="Our company Vision."
                     desc="We are on a relentless mission to shatter the ordinary, empowering businesses with extraordinary staffing and technology solutions. At CGB Solutions, we don't just adapt to change; we sculpt it, ensuring our clients lead the way in innovation and triumph."
