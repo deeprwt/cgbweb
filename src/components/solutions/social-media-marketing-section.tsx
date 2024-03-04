@@ -8,6 +8,12 @@ import shape from "@/assets/images/shape/shape_45.svg";
 import arrow from "@/assets/images/icon/icon_09.svg";
 import business_man from "@/assets/images/assets/businessman_02.png";
 import service_data from "@/data/service-data";
+import ImgTextOne from "../img-text-feature/img-text-one";
+import Finacle5 from "@/assets/images/solutions/Finacle/Fincale-5.jpg";
+import SocialMedia1 from "@/assets/images/solutions/SocialMediaMarketing/socialMedia1.jpg";
+import SocialMedia2 from "@/assets/images/solutions/SocialMediaMarketing/socialMedia2.jpg";
+import SocialMedia3 from "@/assets/images/solutions/SocialMediaMarketing/socialMedia3.jpg";
+import SocialMedia4 from "@/assets/images/solutions/SocialMediaMarketing/socialMedia4.jpg";
 
 // img style
 const imgStyle = {
@@ -19,256 +25,64 @@ const SocialMediaMarketingSection = () => {
     .slice(4, 6);
   return (
     <>
+
+      {/*--------------------Img and orderList tag Staring------------------ */}
+      <ImgTextOne
+        title="Social media marketing agency"
+        para="Our financial IT services encompass software development,
+        consulting, comprehensive IT support, QA, cybersecurity, and
+        data analytics."
+        img={SocialMedia1}
+        subtitle="Create a secure imprint"
+        subpara=" A good impression is what makes people come to you. A recent survey states more than 3 billion people use social media to peruse info on new products. The company or website creating a good impression on social media is certainly a winner. How to create a good impression?"
+        filter_data="SMM-1"
+      />
+      {/*--------------------Img and orderList tag End------------------ */}
+      {/*--------------------Img and orderList tag Staring------------------ */}
+      <ImgTextOne
+        /* Main Heading   */
+        title="One Partner to Meet All Your Financial IT Needs"
+        para="Our financial IT services encompass software development,
+        consulting, comprehensive IT support, QA, cybersecurity, and
+        data analytics."
+        img={SocialMedia2}
+        subtitle="Enhanced engagement"
+        subpara="You can get aid from one of the best social media marketing companies in Bangalore to keep your customers on their toes. Having a regular interaction interface with the audience creates a more involving environment."
+        filter_data="SMM-2"
+        style_2={true}
+      />
+      {/*--------------------Img and orderList tag End------------------ */}
+      {/*--------------------Img and orderList tag Staring------------------ */}
+      <ImgTextOne
+        /* Main Heading   */
+        title=""
+        para=""
+        img={SocialMedia3}
+        subtitle="Inexpensive business branding"
+        subpara="Social media marketing is the best and most budget-friendly way to reach out to your potential customers. Irrespective of the company’s size and scope, it instantly helps you reach millions of people."
+        filter_data="SMM-3"
+      />
+      {/*--------------------Img and orderList tag End------------------ */}
+
+      {/*--------------------Img and orderList tag Staring------------------ */}
+      <ImgTextOne
+        /* Main Heading   */
+        title="One Partner to Meet All Your Financial IT Needs"
+        para="Our financial IT services encompass software development,
+        consulting, comprehensive IT support, QA, cybersecurity, and
+        data analytics."
+        img={SocialMedia4}
+
+        subtitle="Offer 24/7 support"
+        subpara="Your company or brand gets projected on how well you are good with your customers when they need you. Make sure when you are engaging content, it‘s important to offer your unlimited 24/7 support."
+        filter_data="SMM-4"
+        style_2={true}
+      />
+      {/*--------------------Img and orderList tag End------------------ */}
+
       <div className="block-feature-twelve position-relative pt-130 lg-pt-80 pb-180 lg-pb-80">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-11">
-              <div className="title-one mb-40 lg-mb-20">
-                <h2 className="color-deep">Social media marketing agency</h2>
-              </div>
-            </div>
-          </div>
-          {/* section start------------------ */}
           <div className="row gx-xl-5">
-            <div className="col-lg-6 d-flex mt-40 md-mt-20">
-              <div className="">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <h3 className="color-deep fw-bold mt-8 mb-15">
-                      Create a secure imprint
-                    </h3>
-                    <div className="service-details">
-                      <div className="details-meta ">
-                        <p>
-                          A good impression is what makes people come to you. A
-                          recent survey states more than 3 billion people use
-                          social media to peruse info on new products. The
-                          company or website creating a good impression on
-                          social media is certainly a winner. How to create a
-                          good impression?
-                        </p>
-                        <ul className="style-none list-item ">
-                          <li>
-                            Build an active business profile to engage viewers.
-                          </li>
-                          <li>
-                            Create a trustworthy environment for your customers.
-                          </li>
-                          <li>
-                            Sound professional and confident in your work.
-                          </li>
-                          <li>
-                            Know your potential customers and what they are
-                            seeking.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6 d-flex mt-40 md-mt-20">
-              <div className="">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <Image
-                      src="/img1.webp"
-                      width={1000}
-                      height={415}
-                      alt="icon"
-                      className="rounded-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* section End-------------------------------  */}
-          {/* section start------------------ */}
-          <div className="row gx-xl-5">
-            <div className="col-lg-6 d-flex mt-40 md-mt-20">
-              <div className="">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <Image
-                      src="/img2.webp"
-                      width={1000}
-                      height={415}
-                      alt="icon"
-                      className="rounded-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6 d-flex mt-40 md-mt-20">
-              <div className="">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <h3 className="color-deep fw-bold mt-8 mb-15">
-                      Enhanced engagement
-                    </h3>
-                    <div className="service-details">
-                      <div className="details-meta ">
-                        <p>
-                          You can get aid from one of the best social media
-                          marketing companies in Bangalore to keep your
-                          customers on their toes. Having a regular interaction
-                          interface with the audience creates a more involving
-                          environment.
-                        </p>
-                        <ul className="style-none list-item ">
-                          <li>
-                            Use the most used social media platforms such as
-                            Facebook, Twitter, Instagram, Pinterest, and many
-                            more.
-                          </li>
-                          <li>
-                            Make maximum use of the engagement concepts in
-                            social media to reach your potential viewers such as
-                            captions, hashtags, reply buttons, etc.
-                          </li>
-                          <li>
-                            Utilize the idea of likes, comments, and share to
-                            understand the desired outcome.
-                          </li>
-                          <li>
-                            Use social media and other online channels to
-                            promote your website in your targeted global
-                            market.Be quick. If you are not quick enough to
-                            answer, your viewer scrolls down!
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* section End-------------------------------  */}
-          {/* section start------------------ */}
-          <div className="row gx-xl-5">
-            <div className="col-lg-6 d-flex mt-40 md-mt-20">
-              <div className="">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <h3 className="color-deep fw-bold mt-8 mb-15">
-                      Inexpensive business branding
-                    </h3>
-                    <div className="service-details">
-                      <div className="details-meta ">
-                        <p>
-                          Social media marketing is the best and most
-                          budget-friendly way to reach out to your potential
-                          customers. Irrespective of the company’s size and
-                          scope, it instantly helps you reach millions of
-                          people.
-                        </p>
-                        <ul className="style-none list-item ">
-                          <li>
-                            Build your brand through social platform ads on
-                            Facebook, Instagram, and others.
-                          </li>
-                          <li>
-                            Provide clear and logical content on the screen.
-                          </li>
-                          <li>
-                            Be creative and entertaining while giving out your
-                            ads. Nobody wants to visit a plain sight.
-                          </li>
-                          <li>
-                            Deliver engaging content to bring your business up
-                            locally with the help of social media marketing
-                            agencies in Bangalore.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6 d-flex mt-40 md-mt-20">
-              <div className="">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <Image
-                      src="/img2.webp"
-                      width={1000}
-                      height={415}
-                      alt="icon"
-                      className="rounded-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* section End-------------------------------  */}
-
-          {/* section start------------------ */}
-          <div className="row gx-xl-5">
-            <div className="col-lg-6 d-flex mt-40 md-mt-20">
-              <div className="">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <Image
-                      src="/img4.webp"
-                      width={1000}
-                      height={415}
-                      alt="icon"
-                      className="rounded-4"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6 d-flex mt-40 md-mt-20">
-              <div className="">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <h2 className="color-deep fw-bold mt-8 mb-15">
-                      Offer 24/7 support
-                    </h2>
-                    <div className="service-details">
-                      <div className="details-meta ">
-                        <p>
-                          Your company or brand gets projected on how well you
-                          are good with your customers when they need you. Make
-                          sure when you are engaging content, it&lsquo;s important to
-                          offer your unlimited 24/7 support.
-                        </p>
-                        <ul className="style-none list-item ">
-                          <li>
-                            Provide instant solutions in all social media
-                            platforms you intend for branding such as Facebook,
-                            Instagram, Twitter, and others..
-                          </li>
-                          <li>
-                            Keep track of upcoming genuine comments, queries,
-                            and complaints registered on social media channels.
-                          </li>
-                          <li>
-                            Give a positive response to the questioners and make
-                            them feel valued at the same time.
-                          </li>
-                          <li>
-                            Offer personal help to communicate with you through
-                            private messaging.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className="col-lg-11 my-40">
               <div className="title-one mb-40 lg-mb-20">
                 <h2 className="color-deep">
@@ -348,11 +162,11 @@ const SocialMediaMarketingSection = () => {
                     <div className="service-details">
                       <div className="details-meta ">
                         You cannot find your customers on all social media
-                        platforms. We track your potential customer&lsquo;s platforms
-                        to market your ideas. Platforms should be chosen based
-                        on your business, and depending upon the choices of your
-                        customers. Be it Facebook or LinkedIn, Instagram, or
-                        Twitter, we are here for you.
+                        platforms. We track your potential customer&lsquo;s
+                        platforms to market your ideas. Platforms should be
+                        chosen based on your business, and depending upon the
+                        choices of your customers. Be it Facebook or LinkedIn,
+                        Instagram, or Twitter, we are here for you.
                       </div>
                     </div>
                   </div>

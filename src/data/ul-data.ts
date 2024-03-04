@@ -302,4 +302,84 @@ export const ul_data: IUl[] = [
     ul: [" Test automation"],
     page: "finacel-7",
   },
+  {
+    id: 59,
+    ul: ["Build an active business profile to engage viewers."],
+    page: "SMM-1",
+  },
+  {
+    id: 60,
+    ul: ["Create a trustworthy environment for your customers."],
+    page: "SMM-1",
+  },
+  {
+    id: 61,
+    ul: ["Sound professional and confident in your work."],
+    page: "SMM-1",
+  },
+  {
+    id: 62,
+    ul: ["Know your potential customers and what they are seeking."],
+    page: "SMM-1",
+  },
+  {
+    id: 63,
+    ul: ["Use the most used social media platforms such as Facebook, Twitter, Instagram, Pinterest, and many more.."],
+    page: "SMM-2",
+  },
+  {
+    id: 64,
+    ul: ["Make maximum use of the engagement concepts in social media to reach your potential viewers such as captions, hashtags, reply buttons, etc."],
+    page: "SMM-2",
+  },
+  {
+    id: 65,
+    ul: ["Utilize the idea of likes, comments, and share to understand the desired outcome."],
+    page: "SMM-2",
+  },
+  {
+    id: 66,
+    ul: ["Use social media and other online channels to promote your website in your targeted global market.Be quick."],
+    page: "SMM-2",
+  },
+  {
+    id: 67,
+    ul: ["Build your brand through social platform ads on Facebook, Instagram, and others."],
+    page: "SMM-3",
+  },
+  {
+    id: 68,
+    ul: ["Provide clear and logical content on the screen."],
+    page: "SMM-3",
+  },
+  {
+    id: 69,
+    ul: ["Be creative and entertaining while giving out your ads. Nobody wants to visit a plain sight."],
+    page: "SMM-3",
+  },
+  {
+    id: 70,
+    ul: ["Deliver engaging content to bring your business up locally with the help of social media marketing agencies in Bangalore."],
+    page: "SMM-3",
+  },
+  {
+    id: 71,
+    ul: ["Provide instant solutions in all social media platforms you intend for branding such as Facebook, Instagram, Twitter, and others."],
+    page: "SMM-4",
+  },
+  {
+    id: 72,
+    ul: ["Keep track of upcoming genuine comments, queries, and complaints registered on social media channels."],
+    page: "SMM-4",
+  },
+  {
+    id: 73,
+    ul: ["Give a positive response to the questioners and make them feel valued at the same time."],
+    page: "SMM-4",
+  },
+  {
+    id: 73,
+    ul: ["Offer personal help to communicate with you through private messaging."],
+    page: "SMM-4",
+  },
 ];
