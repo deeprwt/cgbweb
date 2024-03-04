@@ -16,14 +16,15 @@ const TeamSingleTwo = ({team,spacing}: {team:ITeam;spacing?: string;}) => {
         {/* <Link href="#"
           className="round-btn rounded-circle d-flex align-items-center h-100 w-100 tran3s"
         > */}
-           <div className="round-btn rounded-circle d-flex align-items-center h-100 w-100 tran3s cursor-pointer">
+        {/* remove the  gif add gif and remove the comments of the div */}
+           {/* <div className="round-btn rounded-circle d-flex align-items-center h-100 w-100 tran3s cursor-pointer">
            <Image
           src={team.gif}
           alt="team-img"
           className="lazy-img w-100"
           style={{ height: "auto" }}
         />
-           </div>
+           </div> */}
           {/* <i className="bi bi-arrow-up-right"></i> */}
         {/* </Link> */}
       </div>
