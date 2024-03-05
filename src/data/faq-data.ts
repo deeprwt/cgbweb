@@ -251,6 +251,36 @@ const faq_data: IFaq[] = [
     desc: "Oracle offers comprehensive support and services to help businesses maximize the value of their Oracle solutions. This includes 24/7 customer support, professional services, consulting, training, and cloud managed services. Oracle's global network of partners and developers also provides additional resources and expertise to support business innovation and growth. With Oracle's extensive support ecosystem, businesses have access to the tools and assistance they need to successfully implement and use Oracle solutions.",
     page:'oraclefaq'
   },
+  {
+    id: 39,
+    title: "What is OutSystems, and how can it benefit my business?",
+    desc: "OutSystems is a modern application platform that allows for rapid application development with minimal coding, thanks to its low-code approach. It enables businesses to build complex systems, mobile and web applications faster than traditional development methods. OutSystems can significantly benefit your business by accelerating digital transformation, facilitating innovation, and reducing the time and cost associated with application development and maintenance.",
+    page:'outsystemsfaq'
+  },
+  {
+    id: 40,
+    title: "How does OutSystems support digital transformation?",
+    desc: "OutSystems supports digital transformation by empowering organizations to develop and deploy applications that address their unique challenges and opportunities quickly. Its visual development environment, coupled with a wide array of pre-built templates and components, allows businesses to automate workflows, improve customer experiences, and bring new services to market with unprecedented speed. This agility is crucial for staying competitive in today's rapidly changing digital landscape.",
+    page:'outsystemsfaq'
+  },
+  {
+    id: 41,
+    title: "Is OutSystems scalable and suitable for businesses of all sizes?",
+    desc: "Yes, OutSystems is highly scalable, catering to the needs of small businesses, large enterprises, and everything in between. The platform is designed to handle a wide range of application complexities and sizes, ensuring that as your business grows, your applications can scale accordingly. OutSystems supports the deployment of applications across various environments, including cloud, on-premises, and hybrid setups, providing the flexibility to meet specific business requirements.",
+    page:'outsystemsfaq'
+  },
+  {
+    id: 42,
+    title: " How does OutSystems ensure the security of applications?",
+    desc: " OutSystems takes application security seriously, incorporating security by design into its platform. It offers a comprehensive set of security features, including built-in security checks, automated vulnerability scanning, and compliance with industry-standard security practices and certifications. The platform also facilitates the development of secure applications by enforcing best practices and providing tools to identify and mitigate potential security risks throughout the application lifecycle.",
+    page:'outsystemsfaq'
+  },
+  {
+    id: 43,
+    title: " What kind of support and resources does OutSystems offer?",
+    desc: " OutSystems provides a robust ecosystem of support and resources to ensure businesses can effectively implement and leverage the platform. This includes access to extensive documentation, a vibrant community of developers, online training through the OutSystems Academy, and professional support services. Additionally, OutSystems offers a marketplace with a wide range of pre-built applications, connectors, and widgets to accelerate development and enhance application functionality.",
+    page:'outsystemsfaq'
+  },
 ];
 
 export default faq_data;
