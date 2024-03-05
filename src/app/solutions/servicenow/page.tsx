@@ -56,7 +56,7 @@ export default function ServiceNow() {
           <FaqSolutions
             title="Why use ServiceNow for businesses?"
             img={screen}
-            page="mendixfaq"
+            page="serviceNow"
           />
           {/* end */}
 
