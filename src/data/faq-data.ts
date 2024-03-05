@@ -193,20 +193,32 @@ const faq_data: IFaq[] = [
   },
   {
     id: 30,
-    title: "Faster time to market",
-    desc: "By utilizing rapid and agile application development, you can decrease your time-to-market by 10 times.",
+    title: "What is Mendix, and how can it benefit my business?",
+    desc: "Mendix is a comprehensive low-code platform that enables businesses to develop, deploy, and manage applications quickly and with minimal coding. It facilitates rapid application development with tools for visual modeling, a drag-and-drop interface, and reusable components. For businesses, this means significantly reduced development time and costs, enabling you to bring innovative solutions to market faster and adapt to changes in the business environment more efficiently.",
     page:'mendixfaq'
   },
   {
     id: 31,
-    title: "Accelerate growth",
-    desc: "Achieve rapid scaling of your operations by seamlessly connecting people, processes, and systems to enhance efficiency and productivity.",
+    title: "How does Mendix support digital transformation initiatives?",
+    desc: "Mendix accelerates digital transformation by empowering teams to develop applications that streamline operations, enhance customer experiences, and innovate services. It supports agile development methodologies, allowing for iterative, user-centric design and development. With its low-code approach, Mendix enables cross-functional collaboration between business and IT teams, fostering innovation and ensuring that the final products closely align with business goals and user needs.",
     page:'mendixfaq'
   },
   {
     id: 32,
-    title: "Build ideas into existence",
-    desc: "Collaborate on innovation and bring your ideas to fruition by empowering both business and IT teams.",
+    title: "Is Mendix scalable and suitable for businesses of all sizes?",
+    desc: "Yes, Mendix is designed to be highly scalable, supporting the needs of small businesses to large enterprises. It offers robust cloud-native architecture, ensuring that applications built with Mendix can scale to handle increasing user loads and data volumes seamlessly. Whether you're looking to create simple departmental applications or complex enterprise solutions, Mendix's platform is flexible enough to accommodate your growth and complexity needs.",
+    page:'mendixfaq'
+  },
+  {
+    id: 33,
+    title: "How does Mendix ensure the security and compliance of applications?",
+    desc: "Mendix takes security and compliance very seriously, incorporating best practices and industry standards into its platform. It offers built-in features for data protection, authentication, authorization, and encryption. Mendix applications are designed to be compliant with regulatory standards such as GDPR, HIPAA, and more, depending on the deployment options. The platform also provides tools for monitoring and auditing applications to ensure they adhere to the required compliance and security standards.",
+    page:'mendixfaq'
+  },
+  {
+    id: 34,
+    title: "What kind of support and resources does Mendix offer for businesses?",
+    desc: " Mendix provides a comprehensive range of support and resources to ensure businesses can maximize the benefits of the platform. This includes access to a vast community of developers, extensive documentation, expert training, and certification programs. Additionally, Mendix offers professional support services and a cloud platform with managed services options, ensuring that businesses can focus on innovation while Mendix takes care of the underlying technology.",
     page:'mendixfaq'
   },
 ];
