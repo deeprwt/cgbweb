@@ -163,32 +163,32 @@ const faq_data: IFaq[] = [
   },
   {
     id: 25,
-    title: "Rapid turnaround",
-    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    title: "What is Finacle, and how can it benefit my business?",
+    desc: " Finacle is a global banking solution by Infosys that offers a wide range of banking services including core banking, online banking, mobile banking, payments, treasury, origination, liquidity management, and wealth management services. It's designed to help banks and financial institutions transform their business, increase efficiency, and improve customer service. For your business, this means access to state-of-the-art digital banking solutions, faster transaction processing, and enhanced customer experience.",
     page:'finaclefaq'
   },
   {
     id: 26,
-    title: "Rapid turnaround",
-    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    title: " How does Finacle help in digital transformation?",
+    desc: "Finacle supports digital transformation by providing a robust, agile, and comprehensive suite of solutions that enable banks to deliver innovative services and a seamless customer experience. It offers advanced analytics, AI-driven insights, and an open banking ecosystem that facilitates easy integration with new fintech applications and services. This ensures your business stays ahead in the competitive digital landscape, offering modern, efficient, and personalized banking services to your customers.",
     page:'finaclefaq'
   },
   {
     id: 27,
-    title: "Rapid turnaround",
-    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    title: "Is Finacle scalable and suitable for all sizes of businesses?",
+    desc: "Yes, Finacle is highly scalable and can cater to the needs of various sizes of financial institutions, from small and medium-sized banks to large multinational corporations. Its modular design allows for flexible implementation, enabling businesses to select and customize the solutions they need to meet their specific requirements. Whether your business is experiencing rapid growth or looking to expand its service offerings, Finacle's scalable platform ensures that your banking operations can grow and evolve without constraints.",
     page:'finaclefaq'
   },
   {
     id: 28,
-    title: "Rapid turnaround",
-    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    title: "How does Finacle ensure the security of banking operations?",
+    desc: " Security is a top priority in Finacle, which incorporates advanced security measures and complies with international security standards to protect against threats and fraud. It includes features such as multi-factor authentication, encryption, secure APIs, and continuous monitoring of banking operations to ensure data integrity and confidentiality. With Finacle, businesses can assure their customers that their financial transactions and personal information are safe and secure.",
     page:'finaclefaq'
   },
   {
     id: 29,
-    title: "Rapid turnaround",
-    desc: "Our proactive recruiting and centralized talent hub allow us to move quickly to connect hundreds of candidates with your opportunities.",
+    title: "What kind of support and maintenance services does Finacle offer?",
+    desc: "Finacle provides comprehensive support and maintenance services to ensure smooth and efficient banking operations. This includes 24/7 technical support, regular updates, and enhancements to keep up with the latest technological advancements and regulatory requirements. Additionally, Finacle offers training and consultancy services to help businesses maximize the use of the platform and ensure that their staff is well-equipped to deliver excellent customer service.",
     page:'finaclefaq'
   },
   {
