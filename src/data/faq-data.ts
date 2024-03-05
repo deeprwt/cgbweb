@@ -193,21 +193,63 @@ const faq_data: IFaq[] = [
   },
   {
     id: 30,
-    title: "Faster time to market",
-    desc: "By utilizing rapid and agile application development, you can decrease your time-to-market by 10 times.",
+    title: "What is Mendix, and how can it benefit my business?",
+    desc: "Mendix is a comprehensive low-code platform that enables businesses to develop, deploy, and manage applications quickly and with minimal coding. It facilitates rapid application development with tools for visual modeling, a drag-and-drop interface, and reusable components. For businesses, this means significantly reduced development time and costs, enabling you to bring innovative solutions to market faster and adapt to changes in the business environment more efficiently.",
     page:'mendixfaq'
   },
   {
     id: 31,
-    title: "Accelerate growth",
-    desc: "Achieve rapid scaling of your operations by seamlessly connecting people, processes, and systems to enhance efficiency and productivity.",
+    title: "How does Mendix support digital transformation initiatives?",
+    desc: "Mendix accelerates digital transformation by empowering teams to develop applications that streamline operations, enhance customer experiences, and innovate services. It supports agile development methodologies, allowing for iterative, user-centric design and development. With its low-code approach, Mendix enables cross-functional collaboration between business and IT teams, fostering innovation and ensuring that the final products closely align with business goals and user needs.",
     page:'mendixfaq'
   },
   {
     id: 32,
-    title: "Build ideas into existence",
-    desc: "Collaborate on innovation and bring your ideas to fruition by empowering both business and IT teams.",
+    title: "Is Mendix scalable and suitable for businesses of all sizes?",
+    desc: "Yes, Mendix is designed to be highly scalable, supporting the needs of small businesses to large enterprises. It offers robust cloud-native architecture, ensuring that applications built with Mendix can scale to handle increasing user loads and data volumes seamlessly. Whether you're looking to create simple departmental applications or complex enterprise solutions, Mendix's platform is flexible enough to accommodate your growth and complexity needs.",
     page:'mendixfaq'
+  },
+  {
+    id: 33,
+    title: "How does Mendix ensure the security and compliance of applications?",
+    desc: "Mendix takes security and compliance very seriously, incorporating best practices and industry standards into its platform. It offers built-in features for data protection, authentication, authorization, and encryption. Mendix applications are designed to be compliant with regulatory standards such as GDPR, HIPAA, and more, depending on the deployment options. The platform also provides tools for monitoring and auditing applications to ensure they adhere to the required compliance and security standards.",
+    page:'mendixfaq'
+  },
+  {
+    id: 34,
+    title: "What kind of support and resources does Mendix offer for businesses?",
+    desc: " Mendix provides a comprehensive range of support and resources to ensure businesses can maximize the benefits of the platform. This includes access to a vast community of developers, extensive documentation, expert training, and certification programs. Additionally, Mendix offers professional support services and a cloud platform with managed services options, ensuring that businesses can focus on innovation while Mendix takes care of the underlying technology.",
+    page:'mendixfaq'
+  },
+  {
+    id: 35,
+    title: "What makes Oracle solutions stand out for businesses?",
+    desc: "Oracle provides a comprehensive suite of integrated cloud applications and platform services that are designed to perform across all business functions, including finance, human resources, supply chain management, and customer experience. Oracle's solutions stand out due to their scalability, reliability, and security features, making them suitable for businesses of all sizes and industries. Oracle's commitment to innovation, with significant investments in AI, machine learning, and blockchain, ensures that businesses have access to cutting-edge technologies to drive growth and efficiency.",
+    page:'oraclefaq'
+  },
+  {
+    id: 36,
+    title: "How does Oracle support digital transformation?",
+    desc: "Oracle supports digital transformation by offering a complete and integrated stack of cloud applications, platform services, and engineered systems. This enables businesses to modernize their IT infrastructure, streamline business processes, and improve decision-making through advanced analytics and data-driven insights. Oracle Cloud's comprehensive offering facilitates the move to cloud computing, making it easier for businesses to innovate faster, reduce IT complexity, and achieve greater agility in a digital-first world.",
+    page:'oraclefaq'
+  },
+  {
+    id: 37,
+    title: "Is Oracle scalable and suitable for all types of businesses?",
+    desc: " Yes, Oracle's solutions are highly scalable and can be tailored to meet the specific needs of different types of businesses, from small startups to large enterprises. Oracle Cloud, for example, offers flexible computing resources that can be adjusted as a company grows, ensuring that businesses only pay for what they need. This scalability supports business expansion and the ability to handle increasing data volumes and transaction loads without compromising performance.",
+    page:'oraclefaq'
+  },
+  {
+    id: 38,
+    title: "How does Oracle ensure the security of business data?",
+    desc: "Oracle is committed to providing the highest levels of security to its customers. Oracle Cloud infrastructure is designed with security-first architecture, including data encryption at rest and in transit, robust identity and access management, and advanced threat detection capabilities. Oracle continuously invests in security updates and compliance measures to protect against evolving cyber threats, ensuring that business data and applications are secure and compliant with global regulatory standards",
+    page:'oraclefaq'
+  },
+  {
+    id: 39,
+    title: "What kind of support and services does Oracle offer for businesses?",
+    desc: "Oracle offers comprehensive support and services to help businesses maximize the value of their Oracle solutions. This includes 24/7 customer support, professional services, consulting, training, and cloud managed services. Oracle's global network of partners and developers also provides additional resources and expertise to support business innovation and growth. With Oracle's extensive support ecosystem, businesses have access to the tools and assistance they need to successfully implement and use Oracle solutions.",
+    page:'oraclefaq'
   },
 ];
 
