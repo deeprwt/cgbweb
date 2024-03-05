@@ -197,20 +197,7 @@ const FinacleSecton = ({ cls }: { cls?: string }) => {
         style_2={true}
       />
       {/*--------------------Img and orderList tag End------------------ */}
-      {/*--------------------Img and orderList tag Staring------------------ */}
-      <ImgTextOne
-        title="One Partner to Meet All Your Financial IT Needs"
-        para="Our financial IT services encompass software development,
-        consulting, comprehensive IT support, QA, cybersecurity, and
-        data analytics."
-        img={Finacle5}
-        subtitle="Managed financial IT services"
-        subpara=" We monitor, troubleshoot, and upgrade all components of your financial IT infrastructure and apps to keep them stable, cost-effective, and relevant to your needs. Our teams adapt to your time zones and business hours."
-        filter_data="finacel-6"
-        style_2={true}
-      />
-      {/*--------------------Img and orderList tag End------------------ */}
-
+     
       {/*--------------------Img and orderList tag Staring------------------ */}
       <ImgTextOne
         title="One Partner to Meet All Your Financial IT Needs"
@@ -225,6 +212,20 @@ const FinacleSecton = ({ cls }: { cls?: string }) => {
         cls="d-none"
       />
       {/*--------------------Img and orderList tag End------------------ */}
+       {/*--------------------Img and orderList tag Staring------------------ */}
+       <ImgTextOne
+        title="One Partner to Meet All Your Financial IT Needs"
+        para="Our financial IT services encompass software development,
+        consulting, comprehensive IT support, QA, cybersecurity, and
+        data analytics."
+        img={Finacle5}
+        subtitle="Managed financial IT services"
+        subpara=" We monitor, troubleshoot, and upgrade all components of your financial IT infrastructure and apps to keep them stable, cost-effective, and relevant to your needs. Our teams adapt to your time zones and business hours."
+        filter_data="finacel-6"
+        style_2={true}
+      />
+      {/*--------------------Img and orderList tag End------------------ */}
+
 
       {/* card2 end */}
       {/* card2 starting */}
