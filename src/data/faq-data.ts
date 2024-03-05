@@ -281,6 +281,36 @@ const faq_data: IFaq[] = [
     desc: " OutSystems provides a robust ecosystem of support and resources to ensure businesses can effectively implement and leverage the platform. This includes access to extensive documentation, a vibrant community of developers, online training through the OutSystems Academy, and professional support services. Additionally, OutSystems offers a marketplace with a wide range of pre-built applications, connectors, and widgets to accelerate development and enhance application functionality.",
     page:'outsystemsfaq'
   },
+  {
+    id: 44,
+    title: "What is ServiceNow, and how can it benefit my business?",
+    desc: " ServiceNow is a cloud-based platform that offers digital workflows to optimize business operations and enhance productivity. It enables organizations to automate routine tasks, streamline processes, and integrate various functions across the enterprise. By utilizing ServiceNow, businesses can improve efficiency, reduce costs, and provide better experiences to both employees and customers. It’s particularly beneficial in managing IT services, automating HR processes, securing operations, and delivering customer service solutions.",
+    page:'serviceNow'
+  },
+  {
+    id: 45,
+    title: "How does ServiceNow support digital transformation?",
+    desc: "ServiceNow supports digital transformation by providing a single, unified platform to automate and manage business processes across all departments. It replaces manual, siloed, and inefficient processes with digital workflows that are fast, smart, and more efficient. This accelerates the digitization of manual processes, enhances service delivery, and enables organizations to adapt to changing business needs quickly. ServiceNow's platform also offers insights and analytics to drive decision-making and innovation.",
+    page:'serviceNow'
+  },
+  {
+    id: 46,
+    title: "Is ServiceNow scalable and suitable for all types of businesses?",
+    desc: "Yes, ServiceNow is designed to be highly scalable, making it suitable for businesses of all sizes, from small and medium-sized enterprises to large global corporations. Its flexible architecture allows organizations to start with what they need and expand as their business grows, without compromising performance or user experience. ServiceNow can adapt to any business's evolving needs, ensuring that companies can continue to innovate and improve their operations over time.",
+    page:'serviceNow'
+  },
+  {
+    id: 45,
+    title: "How does ServiceNow ensure the security and compliance of its platform?",
+    desc: "ServiceNow is committed to the highest standards of security and compliance. The platform incorporates robust security features, including data encryption, role-based access control, and comprehensive audit trails. ServiceNow complies with global regulatory standards, such as GDPR, HIPAA, SOC 2, and ISO 27001, ensuring that businesses meet their compliance requirements effortlessly. Regular security assessments and updates ensure that the platform remains secure against emerging threats.",
+    page:'serviceNow'
+  },
+  {
+    id: 46,
+    title: "What kind of support and resources does ServiceNow offer?",
+    desc: " ServiceNow provides extensive support and resources to ensure successful implementation and maximization of the platform. This includes a comprehensive knowledge base, community forums, developer resources, and training and certification programs through the Now Learning platform. Customers also have access to 24/7 support, professional services, and a network of experienced partners to help with strategic planning, implementation, and optimization of ServiceNow solutions.",
+    page:'serviceNow'
+  },
 ];
 
 export default faq_data;
