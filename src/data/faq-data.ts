@@ -221,6 +221,36 @@ const faq_data: IFaq[] = [
     desc: " Mendix provides a comprehensive range of support and resources to ensure businesses can maximize the benefits of the platform. This includes access to a vast community of developers, extensive documentation, expert training, and certification programs. Additionally, Mendix offers professional support services and a cloud platform with managed services options, ensuring that businesses can focus on innovation while Mendix takes care of the underlying technology.",
     page:'mendixfaq'
   },
+  {
+    id: 35,
+    title: "What makes Oracle solutions stand out for businesses?",
+    desc: "Oracle provides a comprehensive suite of integrated cloud applications and platform services that are designed to perform across all business functions, including finance, human resources, supply chain management, and customer experience. Oracle's solutions stand out due to their scalability, reliability, and security features, making them suitable for businesses of all sizes and industries. Oracle's commitment to innovation, with significant investments in AI, machine learning, and blockchain, ensures that businesses have access to cutting-edge technologies to drive growth and efficiency.",
+    page:'oraclefaq'
+  },
+  {
+    id: 36,
+    title: "How does Oracle support digital transformation?",
+    desc: "Oracle supports digital transformation by offering a complete and integrated stack of cloud applications, platform services, and engineered systems. This enables businesses to modernize their IT infrastructure, streamline business processes, and improve decision-making through advanced analytics and data-driven insights. Oracle Cloud's comprehensive offering facilitates the move to cloud computing, making it easier for businesses to innovate faster, reduce IT complexity, and achieve greater agility in a digital-first world.",
+    page:'oraclefaq'
+  },
+  {
+    id: 37,
+    title: "Is Oracle scalable and suitable for all types of businesses?",
+    desc: " Yes, Oracle's solutions are highly scalable and can be tailored to meet the specific needs of different types of businesses, from small startups to large enterprises. Oracle Cloud, for example, offers flexible computing resources that can be adjusted as a company grows, ensuring that businesses only pay for what they need. This scalability supports business expansion and the ability to handle increasing data volumes and transaction loads without compromising performance.",
+    page:'oraclefaq'
+  },
+  {
+    id: 38,
+    title: "How does Oracle ensure the security of business data?",
+    desc: "Oracle is committed to providing the highest levels of security to its customers. Oracle Cloud infrastructure is designed with security-first architecture, including data encryption at rest and in transit, robust identity and access management, and advanced threat detection capabilities. Oracle continuously invests in security updates and compliance measures to protect against evolving cyber threats, ensuring that business data and applications are secure and compliant with global regulatory standards",
+    page:'oraclefaq'
+  },
+  {
+    id: 39,
+    title: "What kind of support and services does Oracle offer for businesses?",
+    desc: "Oracle offers comprehensive support and services to help businesses maximize the value of their Oracle solutions. This includes 24/7 customer support, professional services, consulting, training, and cloud managed services. Oracle's global network of partners and developers also provides additional resources and expertise to support business innovation and growth. With Oracle's extensive support ecosystem, businesses have access to the tools and assistance they need to successfully implement and use Oracle solutions.",
+    page:'oraclefaq'
+  },
 ];
 
 export default faq_data;
