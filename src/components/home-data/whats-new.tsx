@@ -4,7 +4,7 @@ import Whatsnew from "@/assets/images/cgbhome/whatsnew.png";
 import Whatsnew3 from "@/assets/images/cgbhome/leap.png";
 import Whatsnew4 from "@/assets/images/cgbhome/techsparks.png";
 import Whatsnew2 from "@/assets/images/cgbhome/cloud_world_tour.svg";
-import bg_image from "@/assets/images/background/backgroundnew.jpg";
+import bg_image from "@/assets/images/background/backgroundnew.png";
 
 const backImg = {
   backgroundImage: `url('${bg_image.src}')`,
