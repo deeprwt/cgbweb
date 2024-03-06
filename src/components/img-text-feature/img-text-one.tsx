@@ -71,7 +71,7 @@ const ImgTextOne = ({
                 <Image
                   src={img}
                   alt="screen"
-                  className="lazy-img w-full h-auto"
+                  className="lazy-img w-full h-auto rounded"
                 />
               </div>
             </div>
@@ -102,7 +102,7 @@ const ImgTextOne = ({
                 <Image
                   src={img}
                   alt="screen"
-                  className="lazy-img w-full h-auto"
+                  className="lazy-img w-full h-auto rounded"
                 />
               </div>
             </div>
