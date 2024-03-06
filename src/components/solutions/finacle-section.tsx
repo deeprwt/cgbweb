@@ -18,12 +18,12 @@ import icon_4 from "@/assets/images/icon/icon_65.svg";
 import icon_5 from "@/assets/images/icon/icon_66.svg";
 import icon_6 from "@/assets/images/icon/icon_67.svg";
 import shape from "@/assets/images/shape/shape_05.svg";
-import Finacle1 from '@/assets/images/solutions/Finacle/Fincale-1.jpg'
-import Finacle2 from '@/assets/images/solutions/Finacle/Fincale-2.jpg'
-import Finacle3 from '@/assets/images/solutions/Finacle/Fincale-3.jpg'
-import Finacle4 from '@/assets/images/solutions/Finacle/Fincale-4.jpg'
-import Finacle5 from '@/assets/images/solutions/Finacle/Fincale-5.jpg'
-import Finacle6 from '@/assets/images/solutions/Finacle/Fincale-6.jpg'
+import Finacle1 from '@/assets/images/solutions/Finacle/Fincale-1.png'
+import Finacle2 from '@/assets/images/solutions/Finacle/Fincale-2.png'
+import Finacle3 from '@/assets/images/solutions/Finacle/Fincale-3.png'
+import Finacle4 from '@/assets/images/solutions/Finacle/Fincale-4.png'
+import Finacle5 from '@/assets/images/solutions/Finacle/Fincale-5.png'
+import Finacle6 from '@/assets/images/solutions/Finacle/Fincale-6.png'
 import ImgTextOne from "../img-text-feature/img-text-one";
 
 // card item
