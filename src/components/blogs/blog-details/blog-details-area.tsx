@@ -41,11 +41,6 @@ const BlogDetailsArea = ({ blog }: { blog: IBlog }) => {
                     </div>
                   ))}
                   {/* End of content rendering */}
-                  <p>
-                    Tempus imperdiet nulla malesuada pellentesque elit eget
-                    gravida cum. Sit amet ris nullam eget felis. Enim praesent
-                    elementum facilisis leo. Ultricies leo integer.
-                  </p>
                   <div className="quote-wrapper">
                     <div className="wrapper">
                       <div className="icon rounded-circle d-flex align-items-center justify-content-center m-auto">
@@ -60,7 +55,7 @@ const BlogDetailsArea = ({ blog }: { blog: IBlog }) => {
                         </div>
                       </div>
                       <h6>
-                        James Bond. <span>Founder Agro</span>
+                        Sindhu BRJ <span>CEO CGB Solutions</span>
                       </h6>
                     </div>
                   </div>
