@@ -54,7 +54,7 @@ const HowWeDo = () => {
             <div className="col-lg-3 wow fadeInUp">
               <CardItem
                 icon={icon_1}
-                title="Technical Aechitects"
+                title="Technical Architects"
                 subtitle="Craft robust and scalable technical solutions"
               />
             </div>
