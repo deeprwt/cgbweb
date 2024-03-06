@@ -48,7 +48,6 @@ const BlogDetailsPage = () => {
           {/* <NewsletterBanner /> */}
           {/* news letter end */}
         </main>
-
         {/* footer start */}
         {/* <FooterThree style_2={true} /> */}
         <FooterOne />

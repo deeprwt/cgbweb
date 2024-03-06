@@ -47,7 +47,7 @@ const staffing_data:IStaffing[] = [
   {
     id:2,
     icon:icon_16,
-    title:'Parmanent Staffing',
+    title:'Permanent Staffing',
     desc:'Find the right talent for long-term success with CGB Solutions permanent staffing solutions. Our recruiters specialize in identifying top-tier candidates who align with your company culture and values.',
     page:'staffing-1',
     link: '/permanent-staffing'
