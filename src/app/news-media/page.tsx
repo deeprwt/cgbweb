@@ -5,14 +5,14 @@ import HeaderOne from "@/layout/header/header-one";
 import FancyBannerThree from "@/components/fancy-banner/fancy-banner-three";
 import BreadcrumbTwo from "@/components/breadcrumb/breadcrumb-two";
 import FooterTwo from "@/layout/footer/footer-two";
-import BlogGridArea from "@/components/blogs/blog-grid-area";
+import NewsGridArea from "@/components/blogs/news-grid-area";
 import FooterOne from "@/layout/footer/footer-one";
 import HeaderTwo from "@/layout/header/Header";
 import BreadcrumbOne from "@/components/breadcrumb/breadcrumb-one";
 import blog_bg from "@/assets/images/media/img_32.jpg";
 
 export const metadata: Metadata = {
-  title: "Blog Grid Page",
+  title: "News & Media",
 };
 
 const BlogGridPage = () => {
@@ -24,11 +24,6 @@ const BlogGridPage = () => {
         {/* header end */}
         <main>
           {/* breadcrumb start */}
-          {/* <BreadcrumbTwo
-            title="Explore our News"
-            subtitle="Find the team members details here with all the information"
-            page="Blog"
-          /> */}
           <BreadcrumbOne 
           title="News & Media"
           subtitle="Meet our experts, guiding you through financial intricacies with precision"
@@ -39,7 +34,7 @@ const BlogGridPage = () => {
           {/* breadcrumb end */}
 
           {/* blog grid area start */}
-          <BlogGridArea />
+          <NewsGridArea />
           {/* blog grid area end */}
 
           {/* fancy banner three start */}

@@ -59,7 +59,7 @@ const CeoData = ({ style_2 = false }: { style_2?: boolean }) => {
                   streams, alongside developing leadership capital.
                 </p>
                 <div className="d-inline-flex flex-wrap align-items-center">
-                  <Link href="/about-us" className="btn-four mt-15 me-4">
+                  <Link href="/leadership" className="btn-four mt-15 me-4">
                     Read More
                   </Link>
                   {/* <Link href="/contact" className="btn-three icon-link mt-15">
