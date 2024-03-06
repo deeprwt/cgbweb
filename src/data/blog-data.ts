@@ -18,82 +18,92 @@ import blog_grid_6 from "@/assets/images/blog/blog_img_15.jpg";
 
 import mumbai from "@/assets/images/blog/card_img.jpg";
 import dubai from "@/assets/images/blog/oracle_cloutdworld.svg";
+import blog_img from "@/assets/images/blog/sustainable1.png";
+
 
 const blog_data: IBlog[] = [
   {
     id: 1,
-    img: mumbai,
+    img: blog_img,
     date: "14 FEB 2024",
     title:
-      "From AI to Logistics: A Deep Dive into Oracle CloudWorld Tour - Mumbai",
+      "Empowering the Climate Tech Revolution for a Carbon-Free Future",
     author: "Deepak Rawat",
-    post_info: "CGB Solutions . 6 min . Technolgy",
+    post_info: "CGB Solutions . 6 min . Sustainable",
     category: "IT",
    content: [
     {
       "heading": "",
-      "paragraph": "Our recent participation in the Oracle Cloud World Tour in Mumbai was an immersive experience for technology enthusiasts. Let's delve into the key takeaways and insights from this remarkable event."
-    },
-    {
-      "heading": "Oracle Cloud Tour Mumbai: A Symphony of Innovation",
-      "paragraph": "The Oracle Cloud Tour in Mumbai transcended the typical event experience, evolving into a symphony of technological marvels. The anticipation for Oracle's latest features electrified the vibrant atmosphere as we stepped into this tech extravaganza."
-    },
-    {
-      "heading": "Unlocking the Power of Fusion Cloud Supply Chain & Manufacturing (SCM)",
-      "paragraph": "A focal point of the event was Oracle's commitment to enhancing customer logistics operations. Transformative updates in its Fusion Cloud SCM portfolio showcased Oracle's dedication to elevating efficiency, streamlining processes, and delivering a superior logistics experience."
-    },
-    {
-      "heading": "Expanded Business Intelligence: A Game-Changer",
-      "paragraph": "Oracle set a new standard with expanded business intelligence capabilities, seamlessly integrating advanced analytics and intuitive interfaces. This ensures businesses not only collect data but also gain actionable insights, facilitating informed decision-making."
-    },
-    {
-      "heading": "Precision in Logistics Network Modeling",
-      "paragraph": "Recognizing the essence of optimization in logistics, Oracle introduced improved logistics network modeling. This empowers businesses to design and implement supply chain networks that are not just efficient but also intelligent."
-    },
-    {
-      "heading": "Incentivizing Growth: The Trade Incentive Program",
-      "paragraph":"Oracle strategically introduced the trade incentive program to encourage businesses to explore its diverse offerings. More than just a program, it serves as an invitation to embark on a journey of mutual growth."
-    },
-    {
-      "heading": "Mobility Redefined with Oracle Transportation Management Mobile App",
-      "paragraph":"The logistics landscape receives a tech-savvy upgrade with the enhanced Oracle Transportation Management Mobile App. This enables seamless management of logistics operations on the go, putting the power of Oracle in the palm of your hands."
-    },
-    {
-      "heading": "Workbenches for Enhanced Productivity ",
-      "paragraph":"Oracle's commitment to user experience shines through with enhanced workbenches featuring a user-friendly interface. These workspaces prioritize functionality, productivity, and ease of use."
-    },
-    {
-      "heading": "AI Revolution in the Autonomous Database",
-      "paragraph":"Oracle takes a significant leap forward in integrating AI and advanced machine learning into applications with groundbreaking updates in the Autonomous Database."
-    },
-    {
-      "heading": "Autonomous Database Select AI: Crafting Intelligent Applications",
-      "paragraph":"A highlight of the event was the introduction of Autonomous Database Select AI, providing developers with tools to effortlessly create AI-enabled applications, marking a paradigm shift in application development."
-    },
-    {
-      "heading": "Spatial Enhancement in Oracle Machine Learning",
-      "paragraph":"Oracle Machine Learning reaches new heights with a spatial enhancement that elevates location relationships in machine learning models. This results in precise predictions and context-aware insights, redefining the potential of machine learning applications."
-    },
-    {
-      "heading": "User-Friendly No-Code Model Monitoring Interface",
-      "paragraph":"Oracle simplifies the complex task of model monitoring with a user-friendly no-code model monitoring interface. Developers can now track and optimize performance without delving into intricate coding."
-    },
-    {
-      "heading": "Visualizing Knowledge with Autonomous Database Graph Studio",
-      "paragraph":"The new UI for Autonomous Database Graph Studio offers a visually appealing experience for data enthusiasts, allowing users to create property graph views on RDF knowledge, providing a window into a new dimension of data visualization."
-    },
-    {
-      "heading": "CGB's Oracle Expertise - Seamless Solutions, Infinite Possibilities",
-      "paragraph":"As a trusted Oracle service provider, CGB brings a wealth of expertise in implementing, optimizing, and integrating Oracle solutions across various domains. Our capabilities encompass strategic partnerships with Oracle, implementation excellence in solutions like Fusion Cloud SCM, seamless integration of business intelligence, logistics optimization with Oracle Transportation Management, and active contributions to Oracle's AI and machine learning advancements."
+      "paragraph": "The shadow of climate change looms large, but amidst the challenges, glimmers of hope emerge - climate tech startups. These trailblazers are at the forefront of the fight, wielding innovation to drive us towards a carbon-free future."
     },
     {
       "heading": "",
-      "paragraph":"At CGB, our Oracle capabilities empower clients with cutting-edge technologies, ensuring they stay ahead in an ever-evolving technological landscape."
+      "paragraph": "CGB, a leading IT services and consulting company, recognizes the immense potential of these startups and is actively committed to their success. By leveraging our expertise and forging strategic partnerships, we believe we can collectively accelerate progress and create a more sustainable future for generations to come."
     },
     {
-      "heading": "Conclusion: A Future Defined by Innovation",
-      "paragraph":"Reflecting on our experience at the Oracle Cloud World Tour in Mumbai, it is evident that we have witnessed the shaping of the future. Oracle's new features serve as catalysts for innovation, transforming the way businesses operate and innovate. We are eager to embrace these advancements, integrating them into our strategies to lead the way in this era of tech evolution. Cheers to Oracle for an event that not only showcased technology but inspired a vision for the future."
-    }
+      "heading": "Climate Tech: Leading the Charge:",
+      "paragraph": "Renewable Energy Revolution: Climate tech startups are making renewable energy sources more efficient and cost-competitive, paving the way for a clean and sustainable future. From harnessing the sun's power with cutting-edge solar panels to unlocking the potential of wind and geothermal energy, these innovators are leading the charge."
+    },
+    {
+      "heading": "",
+      "paragraph": "Energy Storage Solutions: Recognizing the intermittency of some renewable sources, climate tech startups are developing innovative solutions like advanced battery technologies and alternative storage methods. These advancements are crucial for seamlessly integrating renewable energy into the grid and ensuring a reliable energy supply."
+    },
+    {
+      "heading": "",
+      "paragraph": "Carbon Capture and Utilization: Climate tech isn't just about reducing emissions; it's about transforming existing ones into valuable resources. Startups are pioneering techniques to capture carbon dioxide and utilize it for beneficial purposes, such as creating fuels, chemicals, or building materials."
+    },
+    {
+      "heading": "",
+      "paragraph":"Circular Economy Champions: Understanding the importance of minimizing waste and maximizing resource utilization, climate tech startups are creating a paradigm shift towards a circular economy. They are developing innovative solutions for recycling and upcycling materials, reducing reliance on virgin resources, and minimizing the environmental impact of production and consumption cycles."
+    },
+    {
+      "heading": "CGB: Empowering Innovation, Accelerating Progress:",
+      "paragraph":"CGB recognizes the crucial role it can play in empowering climate tech startups to achieve their ambitious goals. We actively support these innovators by:"
+    },
+    {
+      "heading": "",
+      "paragraph":"Providing Technology Expertise: We offer crucial IT infrastructure, software development, and data management solutions, helping startups scale their technologies efficiently and effectively."
+    },
+    {
+      "heading": "",
+      "paragraph":"Facilitating Market Access: CGB utilizes its extensive network and industry connections to connect startups with potential investors, partners, and customers, accelerating their growth and bringing their solutions to a wider audience."
+    },
+    {
+      "heading": "",
+      "paragraph":"Exploring Investment Opportunities: We actively explore investment opportunities in promising climate tech startups, providing them with the financial resources they need to thrive."
+    },
+    {
+      "heading": "Beyond Startups: CGB's Commitment to Sustainability:",
+      "paragraph":"Our commitment extends beyond empowering climate tech startups. We strive to minimize our own environmental footprint by:"
+    },
+    {
+      "heading": "",
+      "paragraph":"Reducing Carbon Emissions: We continuously strive to reduce our carbon footprint by implementing energy-efficient practices and investing in renewable energy sources to power our operations."
+    },
+    {
+      "heading": "",
+      "paragraph":"Building a Culture of Sustainability: We foster a culture of environmental responsibility within our organization, engaging employees in sustainability initiatives and encouraging them to adopt sustainable practices in their daily lives."
+    },
+    {
+      "heading": "AI for a Sustainable Future:",
+      "paragraph":"CGB goes a step further by providing AI-based solutions to other companies, helping them:"
+    },
+    {
+      "heading": "",
+      "paragraph":"Optimize energy consumption: AI can analyze energy usage patterns and identify areas for improvement, leading to significant reductions in carbon footprint."
+    },
+    {
+      "heading": "",
+      "paragraph":"Predict and manage renewable energy sources: AI can predict weather patterns and optimize energy production from renewable sources like wind and solar power."
+    },
+    {
+      "heading": "",
+      "paragraph":"Develop sustainable products and services: AI can be used to design and develop products and services with a lower environmental impact, promoting a circular economy."
+    },
+    {
+      "heading": "A Shared Future, A Collective Responsibility:",
+      "paragraph":"The transition to a carbon-free future is a monumental task, demanding a collective effort. CGB is committed to playing its part by collaborating with climate tech startups, fostering innovation, and promoting sustainable practices. We believe that by joining forces, we can collectively overcome the climate crisis and create a brighter future for all. Let's embark on this journey together, one step at a time, towards a more sustainable and prosperous future for generations to come."
+    },
   ],
 content2: "",
     page: "home",
