@@ -11,6 +11,7 @@ import ServiceDetailsArea from "@/components/services/service-details-area";
 import NewsletterBanner from "@/components/newsletter/newsletter-banner";
 import FooterOne from "@/layout/footer/footer-one";
 import Company from "@/components/services/company";
+import VisionSection from "@/components/company/vision-section";
 
 
 export const metadata: Metadata = {
@@ -27,9 +28,9 @@ const Vision = () => {
         <main>
           {/* breadcrumb start */}
           <BreadcrumbOne
-            title="Single Service Details"
-            subtitle="Offering solutions & services to address a spectrum of financial issues"
-            page="Services"
+            title="Vision"
+            subtitle="To achieve innovation, excellence, and ingenuity"
+            page="Vision"
             // // shape={shape}
             bg_img={service_bg}
             style_2={true}
@@ -38,16 +39,7 @@ const Vision = () => {
           {/* breadcrumb end */}
 
           {/* service details area start */}
-          <Company 
-          active_data={false}
-          active_data1={true}
-          active_data2={false}
-          active_data3={false}
-          active_data4={false}
-          active_data5={false}
-          active_data6={false}
-          active_data7={false}
-           />
+          <VisionSection />
           {/* service details area end */}
 
         </main>

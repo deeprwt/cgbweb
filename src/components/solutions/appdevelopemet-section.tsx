@@ -29,7 +29,7 @@ const AppDevelopementSection = ({ cls }: { cls?: string }) => {
             <div className="col-xxl-12 col-lg-12 py-4  ms-auto d-flex flex-column order-lg-last wow fadeInRight">
               <div className="title-one">
                 {/* <div className="upper-title">About us</div> */}
-                <h3>We are top-notch mobile app development company.</h3>
+                <h2>We are top-notch mobile app development company.</h2>
               </div>
               <p className="text-lg my-4">
                 CGB is one of India’s most promising full-service digital

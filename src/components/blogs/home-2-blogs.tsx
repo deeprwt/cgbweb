@@ -10,7 +10,7 @@ const HomeTwoBlogs = () => {
       <div className="container">
         <div className="position-relative">
           <div className="title-one mb-20 lg-mb-10">
-            <h2>Latest News.</h2>
+            <h2>Latest Blogs.</h2>
           </div>
           <p className="text-lg mb-40 lg-mb-10">
             Get the latest update, trips & tricks from our expert.
@@ -25,7 +25,7 @@ const HomeTwoBlogs = () => {
           </div>
 
           <div className="section-btn sm-mt-40">
-            <Link href="/blog-grid" className="btn-five icon-link">
+            <Link href="/blog" className="btn-five icon-link">
               <span className="text">See all blogs</span>
               <div className="icon tran3s rounded-circle d-flex align-items-center justify-content-center">
                 <i className="bi bi-arrow-up-right"></i>

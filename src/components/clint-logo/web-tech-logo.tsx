@@ -5,41 +5,39 @@ import Slider from "react-slick";
 // import 'slick-carousel/slick/slick.css';
 // import 'slick-carousel/slick/slick-theme.css';
 
-import img1 from "@/assets/images/logo/clints/Bank_of_Baroda.png";
-import img2 from "@/assets/images/logo/clints/Bank_of_India.png";
-import img3 from "@/assets/images/logo/clints/Capco.png";
-import img4 from "@/assets/images/logo/clints/HPE.png";
-import img5 from "@/assets/images/logo/clints/Infosys.png";
-import img6 from "@/assets/images/logo/clints/JFE.png";
-import img7 from "@/assets/images/logo/clints/Swissre.png";
-import img8 from "@/assets/images/logo/clints/virtusa.png";
-import img9 from "@/assets/images/logo/clints/Accenture.png";
-import img10 from "@/assets/images/logo/clints/Capgemini.png";
-import img11 from "@/assets/images/logo/clints/Crestron.png";
-import img12 from "@/assets/images/logo/clints/DXC.png";
-import img13 from "@/assets/images/logo/clints/grant_thronton.png";
-import img14 from "@/assets/images/logo/clints/hcl_tech.png";
-import img15 from "@/assets/images/logo/clints/hdfc.png";
-import img16 from "@/assets/images/logo/clints/Intuit.png";
-import img17 from "@/assets/images/logo/clints/Jio.png";
-import img18 from "@/assets/images/logo/clints/lt_Infotech.png";
-import img19 from "@/assets/images/logo/clints/Mphasis.png";
-import img20 from "@/assets/images/logo/clints/pwc.png";
-import img21 from "@/assets/images/logo/clints/Quicken.png";
-import img22 from "@/assets/images/logo/clints/Samsung.png";
-import img23 from "@/assets/images/logo/clints/sbm_bank.png";
-import logo_1 from "@/assets/images/logo/media_01.png";
-import logo_2 from "@/assets/images/logo/media_02.png";
-import logo_3 from "@/assets/images/logo/media_03.png";
-import logo_4 from "@/assets/images/logo/media_04.png";
-import logo_5 from "@/assets/images/logo/media_05.png";
+import img1 from "@/assets/images/TechnologiesImg/React.svg";
+import img2 from "@/assets/images/TechnologiesImg/Wordpress.svg";
+import img3 from "@/assets/images/TechnologiesImg/Tailwindcss.svg";
+import img4 from "@/assets/images/TechnologiesImg/Aws.svg";
+import img5 from "@/assets/images/TechnologiesImg/Bootstrap.svg";
+import img6 from "@/assets/images/TechnologiesImg/Css.svg";
+import img7 from "@/assets/images/TechnologiesImg/Django.svg";
+import img8 from "@/assets/images/TechnologiesImg/Expressjs.svg";
+import img9 from "@/assets/images/TechnologiesImg/Figma.svg";
+import img10 from "@/assets/images/TechnologiesImg/Firebase.svg";
+import img11 from "@/assets/images/TechnologiesImg/Html.svg";
+import img12 from "@/assets/images/TechnologiesImg/Java.svg";
+import img13 from "@/assets/images/TechnologiesImg/JavaScript.svg";
+import img14 from "@/assets/images/TechnologiesImg/Mongodb.svg";
+import img15 from "@/assets/images/TechnologiesImg/Nextjs.svg";
+import img16 from "@/assets/images/TechnologiesImg/Nodejs.svg";
+import img17 from "@/assets/images/TechnologiesImg/Php.svg";
+import img18 from "@/assets/images/TechnologiesImg/Python.svg";
+import img19 from "@/assets/images/TechnologiesImg/ThreeJs.svg";
+import img20 from "@/assets/images/TechnologiesImg/Redux.svg";
+import img21 from "@/assets/images/TechnologiesImg/Sass.svg";
+import img22 from "@/assets/images/TechnologiesImg/Tailwindcss.svg";
+import img23 from "@/assets/images/TechnologiesImg/Vite.svg";
+
+
+
 
 // slider setting
 const slider_setting = {
   dots: false,
   arrows: false,
   centerPadding: "0px",
-  slidesToShow: 6,
+  slidesToShow: 8,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
@@ -70,7 +68,7 @@ const slider_setting2 = {
   dots: false,
   arrows: false,
   centerPadding: "0px",
-  slidesToShow: 6,
+  slidesToShow: 8,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
@@ -97,6 +95,8 @@ const slider_setting2 = {
     },
   ],
 };
+
+
 
 // slider logos
 const slider_logos: StaticImageData[] = [
@@ -135,19 +135,18 @@ const WebTechLogo = () => {
         <div className="container">
           <div className="title-one text-center mb-60 details-meta">
             {/* <div className="upper-title"></div> */}
-            <h3>Technologies We Use for Web Development</h3>
+            <h2>Technologies We Use for Web Development</h2>
           </div>
           <Slider {...slider_setting} className="partner-slider-one my-2">
             {slider_logos.map((logo, i) => (
-              <div key={i} className="item">
-                <div className="logo-bg-white cursor-pointer m-2">
+              <div key={i} className="item w-10">
+                <div className="cursor-pointer m-2 w-10">
                   <Image
                     src={logo}
                     alt="Cgb technolgy Logo"
                     layout="responsive"
-                    width={154}
-                    height={94}
-                    style={{ height: "auto" }}
+                    width={20}
+                    height={20}
                   />
                 </div>
               </div>
@@ -156,14 +155,13 @@ const WebTechLogo = () => {
           <Slider {...slider_setting2} className="partner-slider-one my-2">
             {slider_logos2.map((logo, i) => (
               <div key={i} className="item">
-                <div className="logo-bg-white cursor-pointer m-2">
+                <div className="cursor-pointer m-2">
                   <Image
                     src={logo}
                     alt="Cgb technolgy Logo"
                     layout="responsive"
-                    width={154}
-                    height={94}
-                    style={{ height: "auto" }}
+                    width={60}
+                    height={60}
                   />
                 </div>
               </div>

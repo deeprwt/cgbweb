@@ -37,18 +37,26 @@ import logo_5 from "@/assets/images/logo/media_05.png";
 
 // slider setting
 const slider_setting = {
-    dots: false,
-    infinite: true,
-    speed: 4000,
-    slidesToShow: 6,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 0,
+  dots: false,
+  arrows: false,
+  centerPadding: "0px",
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  pauseOnHover: false,
+    // dots: false,
+    // infinite: true,
+    // speed: 4000,
+    // slidesToShow: 6,
+    // slidesToScroll: 1,
+    // autoplay: true,
+    // autoplaySpeed: 0,
     // cssEase: 'linear',
-    pauseOnHover: false,
-    arrows: false,
-    vertical: false, // Change to true if you want vertical scrolling
-    verticalSwiping: false, // Change to true if you want vertical swiping
+    // pauseOnHover: false,
+    // arrows: false,
+    // vertical: false, // Change to true if you want vertical scrolling
+    // verticalSwiping: false, // Change to true if you want vertical swiping
 //   dots: false,
 //   arrows: false,
 //   centerPadding: "0px",
@@ -79,18 +87,27 @@ const slider_setting = {
 };
 
 const slider_setting2 = {
-    dots: false,
-    infinite: true,
-    speed: 4000,
-    slidesToShow: 6,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 0,
+  dots: false,
+  arrows: false,
+  centerPadding: "0px",
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  pauseOnHover: false,
+  rtl: true, // Right to left mode
+    // dots: false,
+    // infinite: true,
+    // speed: 4000,
+    // slidesToShow: 6,
+    // slidesToScroll: 1,
+    // autoplay: true,
+    // autoplaySpeed: 0,
     // cssEase: 'linear',
-    pauseOnHover: false,
-    arrows: false,
-    vertical: false, // Change to true if you want vertical scrolling
-    rtl: true, // Right to left mode
+    // pauseOnHover: false, 
+    // arrows: false,
+    // vertical: false, // Change to true if you want vertical scrolling
+    // rtl: true, // Right to left mode
     responsive: [
       {
         breakpoint: 992,

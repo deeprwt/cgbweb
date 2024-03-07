@@ -11,8 +11,8 @@ import icon from "@/assets/images/icon/icon_93.svg";
 import BlogDetailsForm from "@/components/forms/blog-details-form";
 import { IBlog } from "@/types/blog-d-t";
 
-const BlogDetailsArea = ({blog}:{blog:IBlog}) => {
-  const {date,title,post_info} = blog || {};
+const BlogDetailsArea = ({ blog }: { blog: IBlog }) => {
+  const { date, title, post_info, img, content } = blog || {};
   return (
     <div className="blog-details position-relative mt-150 lg-mt-80 mb-150 lg-mb-80">
       <div className="container">
@@ -21,7 +21,7 @@ const BlogDetailsArea = ({blog}:{blog:IBlog}) => {
             <article className="blog-meta-two style-two">
               <figure
                 className="post-img position-relative d-flex align-items-end m0"
-                style={{ backgroundImage: `url(${blog_1.src})` }}
+                style={{ backgroundImage: `url(${img.src})` }}
               >
                 <div className="date">{date}</div>
               </figure>
@@ -31,28 +31,20 @@ const BlogDetailsArea = ({blog}:{blog:IBlog}) => {
                   <h4>{title}</h4>
                 </div>
                 <div className="post-details-meta">
-                  <p>
-                    Tomfoolery crikey bits and bobs brilliant bamboozled down
-                    the pub amongst brolly hanky panky, cack bonnet arse over
-                    tit burke bugger all mate bodge. cillum dolore fugiat
-                    pariatur. Excepteur sint occaecat cupidatat non proident,
-                    sunt in culpa qui official deserunt mollit anim id est
-                    laborum.Suspendisse interdum consectetur libero id faucib
-                    nisl. Lacus vel facilisis volutpat est velit egestas.
-                  </p>
-                  <p>
-                    Tempus imperdiet nulla malesuada pellentesque elit eget
-                    gravida cum. Sit amet ris nullam eget felis. Enim praesent
-                    elementum facilisis leo. Ultricies leo integer.
-                  </p>
+                  {/* Rendering content headings and paragraphs dynamically */}
+                  {content.map((item, index) => (
+                    <div key={index}>
+                      <h3>
+                       {item.heading}
+                      </h3>
+                      <p>{item.paragraph}</p>
+                    </div>
+                  ))}
+                  {/* End of content rendering */}
                   <div className="quote-wrapper">
                     <div className="wrapper">
                       <div className="icon rounded-circle d-flex align-items-center justify-content-center m-auto">
-                        <Image
-                          src={icon}
-                          alt="icon"
-                          className="lazy-img"
-                        />
+                        <Image src={icon} alt="icon" className="lazy-img" />
                       </div>
                       <div className="row">
                         <div className="col-xxl-9 col-xl-11 m-auto">
@@ -63,11 +55,12 @@ const BlogDetailsArea = ({blog}:{blog:IBlog}) => {
                         </div>
                       </div>
                       <h6>
-                        James Bond. <span>Founder Agro</span>
+                        Sindhu BRJ <span>CEO CGB Solutions</span>
                       </h6>
                     </div>
                   </div>
-                  <div className="row img-gallery">
+                  {/* uncomment add images in blog dynamicaly  */}
+                  {/* <div className="row img-gallery">
                     <div className="col-sm-8">
                       <Image
                         src={blog_2}
@@ -82,8 +75,8 @@ const BlogDetailsArea = ({blog}:{blog:IBlog}) => {
                         className="lazy-img w-100"
                       />
                     </div>
-                  </div>
-                  <h3>Work Harder & Gain Success</h3>
+                  </div> */}
+                  {/* <h3>Work Harder & Gain Success</h3>
                   <p>
                     One touch of a red-hot stove is usually all we need to avoid
                     that kind of discomfort in quis elit future. The same Duis
@@ -99,7 +92,7 @@ const BlogDetailsArea = ({blog}:{blog:IBlog}) => {
                     that kind of discomfort in quis elit future. The same Duis
                     aute irure dolor in reprehenderit. sunt in culpa qui
                     official deserunt mollit anim id est laborum.
-                  </p>
+                  </p> */}
                 </div>
                 <div className="bottom-widget d-sm-flex align-items-center justify-content-between">
                   <ul className="d-flex align-items-center tags style-none pt-20">
@@ -136,9 +129,9 @@ const BlogDetailsArea = ({blog}:{blog:IBlog}) => {
               </div>
             </article>
             {/* blog comment area start */}
-            <BlogDetailsCommentArea />
+            {/* <BlogDetailsCommentArea /> */}
             {/* blog comment area end */}
-            <div className="blog-comment-form grey-bg">
+            {/* <div className="blog-comment-form grey-bg">
               <h3 className="blog-inner-title">Add Your Comments</h3>
               <p>
                 <a
@@ -151,10 +144,8 @@ const BlogDetailsArea = ({blog}:{blog:IBlog}) => {
                 </a>{" "}
                 to post your comment or signup if you do not have any account.
               </p>
-              {/* blog details form start */}
               <BlogDetailsForm/>
-              {/* blog details form end */}
-            </div>
+            </div> */}
           </div>
 
           <div className="col-lg-4 col-md-8">

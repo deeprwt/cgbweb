@@ -19,6 +19,8 @@ import MendixFeature from "@/components/solutions/mendix-feature";
 import FaqSolutions from "@/components/faq/faq-solutions";
 import FooterOne from "@/layout/footer/footer-one";
 import SectionSol1 from "@/components/two-col/section-sol1";
+import FinacleSecton from "@/components/solutions/finacle-section";
+import screen from '@/assets/images/assets/screen_11.png';
 
 export const metadata: Metadata = {
   title: "Finacle",
@@ -33,31 +35,33 @@ export default function Finacle() {
         {/* header end */}
         <main>
           {/* hero banner start */}
-          <BreadcrumbOne 
-          title="Mendix"
-          subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
-          page="Mendix"
-          bg_img={about_bg}
-          // // shape={shape}
-          style_2={true}
+          <BreadcrumbOne
+            title="Finacle"
+            subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
+            page="Finacle"
+            bg_img={about_bg}
+            // // shape={shape}
+            style_2={true}
           />
           {/* hero banner end */}
 
           {/* Start */}
-          <TwoColData />
+          {/* <TwoColData /> */}
           {/* end */}
 
           {/* start */}
-          <MendixFeature />
+          <FinacleSecton />
           {/* end */}
 
           {/* start */}
-          <FaqSolutions />
+          <FaqSolutions 
+          title="Why use Finacle for businesses?"
+          img={screen}
+          page="finaclefaq"
+          />
           {/* end */}
 
-          <SectionSol1 />
-
-
+          
 
           {/* block feature six start */}
           {/* <BlockFeatureSix /> */}

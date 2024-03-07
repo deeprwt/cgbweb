@@ -4,6 +4,7 @@ import Image from "next/image";
 import icon_1 from "@/assets/images/icon/icon_27.svg";
 import icon_2 from "@/assets/images/icon/icon_29.svg";
 import screen from "@/assets/images/assets/screen_07.svg";
+import screen2 from "@/assets/images/shape/element_3.svg";
 import code from "@/assets/images/solutions/code.png";
 import VideoPopup from "../common/video-popup";
 import Link from "next/link";
@@ -44,7 +45,7 @@ const TwoColData = () => {
               <div className="col-lg-5 d-flex order-lg-first">
                 <div className="media-wrapper w-100 d-flex align-items-center justify-content-center position-relative" style={backImg}>
                   <Image
-                    src={screen}
+                    src={screen2}
                     alt="screen"
                     className="lazy-img shapes screen_01"
                   />

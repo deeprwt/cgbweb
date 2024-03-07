@@ -69,7 +69,7 @@ const BlockFeatureAbout = ({ style_2 = false }: { style_2?: boolean }) => {
               <div className="title-one">
                 <h2>What we do</h2>
               </div>
-              <p className="text-lg text-dark mt-40 md-mt-20 mb-35 md-mb-30">Inciddnt ut labore et dolor magna aliu. ad mim venam, quis nostru </p>
+              <p className="text-lg text-dark mt-40 md-mt-20 mb-35 md-mb-30">We specialize in guiding businesses through the essential pillars of digital transformation:</p>
               <Link href="/contact" className="btn-eleven d-inline-flex align-items-center md-mb-60">
                 <span className="text">Contact Us</span>
                 <div className="icon tran3s rounded-circle d-flex align-items-center">

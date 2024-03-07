@@ -18,7 +18,8 @@ const menu_data:IMenu[] = [
     mega_menu:true,
     mega_menus:[
       {
-        id:1,
+        id:1,    
+        subtitle : 'IT Soltuions',
         menus:[
           {link:'/solutions/oracle',title:'Oracle'},
           {link:'/solutions/finacle',title:'Finacle'},
@@ -30,15 +31,17 @@ const menu_data:IMenu[] = [
       },
       {
         id:2,
+        subtitle : 'Staffing Solutions',
         menus:[
-          {link:'/coming-soon',title:'Contract Staffing'},
-          {link:'/coming-soon',title:'Permanent Staffing'},
-          {link:'/coming-soon',title:'Hire-Train-Deploy'},
-          {link:'/coming-soon',title:'RPO'}
+          {link:'/contract-staffing',title:'Contract Staffing'},
+          {link:'/permanent-staffing',title:'Permanent Staffing'},
+          {link:'/hire-train-deploy',title:'Hire-Train-Deploy'},
+          {link:'/rpo',title:'RPO'}
         ]
       },
       {
         id:3,
+        subtitle : 'Digital Solutions',
         menus:[
           {link:'/solutions/web-development',title:'Website Development'},
           {link:'/solutions/app-development',title:'App Development'},
@@ -46,11 +49,11 @@ const menu_data:IMenu[] = [
           {link:'/solutions/digital-marketing',title:'Digital Marketing'},
           {link:'/solutions/paid-ads',title:'Paid Ads'},
           {link:'/solutions/seo-smo',title:'SEO & SMO'},
-          {link:'/coming-soon',title:'Social Media Marketing'},
-          {link:'/coming-soon',title:'Email Marketing'},
-          {link:'/coming-soon',title:'Lead Generation'},
-          {link:'/coming-soon',title:'Branding Services'},
-          {link:'/coming-soon',title:'Startup Consulting'},
+          {link:'/solutions/social-media-marketing',title:'Social Media Marketing'},
+          // {link:'/solutions/email-marketing',title:'Email Marketing'},
+          // {link:'/solutions/lead-generation',title:'Lead Generation'},
+          // {link:'/coming-soon',title:'Branding Services'},
+          // {link:'/coming-soon',title:'Startup Consulting'},
 
         ]
       }
@@ -77,9 +80,9 @@ const menu_data:IMenu[] = [
     title:'Training ',
     dropdown:true,
     dropdown_menus:[
-          {link:'/coming-soon',title:'Corporate Training'},
-          {link:'/coming-soon',title:'Customise Training'},
-          {link:'/coming-soon',title:'Online Courses'},
+          {link:'/training/corporate-training',title:'Corporate Training'},
+          {link:'/training/customise-training',title:'Customise Training'},
+          // {link:'/coming-soon',title:'Online Courses'},
     ]
   },
   {
@@ -88,14 +91,14 @@ const menu_data:IMenu[] = [
     title:'Company ',
     dropdown:true,
     dropdown_menus:[
-          {link:'/coming-soon',title:'Our Story'},
+          {link:'/our-story',title:'Our Story'},
           {link:'/vision',title:'Vision'},
-          {link:'/coming-soon',title:'Mission'},
-          {link:'/coming-soon',title:'Awards'},
-          {link:'/coming-soon',title:'Recognition'},
-          {link:'/coming-soon',title:'Our Culture'},
-          {link:'/coming-soon',title:'Leadership'},
-          {link:'/coming-soon',title:'Partners'},
+          {link:'/mission',title:'Mission'},
+          {link:'/awards',title:'Awards'},
+          {link:'/recognition',title:'Recognition'},
+          {link:'/our-culture',title:'Our Culture'},
+          {link:'/leadership',title:'Leadership'},
+          {link:'/partners',title:'Partners'},
     ]
   },
   {
@@ -105,7 +108,7 @@ const menu_data:IMenu[] = [
     dropdown:true,
     dropdown_menus:[
       {link:'/blog',title:'Blogs'},
-      {link:'/blog-grid',title:'News & Media'},
+      {link:'/news-media',title:'News & Media'},
       // {link:'/blog-grid',title:'Blog Grid'},
       // {link:'/blog-details',title:'Blog Details'},
     ]

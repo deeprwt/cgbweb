@@ -19,7 +19,7 @@ import SolutionsNav from "@/components/solutions/solutions-nav";
 import GraphicDesigningSections from "@/components/solutions/graphicdesigning-section";
 
 export const metadata: Metadata = {
-  title: "App Development",
+  title: "Graphic Designing",
 };
 
 export default function GraphicDesigning() {
@@ -33,7 +33,7 @@ export default function GraphicDesigning() {
           {/* hero banner start */}
           <BreadcrumbOne
             title="Graphic Designing"
-            subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
+            subtitle="Make your website and brand design look proficient"
             page="Grapchic Desinging"
             bg_img={about_bg}
             // // shape={shape}

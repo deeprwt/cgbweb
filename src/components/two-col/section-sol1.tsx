@@ -1,15 +1,10 @@
 import React from "react";
 import Link from "next/link";
 // internal
-import faq_data from "@/data/faq-data";
 import Image from "next/image";
-import linkd from "@/assets/images/icon/linkedinicon.png";
-import sindhu from "@/assets/images/cgbhome/sindhu.png";
 import mendix1 from "@/assets/images/solutions/mendix-studio-pro-image-1.jpg";
 import mendix3 from "@/assets/images/solutions/mendix-studio-web-image.jpg";
 import img_2 from "@/assets/images/solutions/mendix/2.jpg";
-
-import screen from "@/assets/images/assets/screen_11.png";
 
 const backImg = {
   backgroundImage: `url('${img_2.src}')`,

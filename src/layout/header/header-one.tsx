@@ -15,7 +15,7 @@ const HeaderOne = () => {
   const {sticky} = useSticky();
   return (
     <>
-      <header className={`theme-main-menu menu-overlay menu-style-two sticky-menu ${sticky?'fixed':''}`}>
+      <header id="header-id" className={`theme-main-menu menu-overlay menu-style-two sticky-menu ${sticky?'fixed':''}`}>
         <div className="gap-fix info-row">
           <div className="d-md-flex justify-content-between">
             <div className="greetings text-center"><span className="opacity-50">Hello!!</span> <span className="fw-500">Welcome to babun.</span></div>

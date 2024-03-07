@@ -16,7 +16,7 @@ const FooterOne = () => {
       <div className="container">
         <div className="inner-wrapper">
           <div className="row justify-content-between">
-            <div className="col-xl-5 col-md-3 footer-intro mb-30">
+            <div className="col-xl-5 col-md-5 footer-intro mb-30">
               <div className="logo">
                 <Link href="/" className="d-inline-block d-lg-none">
                   <Image width={110} src={logo} alt="logo" />
@@ -30,48 +30,55 @@ const FooterOne = () => {
               {/* map end  */}
               {/* <p className="text-white lh-sm mb-35">Top-rated <span className="opacity-50">business <br/> consultancy for your success</span></p> */}
               <p className="text-white lh-sm mb-35">Head office <br /> <span className="opacity-50">2nd FLOOR, NO 898/1-2, 80 Feet Main Road Koramagala, Bengaluru, Bengaluru Urban, Karnataka, 560034</span></p>
-              <p className="text-white lh-sm mb-35 d-flex"><Link href="#" className="d-flex align-items-center"><Image src={icon_1} alt="icon" className="lazy-img icon me-3"/>info@cgbinda.com | &nbsp;</Link> <span className="opacity-50"> <Link href="#" className="d-flex"> <Image src={icon_2} alt="icon" className="lazy-img icon me-3"/>+91 8287668958</Link> </span></p>
+              <p className="text-white lh-sm mb-35 d-flex flex-wrap"><Link href="#" className="d-flex align-items-center"><Image src={icon_1} alt="icon" className="lazy-img icon me-3"/>info@cgbinda.com | &nbsp;</Link> <span className="opacity-50"> <Link href="#" className="d-flex"> <Image src={icon_2} alt="icon" className="lazy-img icon me-3"/>+91 8287668958</Link> </span></p>
               {/* social link */}
               <ul className="style-none d-flex align-items-center social-icon">
                 <FooterSocial />
               </ul>
               {/* social link */}
             </div>
-            <div className="col-xl-2 col-md-3 col-sm-4 mb-20">
+            <div className="col-xl-2 col-md-2 col-sm-4 mb-20">
               <h5 className="footer-title">Links</h5>
               <ul className="footer-nav-link style-none">
                 <li>
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/pricing">Pricing Plan</Link>
+                <Link href="/about-us">About us</Link>
+                  
                 </li>
                 <li>
-                  <Link href="/about-us">About us</Link>
+                <Link href="/contact">Contact us</Link>
                 </li>
                 <li>
-                  <Link href="/service-v1">Our services</Link>
+                  <Link href="/blog">blogs</Link>
                 </li>
               </ul>
             </div>
-            <div className="col-xl-2 col-md-3 col-sm-4 mb-20">
-              <h5 className="footer-title">Company</h5>
+            <div className="col-xl-2 col-md-2 col-sm-4 mb-20">
+              <h5 className="footer-title">Tech Solutions</h5>
               <ul className="footer-nav-link style-none">
                 <li>
-                  <Link href="/about-us-2">About us</Link>
+                  <Link href="/solutions/oracle">Oracle</Link>
                 </li>
                 <li>
-                  <Link href="/blog">Blogs</Link>
+                  <Link href="/solutions/finacle">Finacle</Link>
                 </li>
                 <li>
-                  <Link href="/faq">FAQ’s</Link>
+                  <Link href="/solutions/outsystems">Outsystems</Link>
                 </li>
                 <li>
-                  <Link href="/contact">Contact</Link>
+                  <Link href="/solutions/mendix">Mendix</Link>
+                </li>
+                <li>
+                  <Link href="/solutions/servicenow">ServiceNow</Link>
+                </li>
+                <li>
+                  <Link href="/solutions/automation-anywhere">Automation Anywhere</Link>
                 </li>
               </ul>
             </div>
-            <div className="col-xl-2 col-md-3 col-sm-4 mb-20">
+            <div className="col-xl-2 col-md-2 col-sm-4 mb-20">
               <h5 className="footer-title">Support</h5>
               <ul className="footer-nav-link style-none">
                 <li>
