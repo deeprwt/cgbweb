@@ -16,7 +16,7 @@ const HomeThreeBlogs = () => {
             <h2 className="text-dark">Latest News.</h2>
           </div>
           <p className="text-lg mb-30 lg-mb-10">
-            Get the latest update, trips & tricks from our expert.
+          Unlock fresh perspectives and stay informed with our newest blog posts.
           </p>
 
           <div className="row gx-xl-5">
@@ -31,7 +31,7 @@ const HomeThreeBlogs = () => {
             <Link href="/blog"
               className="btn-eleven d-inline-flex align-items-center"
             >
-              <span className="text">See all blogs</span>
+              <span className="text">See all Blogs</span>
               <div className="icon tran3s rounded-circle d-flex align-items-center">
                 <Image
                   src={icon}

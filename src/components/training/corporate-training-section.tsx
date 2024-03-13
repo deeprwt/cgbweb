@@ -90,14 +90,11 @@ talent, <br /> business and social impact</h3>
             <div className="col-lg-12">
               <div className="row">
                 <div className="title-one">
-                  <div className="upper-title">Core aspects of</div>
-                  <h3 className="">RPO Capabilities</h3>
+                  {/* <div className="upper-title">Core aspects of</div> */}
+                  <h3 className="text-center">Training Services</h3>
                 </div>
                 <p className="text-lg text-dark mb-35 py-3 md-mb-30">
-                  At CGB Solutions, we pride ourselves on offering comprehensive
-                  Recruitment Process Outsourcing (RPO) solutions tailored to
-                  meet the unique needs of our clients. Our capabilities
-                  encompass the following key areas
+                At CGB Solutions, we take pride in delivering bespoke Training Services crafted to address the distinctive requirements of our clients. Our expertise spans across a diverse range of crucial domains, ensuring comprehensive coverage of essential areas. Key components of our Training Services include
                 </p>
                 {service_items.map((item, i) => (
                   <div
@@ -175,7 +172,7 @@ talent, <br /> business and social impact</h3>
               <div className="col-xl-4 col-md-6 wow fadeInUp">
                 <CardItem2
                   icon={icon_4}
-                  title="Digital Learing Solutions"
+                  title="Digital Learning Solutions"
                   subtitle="To make sure we only deliver the best candidates, our digital tools include a large array of tests and assessments, customized based on your needs."
                 />
               </div>

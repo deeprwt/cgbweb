@@ -42,7 +42,7 @@ const VisionSection = ()=> {
     <div className="service-details mt-150 lg-mt-80 mb-100 lg-mb-80">
       <div className="container">
         <div className="row">
-          <div className="col-xxl-9 col-lg-9 order-lg-last">
+          <div className="col-xxl-9 col-lg-9">
             <div className="details-meta ps-xxl-5 ps-xl-3">
               <h2>Vision</h2>
               <p>We aspire to be the visionary of a future where the seamless integration of unparalleled talent and cutting-edge technology not only redefines success for businesses but sets an entirely new standard for global excellence</p>
@@ -88,7 +88,7 @@ const VisionSection = ()=> {
               <p>Our dedicated risk and compliance consulting team assists clients in transforming uncertainty into advantageous prospects.</p> */}
             </div>
           </div>
-          <div className="col-xxl-3 col-lg-3 order-lg-first">
+          <div className="col-xxl-3 col-lg-3">
             <aside className="md-mt-40">
               <div className="service-nav-item ">
                  <SideBar 

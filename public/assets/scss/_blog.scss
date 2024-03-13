@@ -28,7 +28,8 @@
             color: #AAAAAA;
         }
         .blog-title {
-            font-size: 32px;
+            // font-size: 32px;
+            font-size: 23px;
             line-height: 1.281em;
             &:hover {
                 text-decoration: underline;
@@ -36,7 +37,8 @@
         }
     }
     .post-img {
-        height: 350px;
+        // height: 350px;
+        height: 226px;
         border-radius: 0 0 30px 30px;
         padding: 0 25px 25px 0;
         background-position: center;

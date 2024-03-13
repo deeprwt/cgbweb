@@ -22,15 +22,15 @@ const BlogListArea = () => {
             {currentItems?.map((b, i) =>
               !b.quote_blog ? (
                 <BlogListItem key={i} blog={b} />
-              ) : (
-                <article key={i} className="blog-meta-four mb-50 lg-mb-40">
+                ) : (
+                  <article key={i} className="blog-meta-four mb-50 lg-mb-40">
                   <div className="post-data">
                     <div className="icon rounded-circle d-flex align-items-center justify-content-center m-auto">
                       <Image
                         src={quote}
                         alt="quote-icon"
                         className="lazy-img"
-                      />
+                        />
                     </div>
                     <Link href={`/blog-details/${b.id}`} className="blog-title">
                       <h4>{`"${b.title}"`}</h4>
@@ -42,7 +42,6 @@ const BlogListArea = () => {
                 </article>
               )
             )}
-
             <div className="pagination-one mt-80 lg-mt-50">
               <Pagination handlePageClick={handlePageClick} pageCount={pageCount} />
             </div>
@@ -58,5 +57,4 @@ const BlogListArea = () => {
     </div>
   );
 };
-
 export default BlogListArea;

@@ -10,6 +10,7 @@ import blog_3 from "@/assets/images/blog/blog_img_17.jpg";
 import icon from "@/assets/images/icon/icon_93.svg";
 import BlogDetailsForm from "@/components/forms/blog-details-form";
 import { IBlog } from "@/types/blog-d-t";
+import UseSocialShare from "@/components/socail-media/socialshare";
 
 const NewsDetailsArea = ({ blog }: { blog: IBlog }) => {
   const { date, title, post_info, img, content } = blog || {};
@@ -41,11 +42,6 @@ const NewsDetailsArea = ({ blog }: { blog: IBlog }) => {
                     </div>
                   ))}
                   {/* End of content rendering */}
-                  <p>
-                    Tempus imperdiet nulla malesuada pellentesque elit eget
-                    gravida cum. Sit amet ris nullam eget felis. Enim praesent
-                    elementum facilisis leo. Ultricies leo integer.
-                  </p>
                   <div className="quote-wrapper">
                     <div className="wrapper">
                       <div className="icon rounded-circle d-flex align-items-center justify-content-center m-auto">
@@ -102,7 +98,7 @@ const NewsDetailsArea = ({ blog }: { blog: IBlog }) => {
                 <div className="bottom-widget d-sm-flex align-items-center justify-content-between">
                   <ul className="d-flex align-items-center tags style-none pt-20">
                     <li>Tag:</li>
-                    <li>
+                    {/* <li>
                       <Link href="#">Finance</Link>
                     </li>
                     <li>
@@ -110,26 +106,9 @@ const NewsDetailsArea = ({ blog }: { blog: IBlog }) => {
                     </li>
                     <li>
                       <Link href="#">Banking</Link>
-                    </li>
+                    </li> */}
                   </ul>
-                  <ul className="d-flex share-icon align-items-center style-none pt-20">
-                    <li>Share:</li>
-                    <li>
-                      <Link href="#">
-                        <i className="bi bi-facebook"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        <i className="bi bi-twitter"></i>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        <i className="bi bi-instagram"></i>
-                      </Link>
-                    </li>
-                  </ul>
+                  <UseSocialShare />
                 </div>
               </div>
             </article>

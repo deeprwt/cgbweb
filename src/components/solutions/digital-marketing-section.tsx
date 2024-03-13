@@ -9,8 +9,7 @@ import arrow from "@/assets/images/icon/icon_09.svg";
 import business_man from "@/assets/images/assets/businessman_02.png";
 import service_data from "@/data/service-data";
 import ImgTextOne from "../img-text-feature/img-text-one";
-import Finacle5 from '@/assets/images/solutions/Finacle/Fincale-5.jpg'
-
+import Finacle5 from "@/assets/images/solutions/Finacle/Fincale-5.jpg";
 
 // img style
 const imgStyle = {
@@ -22,9 +21,6 @@ const DigitalMarketingSection = () => {
     .slice(4, 6);
   return (
     <>
-
-
-
       <div className="block-feature-twelve position-relative pt-130 lg-pt-80 pb-180 lg-pb-80">
         <div className="container">
           {/* ---------------------------------Section staring-------------------------------*/}
@@ -40,7 +36,7 @@ const DigitalMarketingSection = () => {
           {/* ---------------------------------Section End-------------------------------*/}
 
           <div className="row gx-xl-5">
-          {/* ---------------------------------Section staring-------------------------------*/}
+            {/* ---------------------------------Section staring-------------------------------*/}
 
             <div className="col-lg-4 d-flex mt-40 md-mt-20">
               <div className="p-2 bg-white vstack tran3s w-100 rounded-4">
@@ -53,7 +49,7 @@ const DigitalMarketingSection = () => {
                 />
               </div>
             </div>
-          {/* ---------------------------------Section staring-------------------------------*/}
+            {/* ---------------------------------Section staring-------------------------------*/}
 
             <div className="col-lg-8 d-flex mt-40 md-mt-20">
               <div className="card-style-nineteen">
@@ -92,7 +88,6 @@ const DigitalMarketingSection = () => {
                 </div>
               </div>
             </div>
-
           </div>
           {/* ---------------------------------Section staring-------------------------------*/}
 
@@ -107,7 +102,7 @@ const DigitalMarketingSection = () => {
                   className="rounded-4"
                 />
               </div>
-            </div> 
+            </div>
             <div className="col-lg-8 d-flex mt-40 md-mt-20">
               <div className="card-style-nineteen">
                 <div className="row">
@@ -248,7 +243,6 @@ const DigitalMarketingSection = () => {
             </div>
           </div>
           {/* ---------------------------------Section staring-------------------------------*/}
-
         </div>
         <Image src={shape} alt="shape" className="lazy-img shapes shape_01" />
       </div>

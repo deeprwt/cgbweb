@@ -34,7 +34,7 @@ export default function GraphicDesigning() {
           <BreadcrumbOne
             title="Graphic Designing"
             subtitle="Make your website and brand design look proficient"
-            page="Grapchic Desinging"
+            page="Graphic Designing"
             bg_img={about_bg}
             // // shape={shape}
             style_2={true}
