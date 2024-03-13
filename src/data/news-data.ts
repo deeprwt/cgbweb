@@ -1,23 +1,9 @@
 import { IBlog } from "@/types/blog-d-t";
-import blog_1 from "@/assets/images/blog/blog_img_03.jpg";
-import blog_2 from "@/assets/images/blog/blog_img_04.jpg";
-import logo_1 from "@/assets/images/logo/media_01.png";
-import logo_2 from "@/assets/images/logo/media_03.png";
-// blog list images
-import blog_list_1 from "@/assets/images/blog/blog_img_06.jpg";
-import blog_list_2 from "@/assets/images/blog/blog_img_07.jpg";
-import blog_list_3 from "@/assets/images/blog/blog_img_08.jpg";
-import blog_list_4 from "@/assets/images/blog/blog_img_09.jpg";
-// blog grid images
-import blog_grid_1 from "@/assets/images/blog/blog_img_03.jpg";
-import blog_grid_2 from "@/assets/images/blog/blog_img_04.jpg";
-import blog_grid_3 from "@/assets/images/blog/blog_img_12.jpg";
-import blog_grid_4 from "@/assets/images/blog/blog_img_13.jpg";
-import blog_grid_5 from "@/assets/images/blog/blog_img_14.jpg";
-import blog_grid_6 from "@/assets/images/blog/blog_img_15.jpg";
 
 import mumbai from "@/assets/images/blog/card_img.jpg";
 import dubai from "@/assets/images/blog/oracle_cloutdworld.svg";
+import leap from "@/assets/images/cgbhome/leap.png"
+import techsparks from "@/assets/images/cgbhome/techsparks.png"
 
 const news_data: IBlog[] = [
   {
@@ -27,8 +13,9 @@ const news_data: IBlog[] = [
     title:
       "From AI to Logistics: A Deep Dive into Oracle CloudWorld Tour - Mumbai",
     author: "Deepak Rawat",
-    post_info: "CGB Solutions . 6 min . Technolgy",
+    post_info: "CGB Solutions . Technolgy",
     category: "IT",
+    page: "home",
    content: [
     {
       "heading": "",
@@ -96,7 +83,6 @@ const news_data: IBlog[] = [
     }
   ],
 content2: "",
-    page: "home",
   },
   {
     id: 2,
@@ -104,8 +90,9 @@ content2: "",
     date: "12 Jan 2024",
     title: "CGB Solutions Makes Waves at CloudWorld Tour Dubai 2024,",
     author: "Deepak Rawat",
-    post_info: "CGB Solutions . 6 min . Technolgy",
+    post_info: "CGB Solutions . Technolgy",
     category: "IT",
+    page: "home",
    content: [
     {
       "heading": "",
@@ -121,7 +108,107 @@ content2: "",
     }
   ],
 content2: "",
+  },
+  {
+    id: 3,
+    img: leap,
+    date: "4 Mar 2024",
+    title: "CGB Solutions to Showcase Expertise at LEAP 2024!",
+    author: "Deepak Rawat",
+    post_info: "CGB Solutions .  Technolgy",
+    category: "IT",
+   content: [
+    {
+      "heading": "",
+      "paragraph": "CGB Solutions is excited to announce our participation in LEAP 2024, the leading tech event in the region, taking place in Riyadh, Saudi Arabia from March 4th to 7th, 2024!"
+    },
+    {
+      "heading": "Connect with Us at LEAP",
+      "paragraph": "We invite you to visit our booth at LEAP 2024 and explore how CGB Solutions can empower your tech ventures. Our team of experts will be available to discuss your specific needs and showcase our comprehensive suite of services designed to help businesses thrive in today's dynamic technological landscape."
+    },
+    {
+      "heading": "Optimistic Outlook for the Tech Community",
+      "paragraph": "At CGB Solutions, we share the optimistic vision of LEAP 2024. We see immense opportunities for growth and innovation within the ever-evolving tech community. We are committed to partnering with businesses and individuals to navigate this exciting landscape and achieve their full potential."
+    },
+    {
+      "heading": "Experience the CGB Advantage",
+      "paragraph": "To learn more about our comprehensive service offerings, please visit our website: http://www.cgbindia.com/"
+    },
+    {
+      "heading": "Connect with Us on LinkedIn",
+      "paragraph": "Gain deeper insights into our company culture, expertise, and ongoing projects by following our LinkedIn page: https://www.linkedin.com/in/evan-rawn"
+    },
+    {
+      "heading": "Contact Us",
+      "paragraph": "Have questions or specific inquiries? Feel free to reach out to our team directly via email: info@cgbindia.com"
+    },
+    {
+      "heading": "",
+      "paragraph": "We look forward to connecting with you at LEAP 2024 and contributing to the advancement of the tech ecosystem!"
+    },
+    
+  ],
+content2: "",
     page: "home",
+  },
+  {
+    id: 4,
+    img: techsparks,
+    date: "1 Mar 2024",
+    title: "CGB Solutions Makes Waves at TechSparks 24!",
+    author: "Deepak Rawat",
+    post_info: "CGB Solutions .  Technolgy",
+    category: "IT",
+    page: "home",
+   content: [
+    {
+      "paragraph": "CGB Solutions is thrilled to share the success of our participation in TechSparks 24, held in Mumbai on March 1st, 2024. This premier tech event brought together a vibrant community of industry leaders, entrepreneurs, and innovators, and we were excited to be a part of the action!"
+    },
+    {
+      "heading": "Building Connections and Fostering Growth",
+      "paragraph": "Our presence at TechSparks 24 proved to be a resounding success. We had the privilege of connecting with a multitude of talented individuals from across the tech landscape, including established businesses and exciting startups. Through engaging conversations and insightful discussions, we gained a deeper understanding of the current needs and challenges faced by various players in the industry."
+    },
+    {
+      "heading": "Optimistic Outlook for the Tech Community",
+      "paragraph": "Based on our findings on the official Facebook page of TechSparks YS (link), here's a glimpse into what to expect at the upcoming TechSparks Mumbai 2024 event:"
+    },
+    {
+      "heading": "Focus on India's Booming Tech Industry",
+      "paragraph": "TechSparks Mumbai 2024 promises to be a landmark event, placing the spotlight on India's flourishing tech sector. The event will delve into the industry's current trajectory and its projected impact on the nation's future."
+    },
+    {
+      "heading": "Influential Speakers and Diverse Topics",
+      "paragraph": "Get ready to hear insights from prominent figures in the tech world. TechSparks Mumbai 2024 boasts a lineup of esteemed speakers and panelists, including Swapna Gupta of Avaana Climate Fund and Rahul Jain of Epigamia."
+    },
+    {
+      "paragraph": "The event will also explore a wide range of thought-provoking topics that are shaping the tech landscape. Attendees can expect discussions on:"
+    },
+    {
+      "paragraph": "AI-powered chatbots: How chatbots powered by Artificial Intelligence are revolutionizing customer service and communication."
+    },
+    {
+      "paragraph": "Fintech for the unbanked: How financial technology solutions are bridging the gap and empowering underserved populations."
+    },
+    {
+      "paragraph": "The future of digital banking: Exploring the latest trends and advancements in digital banking that are transforming the financial sector."
+    },
+    {
+      "heading": "Commitment to Empowering the Community",
+      "paragraph": "The energy and optimism at TechSparks 24 were truly inspiring. We were particularly impressed by the innovative spirit and dedication showcased by the startup community. This further solidified our commitment to providing comprehensive solutions that empower businesses and startups to achieve their full potential."
+    },
+    {
+      "heading": "Moving Forward: Collaborative Solutions",
+      "paragraph": "CGB Solutions is actively exploring ways to collaborate with the connections we made at TechSparks 24. We are confident that by combining our expertise with the innovative ideas and entrepreneurial spirit of the businesses and startups we met, we can develop solutions that drive significant growth and progress within the tech community."
+    },    {
+      "heading": "Stay Tuned!",
+      "paragraph": "We are excited to share more details about these collaborative efforts in the near future. In the meantime, if you're interested in learning how CGB Solutions can help your business or startup thrive,  visit our website: http://www.cgbindia.com/ and explore our comprehensive suite of services."
+    },
+    {
+      "heading": "Let's build the future of technology, together!",
+    },
+    
+  ],
+content2: "",
   },
   // home 5
   ];

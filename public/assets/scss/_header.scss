@@ -91,7 +91,8 @@
         line-height: initial;
         color: $text-dark;
         padding: 20px 0;
-        margin: 0 30px;
+        // margin: 0 30px;
+        margin: 0 24px;
         position: relative;
         @include transition(0.2s);
     }
@@ -375,7 +376,7 @@
 /*----- For Mobile ----*/
 @media screen and (max-width: 991px) {
     .navbar {padding: 0;}
-    .navbar-collapse .logo {margin-bottom: 10vh; padding-left: 12px;}
+    .navbar-collapse .logo {margin-bottom: 5vh; padding-left: 12px;}
     .white-vr .navbar-collapse {background-color: $color-three;}
     .navbar-collapse {
       position: fixed;
@@ -414,6 +415,9 @@
         top:calc(50% - 2px);
     }
     .dashboard-menu .nav-link::before {right: auto; left: 0; top:-2px;}
+    .bg-spancolor{
+        background-color: $color-one !important;
+      }
   }
   /*(max-width: 991px)*/
 

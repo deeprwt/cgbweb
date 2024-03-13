@@ -123,7 +123,7 @@ const team_data: ITeam[] = [
     id: 12,
     img: Kushangi,
     name: "Kushangi Shrithika",
-    designation: "Marketing Specialist",
+    designation: "Social Media Specialist",
     page: "team-three",
     gif: gif4,
   },

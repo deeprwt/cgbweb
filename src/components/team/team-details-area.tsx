@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import bg_img from "@/assets/images/cgbhome/sindhubr.png";
+import sindhu from "@/assets/images/cgbhome/sindhuUpdate.png";
 
 const TeamDetailsArea = () => {
   return (
@@ -15,7 +15,7 @@ const TeamDetailsArea = () => {
                 style={{ backgroundImage: `url(${bg_img.src})` }}
               > */}
                 <Image
-                  src={bg_img}
+                  src={sindhu}
                   layout="responsive"
                   alt="Sindhu profile"
                   className="w-100"

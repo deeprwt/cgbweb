@@ -29,8 +29,8 @@ const FooterOne = () => {
               </div>
               {/* map end  */}
               {/* <p className="text-white lh-sm mb-35">Top-rated <span className="opacity-50">business <br/> consultancy for your success</span></p> */}
-              <p className="text-white lh-sm mb-35">Head office <br /> <span className="opacity-50">2nd FLOOR, NO 898/1-2, 80 Feet Main Road Koramagala, Bengaluru, Bengaluru Urban, Karnataka, 560034</span></p>
-              <p className="text-white lh-sm mb-35 d-flex flex-wrap"><Link href="#" className="d-flex align-items-center"><Image src={icon_1} alt="icon" className="lazy-img icon me-3"/>info@cgbinda.com | &nbsp;</Link> <span className="opacity-50"> <Link href="#" className="d-flex"> <Image src={icon_2} alt="icon" className="lazy-img icon me-3"/>+91 8287668958</Link> </span></p>
+              {/* <p className="text-white lh-sm mb-35">Head office <br /> <span className="opacity-50">46/1, NH 44, Near Krishan Reddy Industrial Area, Kudlu Gate, Hosapalaya, Garvebhavi Palya Bengaluru, Karnataka, 560068</span></p> */}
+              <p className="text-white lh-sm mb-35 d-flex flex-wrap opacity-50"><Link href="mailto:info@cgbindia.com" className="d-flex align-items-center"><Image src={icon_1} alt="icon" className="lazy-img icon me-3"/>info@cgbindia.com | &nbsp;</Link> <span className="opacity-50"> <Link href="tel:+918287668958" className="d-flex"> <Image src={icon_2} alt="icon" className="lazy-img icon me-3"/>+91 8287668958</Link> </span></p>
               {/* social link */}
               <ul className="style-none d-flex align-items-center social-icon">
                 <FooterSocial />
@@ -38,20 +38,23 @@ const FooterOne = () => {
               {/* social link */}
             </div>
             <div className="col-xl-2 col-md-2 col-sm-4 mb-20">
-              <h5 className="footer-title">Links</h5>
+              <h5 className="footer-title">About</h5>
               <ul className="footer-nav-link style-none">
                 <li>
                   <Link href="/">Home</Link>
                 </li>
                 <li>
-                <Link href="/about-us">About us</Link>
+                <Link href="/about-us">About Us</Link>
                   
                 </li>
                 <li>
-                <Link href="/contact">Contact us</Link>
+                <Link href="/contact">Contact Us</Link>
                 </li>
                 <li>
-                  <Link href="/blog">blogs</Link>
+                  <Link href="/blog">Blogs</Link>
+                </li>
+                <li>
+                  <Link href="/internship">Internship Program</Link>
                 </li>
               </ul>
             </div>
@@ -79,19 +82,25 @@ const FooterOne = () => {
               </ul>
             </div>
             <div className="col-xl-2 col-md-2 col-sm-4 mb-20">
-              <h5 className="footer-title">Support</h5>
+              <h5 className="footer-title">Company</h5>
               <ul className="footer-nav-link style-none">
                 <li>
-                  <Link href="/contact">Terms of use</Link>
+                  <Link href="/our-story">Our Story</Link>
                 </li>
                 <li>
-                  <Link href="/contact">Terms & conditions</Link>
+                  <Link href="/vision">Vision</Link>
                 </li>
                 <li>
-                  <Link href="/contact">Privacy</Link>
+                  <Link href="/mission">Mission</Link>
                 </li>
                 <li>
-                  <Link href="/contact">Cookie policy</Link>
+                  <Link href="/culture">Our Culture</Link>
+                </li>
+                <li>
+                  <Link href="/leadership">Leadership</Link>
+                </li>
+                <li>
+                  <Link href="/parters">Partners</Link>
                 </li>
               </ul>
             </div>
@@ -117,7 +126,7 @@ const FooterOne = () => {
                 <Image width={150} src={logo} alt="logo" />
               </Link>
               <div className="d-xl-flex align-items-center">
-                <ul className="style-none bottom-nav d-flex flex-wrap justify-content-center justify-content-lg-start order-lg-last">
+                {/* <ul className="style-none bottom-nav d-flex flex-wrap justify-content-center justify-content-lg-start order-lg-last">
                   <li>
                     <Link href="#">Privacy & Terms</Link>
                   </li>
@@ -127,9 +136,9 @@ const FooterOne = () => {
                   <li>
                     <Link href="#">Contact Us</Link>
                   </li>
-                </ul>
+                </ul> */}
                 <div className="copyright me-xl-4 lg-mt-10 order-lg-first">
-                  Copyright @{new Date().getFullYear()} CGB Solutions
+                  Copyright &#169; 2013 - {new Date().getFullYear()} CGB Solutions.
                 </div>
               </div>
             </div>

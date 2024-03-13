@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -10,14 +10,14 @@ import icon_2 from "@/assets/images/icon/icon_15.svg";
 import menu_data from "@/data/menu-data";
 import { usePathname } from "next/navigation";
 
-const Navbar = ({logo_white=false}:{logo_white?:boolean}) => {
-  const pathname = usePathname()
+const Navbar = ({ logo_white = false }: { logo_white?: boolean }) => {
+  const pathname = usePathname();
   return (
     <ul className="navbar-nav align-items-lg-center">
       <li className="d-block d-lg-none">
         <div className="logo">
           <Link href="/" className="d-block">
-            <Image className="w-100 h-100" src={logo_white?logo_2:logo} alt="logo" />
+            <Image className="" width="165" height="60" src={logo_white ? logo_2 : logo} alt="logo" />
           </Link>
         </div>
       </li>
@@ -43,7 +43,12 @@ const Navbar = ({logo_white=false}:{logo_white?:boolean}) => {
               <ul className="dropdown-menu">
                 {menu.dropdown_menus?.map((dm, i) => (
                   <li key={i}>
-                    <Link href={dm.link} className={`dropdown-item ${pathname === dm.link?'active':''}`}>
+                    <Link
+                      href={dm.link}
+                      className={`dropdown-item ${
+                        pathname === dm.link ? "active" : ""
+                      }`}
+                    >
                       <span>{dm.title}</span>
                     </Link>
                   </li>
@@ -69,10 +74,21 @@ const Navbar = ({logo_white=false}:{logo_white?:boolean}) => {
                     <div key={mm.id} className="col-lg-4">
                       <div className="menu-column">
                         <ul className="style-none mega-dropdown-list">
-                      <span className="font-weight-bold dropdown-item" style={{fontWeight: "500", fontSize: "20px"}}>{mm.subtitle}</span>    {/*  add new subtitle for mega menu */}
+                          <span
+                            className="font-weight-bold dropdown-item bg-spancolor"
+                            style={{ fontWeight: "500", fontSize: "20px" }}
+                          >
+                            {mm.subtitle}
+                          </span>{" "}
+                          {/*  add new subtitle for mega menu */}
                           {mm.menus.map((sm, i) => (
                             <li key={i}>
-                              <Link href={sm.link} className={`dropdown-item ${pathname === sm.link?'active':''}`}>
+                              <Link
+                                href={sm.link}
+                                className={`dropdown-item ${
+                                  pathname === sm.link ? "active" : ""
+                                }`}
+                              >
                                 <span>{sm.title}</span>
                               </Link>
                             </li>

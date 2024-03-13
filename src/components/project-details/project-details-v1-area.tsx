@@ -25,7 +25,6 @@ function ListItem({ icon, text, sm_text }: { icon: StaticImageData; text: string
     </li>
   )
 }
-
 // img style 
 const imgStyle = {
   height:'auto'

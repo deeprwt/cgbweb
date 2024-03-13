@@ -13,7 +13,7 @@ interface CountType {
 const CounterUp = ({ number, text, add_style,decimal }: CountType) => {
   const [focus, setFocus] = useState<boolean>(false);
   const visibleChangeHandler = (isVisible: boolean) => {
-    console.log("Is visible:", isVisible);
+    // console.log("Is visible:", isVisible);
     if (isVisible) {
       if (!focus) {
         setFocus(true);

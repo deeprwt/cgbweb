@@ -1,8 +1,11 @@
+"use client"
 import React from "react";
 import Link from "next/link";
 import blog_data from "@/data/blog-data";
+import UseTag from "@/hooks/use-tag-count";
 
 const BlogSidebar = () => {
+  const {sustainabilityDataCount,itDataCount} = UseTag();
   const recent_blogs = blog_data.filter((b) => b.page === "blog-list").slice(-2);
   return (
     <div className="blog-sidebar md-mt-60 ps-xxl-4">
@@ -12,38 +15,23 @@ const BlogSidebar = () => {
           <i className="bi bi-search"></i>
         </button>
       </form>
-      {/* <div className="blog-category mt-60 lg-mt-40">
-        <h3 className="sidebar-title">Category</h3>
+      <div className="blog-category mt-60 lg-mt-40">
+        <h3 className="sidebar-title">Blog Category</h3>
         <ul className="style-none">
           <li>
-            <Link href="#">
-              Digital <span>(3)</span>
+          <Link href="#">
+            Sustainability <span>( {sustainabilityDataCount} )</span>
             </Link>
           </li>
           <li>
             <Link href="#">
-              Marketing <span>(4)</span>
-            </Link>
-          </li>
-          <li>
-            <Link href="#">
-              Consultation <span>(8)</span>
-            </Link>
-          </li>
-          <li>
-            <Link href="#">
-              Payments <span>(5)</span>
-            </Link>
-          </li>
-          <li>
-            <Link href="#">
-              Banking <span>(7)</span>
+              IT <span>( {itDataCount} )</span>
             </Link>
           </li>
         </ul>
-      </div> */}
+      </div>
       <div className="blog-recent-news mt-60 lg-mt-40">
-        <h3 className="sidebar-title">Recent News</h3>
+        <h3 className="sidebar-title">Recent Blogs</h3>
         {recent_blogs.map((b,i) => (
         <article key={i} className="recent-news">
           <figure

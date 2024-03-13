@@ -13,7 +13,6 @@ import shape from "@/assets/images/shape/shape_06.svg";
 const imageStyle = {
   height: "auto",
 };
-
 // props type
 type IProps = {
   title?: string;
@@ -37,7 +36,6 @@ const ImgTextOne = ({
   style_2 = false,
 }: IProps) => {
   // const filter_ul = ul_data.filter((s) => s.page === "graphic");
-
   return (
     <>
       {!style_2 && (
@@ -78,7 +76,6 @@ const ImgTextOne = ({
           </div>
         </div>
       )}
-
       {style_2 && (
         <div className="service-details pt-80 pb-80">
           <div className="container">
@@ -98,7 +95,7 @@ const ImgTextOne = ({
                   </ul>
                 </div>
               </div>
-              <div className="col-xxl-5 col-lg-5  order-first order-md-last wow fadeInLeft d-flex align-items-center ">
+              <div className="col-xxl-5 col-lg-5 order-first order-md-last wow fadeInLeft d-flex align-items-center ">
                 <Image
                   src={img}
                   alt="screen"

@@ -62,8 +62,8 @@ const SideBar = ({
                   <ServiceNav icon={icon_1} link="/our-story" title='Our Story' active={active_data}/>
                   <ServiceNav icon={icon_2} link="/vision" title='Vision' active={active_data1}/>
                   <ServiceNav icon={icon_3} link="/mission" title='Mission' active={active_data2}/>
-                  <ServiceNav icon={icon_4} link="/awards" title='Awards'active={active_data3}/>
-                  <ServiceNav icon={icon_5} link="/recognition" title='Recognition'active={active_data4}/>
+                  {/* <ServiceNav icon={icon_4} link="/awards" title='Awards'active={active_data3}/> */}
+                  {/* <ServiceNav icon={icon_5} link="/recognition" title='Recognition'active={active_data4}/> */}
                   <ServiceNav icon={icon_6} link="/our-culture" title='Our Culture'active={active_data5}/>
                   <ServiceNav icon={icon_7} link="/leadership" title='Leadership'active={active_data6}/>
                   <ServiceNav icon={icon_8} link="/partners" title='Partners'active={active_data7}/>

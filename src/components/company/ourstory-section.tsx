@@ -42,7 +42,7 @@ const OurStorySection = ()=> {
     <div className="service-details mt-150 lg-mt-80 mb-100 lg-mb-80">
       <div className="container">
         <div className="row">
-          <div className="col-xxl-9 col-lg-9 order-lg-last">
+          <div className="col-xxl-9 col-lg-9">
             <div className="details-meta ps-xxl-5 ps-xl-3">
               <h2>Story</h2>
               <p>As we forge ahead, the spirit of innovation is not confined to our internal processes alone. We strive to create an ecosystem where our clients experience the tangible benefits of technological advancements, making their interaction with us not just a service but a seamless, convenient experience.</p>
@@ -53,7 +53,7 @@ const OurStorySection = ()=> {
               </div> */}
             </div>
           </div>
-          <div className="col-xxl-3 col-lg-3 order-lg-first">
+          <div className="col-xxl-3 col-lg-3">
             <aside className="md-mt-40">
               <div className="service-nav-item">
                  <SideBar 

@@ -27,13 +27,14 @@ const WhatsNew = () => {
                 <h3 className="text-center">What&apos;s New</h3>
               </div>
               <div
-                className="col-md-3 mb-35 mt-35  wow fadeInUp"
+                className="col-md-3 mb-35 mt-35  wow fadeInUp transition delay-150 duration-300 ease-in-out"
                 data-wow-delay="0.0s"
               >
+                
                 <Image
                   src={Whatsnew}
                   alt="what's new"
-                  className="w-100 h-100 shadowimg"
+                  className="w-100 h-100 shadowimg cursor-pointer"
                 />
               </div>
               <div
@@ -43,17 +44,17 @@ const WhatsNew = () => {
                 <Image
                   src={Whatsnew2}
                   alt="what's new"
-                  className="w-100 h-100 shadowimg"
+                  className="w-100 h-100 shadowimg cursor-pointer rounded-1"
                 />
               </div>
               <div
-                className="col-md-3 mb-35 mt-35  wow fadeInUp"
+                className="col-md-3 mb-35 mt-35  wow fadeInUp "
                 data-wow-delay="0.2s"
               >
                 <Image
                   src={Whatsnew3}
                   alt="what's new"
-                  className="w-100 h-100 shadowimg"
+                  className="w-100 h-100 shadowimg cursor-pointer rounded-1"
                 />
               </div>
               <div
@@ -63,7 +64,7 @@ const WhatsNew = () => {
                 <Image
                   src={Whatsnew4}
                   alt="what's new"
-                  className="w-100 h-100 shadowimg"
+                  className="w-100 h-100 shadowimg cursor-pointer rounded-1"
                 />
               </div>
             </div>

@@ -303,7 +303,7 @@ const CustomiseTrainingSecton = ({ cls }: { cls?: string }) => {
                       <div className="details-meta ">
                         <p>
                           Games, a software which is typically designed to play
-                          with our minds and psychology. Phoeniixx added
+                          with our minds and psychology. Phoenix  added
                           gamification in its process of e-learning which has an
                           agenda of goal setting, social interaction and
                           analysis of different human psychologies. Phoniixx
